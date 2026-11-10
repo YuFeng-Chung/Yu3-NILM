@@ -1,0 +1,25 @@
+condition,family,comparison,n_training_seeds,mean_difference_drop_pp,n_nonzero_differences,statistic,p_raw,direction,p_holm_secondary_24,p_holm_all36_sensitivity
+awgn_10db,A,err_detach_vs_err_no_detach,10,-0.2605874677394199,10,27.0,1.0,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,A,err_detach_vs_img_no_detach,10,-0.7810685931633093,10,25.0,0.845703125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,A,err_detach_vs_img_detach,10,-1.9912104453890447,10,15.0,0.232421875,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,A,signal_detach_interaction,10,-1.470729319965155,10,22.0,0.625,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,B,err_detach_vs_no_first_ce,10,2.3514546169645896,10,9.0,0.064453125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,B,err_detach_vs_no_recon_loss,10,3.628385177143495,10,25.0,0.845703125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,B,err_detach_vs_recon_weight_one,10,1.1080559079828844,10,19.0,0.431640625,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,C,err_detach_vs_rec_aux,10,-3.7430142164953986,10,6.0,0.02734375,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,0.62890625,0.9296875
+awgn_10db,C,err_detach_vs_three_pass,10,1.0939126400748633,10,18.0,0.375,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,C,err_detach_vs_no_feedback,10,-3.61790666834464,10,10.0,0.083984375,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,C,rec_aux_vs_no_feedback,10,0.12510754815075908,10,21.0,0.556640625,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+awgn_10db,D,err_detach_vs_pass_specific_bn,10,-2.1558691526769342,10,5.0,0.01953125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,0.46875,0.68359375
+consecutive_missing_20pct,A,err_detach_vs_err_no_detach,10,-1.6191086211945804,10,19.0,0.431640625,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,A,err_detach_vs_img_no_detach,10,-2.353125850437913,10,16.0,0.275390625,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,A,err_detach_vs_img_detach,10,-0.06597943197434779,10,27.0,1.0,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,A,signal_detach_interaction,10,0.6680377972689844,10,21.0,0.556640625,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,B,err_detach_vs_no_first_ce,10,-0.4672467860682183,10,23.0,0.6953125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,B,err_detach_vs_no_recon_loss,10,-3.8459885184087703,10,7.0,0.037109375,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,0.81640625,1.0
+consecutive_missing_20pct,B,err_detach_vs_recon_weight_one,10,1.4996509685060067,10,9.0,0.064453125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,C,err_detach_vs_rec_aux,10,-0.5240523661771327,10,23.0,0.6953125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,C,err_detach_vs_three_pass,10,0.3871317537954598,10,19.0,0.431640625,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,C,err_detach_vs_no_feedback,10,-0.25324655235801735,10,24.0,0.76953125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,C,rec_aux_vs_no_feedback,10,0.2708058138191155,10,25.0,0.845703125,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0
+consecutive_missing_20pct,D,err_detach_vs_pass_specific_bn,10,-0.46888808326146314,10,21.0,0.556640625,Positive means greater degradation on left; reverse of positive clean-F1 advantage.,1.0,1.0

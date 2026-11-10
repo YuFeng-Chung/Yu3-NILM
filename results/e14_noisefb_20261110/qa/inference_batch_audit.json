@@ -1,0 +1,9 @@
+{
+  "all_checks_passed": true,
+  "compared_prediction_files": 14548,
+  "files_with_any_change": 3,
+  "total_prediction_changes": 3,
+  "initial_batch": 219,
+  "official_batch": 32,
+  "scope": "All available preserved initial files compared; initial ShuffleFB always32 but had not yet run. Official CSV includes only complete32 rerun."
+}

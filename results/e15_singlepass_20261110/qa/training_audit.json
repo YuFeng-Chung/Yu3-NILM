@@ -1,0 +1,15 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "all20_config_epochs_split_normalization_verified": true,
+    "single_pass_BN_update_counts": true,
+    "continuous_epoch_logs": true,
+    "checkpoint_reload_audits": true,
+    "no_final_validation_or_test_selection": true,
+    "complete_two_input_evaluations": true,
+    "all211_canonical_E14_images_identical": true,
+    "all_old_sources_and_frozen_research_sources_unchanged": true
+  },
+  "total_final_epochs": 790,
+  "new_prediction_files": 8440
+}

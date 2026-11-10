@@ -41,4 +41,24 @@ Internal run IDs (E1–E15) were assigned during the revision and do not match t
 ## Notes
 - `protocol*.json` files record each experiment's pre-specified design; `*_amendment*.json` files record every rule change and when it was made.
 - `*_audit.json` and `*_sha256.json` files are integrity checks written by the pipeline.
-- Some README and audit files are in Chinese (the working language of the team); numbers and file formats are language-independent.
+- Original run notes and some audit fields are in Chinese (the working language of the team); English translations of every run note are listed below. Numbers and file formats are language-independent.
+
+## Run notes in English
+Each result folder keeps the original working note written during the run (in Chinese, unchanged because it is covered by the run's SHA-256 records). An English translation sits next to it with the suffix `_EN`:
+
+| Run | English note |
+|---|---|
+| Exp. 1 | [`results/exp1_plaid_cuda/README.md`](../results/exp1_plaid_cuda/README.md) |
+| E10 (Exp. 2, WHITED) | [`results/e10_whited_20261108/README_EN.md`](../results/e10_whited_20261108/README_EN.md) |
+| E5 (Exp. 3, ablation) | [`results/e5_full_20261106/e5_supporting_evidence_EN.md`](../results/e5_full_20261106/e5_supporting_evidence_EN.md) |
+| E2 (tuning) | [`results/e2_mac_20261106/search_report_EN.md`](../results/e2_mac_20261106/search_report_EN.md) |
+| E1/E3/E4 (family, baselines, selection) | [`results/e1_e4_mac_20261106/followup_report_EN.md`](../results/e1_e4_mac_20261106/followup_report_EN.md), [selection rule v4](../results/e1_e4_mac_20261106/tie_rule_vote_only_20261107/README_EN.md) |
+| E14 (NoiseFB, PermFB) | [`README_EN.md`](../results/e14_noisefb_20261110/README_EN.md), [`prelaunch_report_EN.md`](../results/e14_noisefb_20261110/prelaunch_report_EN.md) |
+| E15 (single-pass controls) | [`README_EN.md`](../results/e15_singlepass_20261110/README_EN.md), [`supplied_spec_EN.md`](../results/e15_singlepass_20261110/supplied_spec_EN.md), [`prelaunch_report_EN.md`](../results/e15_singlepass_20261110/prelaunch_report_EN.md) |
+| E6 (Fig. 3 diagnostics) | [`results/e6_mechanism_20261108/e6_report_EN.md`](../results/e6_mechanism_20261108/e6_report_EN.md) |
+| E11 (WRG-CNN) | [`results/e11_wrg_20261108/README_EN.md`](../results/e11_wrg_20261108/README_EN.md) |
+| E7 (extra splits) | [Combined](../results/e7_splits_20261108/README_EN.md) ([A](../results/e7_splits_20261108/analysis/README_EN.md), [B](../results/e7_splits_20261108/part_b/README_EN.md)), [S3](../results/e7_s3_splits_20261108/README_EN.md) |
+| E9 (preprocessing) | [`results/e9_preprocessing_20261108/README_EN.md`](../results/e9_preprocessing_20261108/README_EN.md) |
+| E12 (combined perturbations) | [`results/e12_measurement_20261108/README_EN.md`](../results/e12_measurement_20261108/README_EN.md) |
+| E8 (Exp. 5, cost) | [`results/e8_cpu_20261108/README_EN.md`](../results/e8_cpu_20261108/README_EN.md) |
+| Inference diagnostics | `results/diagnostics/` (scripts `experiments/diag_*.py`; outputs are plain CSV) |
