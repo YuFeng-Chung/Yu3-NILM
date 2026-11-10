@@ -1,0 +1,13 @@
+{
+  "model": "ViT-Tiny",
+  "grid_index": 14,
+  "seed": 42,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.2,
+  "best_epoch": 58,
+  "validation_macro_f1": 0.43444787588483536,
+  "stopped_epoch": 78,
+  "hit_max_epochs": false,
+  "prediction_audit_passed": true
+}

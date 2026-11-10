@@ -1,0 +1,222 @@
+[
+  {
+    "runtime": "onnxruntime",
+    "threads": 1,
+    "path": "MobileNetV3",
+    "baseline_rss_bytes": 354189312,
+    "loaded_rss_bytes": 370851840,
+    "after_warmup_rss_bytes": 371965952,
+    "load_delta_rss_bytes": 16662528,
+    "warmup_delta_rss_bytes": 1114112,
+    "peak_lifetime_rss_bytes": 371965952
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 1,
+    "path": "ResNet18",
+    "baseline_rss_bytes": 354107392,
+    "loaded_rss_bytes": 424640512,
+    "after_warmup_rss_bytes": 425017344,
+    "load_delta_rss_bytes": 70533120,
+    "warmup_delta_rss_bytes": 376832,
+    "peak_lifetime_rss_bytes": 425017344
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 1,
+    "path": "ViT-Tiny",
+    "baseline_rss_bytes": 354074624,
+    "loaded_rss_bytes": 377028608,
+    "after_warmup_rss_bytes": 378175488,
+    "load_delta_rss_bytes": 22953984,
+    "warmup_delta_rss_bytes": 1146880,
+    "peak_lifetime_rss_bytes": 378175488
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 1,
+    "path": "Yu3",
+    "baseline_rss_bytes": 353992704,
+    "loaded_rss_bytes": 383598592,
+    "after_warmup_rss_bytes": 384335872,
+    "load_delta_rss_bytes": 29605888,
+    "warmup_delta_rss_bytes": 737280,
+    "peak_lifetime_rss_bytes": 384335872
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 1,
+    "path": "Yu3_pass1_only",
+    "baseline_rss_bytes": 353845248,
+    "loaded_rss_bytes": 382042112,
+    "after_warmup_rss_bytes": 382337024,
+    "load_delta_rss_bytes": 28196864,
+    "warmup_delta_rss_bytes": 294912,
+    "peak_lifetime_rss_bytes": 382337024
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 4,
+    "path": "MobileNetV3",
+    "baseline_rss_bytes": 354058240,
+    "loaded_rss_bytes": 370704384,
+    "after_warmup_rss_bytes": 372981760,
+    "load_delta_rss_bytes": 16646144,
+    "warmup_delta_rss_bytes": 2277376,
+    "peak_lifetime_rss_bytes": 372981760
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 4,
+    "path": "ResNet18",
+    "baseline_rss_bytes": 354091008,
+    "loaded_rss_bytes": 424886272,
+    "after_warmup_rss_bytes": 425476096,
+    "load_delta_rss_bytes": 70795264,
+    "warmup_delta_rss_bytes": 589824,
+    "peak_lifetime_rss_bytes": 425476096
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 4,
+    "path": "ViT-Tiny",
+    "baseline_rss_bytes": 354107392,
+    "loaded_rss_bytes": 378650624,
+    "after_warmup_rss_bytes": 379158528,
+    "load_delta_rss_bytes": 24543232,
+    "warmup_delta_rss_bytes": 507904,
+    "peak_lifetime_rss_bytes": 379158528
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 4,
+    "path": "Yu3",
+    "baseline_rss_bytes": 354140160,
+    "loaded_rss_bytes": 383778816,
+    "after_warmup_rss_bytes": 384712704,
+    "load_delta_rss_bytes": 29638656,
+    "warmup_delta_rss_bytes": 933888,
+    "peak_lifetime_rss_bytes": 384712704
+  },
+  {
+    "runtime": "onnxruntime",
+    "threads": 4,
+    "path": "Yu3_pass1_only",
+    "baseline_rss_bytes": 353927168,
+    "loaded_rss_bytes": 382205952,
+    "after_warmup_rss_bytes": 382681088,
+    "load_delta_rss_bytes": 28278784,
+    "warmup_delta_rss_bytes": 475136,
+    "peak_lifetime_rss_bytes": 382681088
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 1,
+    "path": "MobileNetV3",
+    "baseline_rss_bytes": 353812480,
+    "loaded_rss_bytes": 368574464,
+    "after_warmup_rss_bytes": 372260864,
+    "load_delta_rss_bytes": 14761984,
+    "warmup_delta_rss_bytes": 3686400,
+    "peak_lifetime_rss_bytes": 372260864
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 1,
+    "path": "ResNet18",
+    "baseline_rss_bytes": 354025472,
+    "loaded_rss_bytes": 443432960,
+    "after_warmup_rss_bytes": 446038016,
+    "load_delta_rss_bytes": 89407488,
+    "warmup_delta_rss_bytes": 2605056,
+    "peak_lifetime_rss_bytes": 446038016
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 1,
+    "path": "ViT-Tiny",
+    "baseline_rss_bytes": 354074624,
+    "loaded_rss_bytes": 375980032,
+    "after_warmup_rss_bytes": 377405440,
+    "load_delta_rss_bytes": 21905408,
+    "warmup_delta_rss_bytes": 1425408,
+    "peak_lifetime_rss_bytes": 377405440
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 1,
+    "path": "Yu3",
+    "baseline_rss_bytes": 354091008,
+    "loaded_rss_bytes": 372932608,
+    "after_warmup_rss_bytes": 374800384,
+    "load_delta_rss_bytes": 18841600,
+    "warmup_delta_rss_bytes": 1867776,
+    "peak_lifetime_rss_bytes": 374800384
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 1,
+    "path": "Yu3_pass1_only",
+    "baseline_rss_bytes": 353828864,
+    "loaded_rss_bytes": 372670464,
+    "after_warmup_rss_bytes": 374145024,
+    "load_delta_rss_bytes": 18841600,
+    "warmup_delta_rss_bytes": 1474560,
+    "peak_lifetime_rss_bytes": 374145024
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 4,
+    "path": "MobileNetV3",
+    "baseline_rss_bytes": 353992704,
+    "loaded_rss_bytes": 368607232,
+    "after_warmup_rss_bytes": 372277248,
+    "load_delta_rss_bytes": 14614528,
+    "warmup_delta_rss_bytes": 3670016,
+    "peak_lifetime_rss_bytes": 372277248
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 4,
+    "path": "ResNet18",
+    "baseline_rss_bytes": 354107392,
+    "loaded_rss_bytes": 443580416,
+    "after_warmup_rss_bytes": 446201856,
+    "load_delta_rss_bytes": 89473024,
+    "warmup_delta_rss_bytes": 2621440,
+    "peak_lifetime_rss_bytes": 446201856
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 4,
+    "path": "ViT-Tiny",
+    "baseline_rss_bytes": 353943552,
+    "loaded_rss_bytes": 376045568,
+    "after_warmup_rss_bytes": 377602048,
+    "load_delta_rss_bytes": 22102016,
+    "warmup_delta_rss_bytes": 1556480,
+    "peak_lifetime_rss_bytes": 377602048
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 4,
+    "path": "Yu3",
+    "baseline_rss_bytes": 354009088,
+    "loaded_rss_bytes": 372981760,
+    "after_warmup_rss_bytes": 374898688,
+    "load_delta_rss_bytes": 18972672,
+    "warmup_delta_rss_bytes": 1916928,
+    "peak_lifetime_rss_bytes": 374898688
+  },
+  {
+    "runtime": "pytorch",
+    "threads": 4,
+    "path": "Yu3_pass1_only",
+    "baseline_rss_bytes": 353910784,
+    "loaded_rss_bytes": 372834304,
+    "after_warmup_rss_bytes": 374325248,
+    "load_delta_rss_bytes": 18923520,
+    "warmup_delta_rss_bytes": 1490944,
+    "peak_lifetime_rss_bytes": 374325248
+  }
+]

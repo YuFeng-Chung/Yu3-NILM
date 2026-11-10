@@ -1,0 +1,16 @@
+{
+  "model": "RecAux",
+  "strategy": "no_defense",
+  "seed": 44,
+  "config": {
+    "lr": 0.0005,
+    "weight_decay": 0.0,
+    "dropout": 0.5
+  },
+  "selected_epoch": 56,
+  "stopped_epoch": 56,
+  "validation_macro_f1": null,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 45.74881603848189
+}

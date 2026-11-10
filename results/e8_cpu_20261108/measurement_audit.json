@@ -1,0 +1,12 @@
+{
+  "all_measurements_present": true,
+  "timing_settings": 4,
+  "expected_timing_rows": 60000,
+  "actual_accepted_calls": 60000,
+  "memory_processes": 20,
+  "source_hashes_unchanged": true,
+  "checkpoint_hashes_unchanged": true,
+  "drift_flags": [],
+  "all_checks_passed": true,
+  "note": "Measurement audit only, not full manuscript/reviewer-response delivery. Drift requires interpretation; all raw attempts retained."
+}

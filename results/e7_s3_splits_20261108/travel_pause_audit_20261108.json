@@ -1,0 +1,11 @@
+{
+  "all_checks_passed": true,
+  "author_requested_pause": true,
+  "run": "split1_Yu3_s42",
+  "saved_epoch": 49,
+  "checkpoint_model_optimizer_loadable": true,
+  "log_epochs_contiguous": true,
+  "both_writer_locks_free": true,
+  "queue_exited": true,
+  "resume_requires_author_instruction": true
+}

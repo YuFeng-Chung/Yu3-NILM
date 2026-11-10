@@ -1,0 +1,11 @@
+{
+  "runtime": "onnxruntime",
+  "threads": 1,
+  "path": "Yu3_pass1_only",
+  "baseline_rss_bytes": 353845248,
+  "loaded_rss_bytes": 382042112,
+  "after_warmup_rss_bytes": 382337024,
+  "load_delta_rss_bytes": 28196864,
+  "warmup_delta_rss_bytes": 294912,
+  "peak_lifetime_rss_bytes": 382337024
+}

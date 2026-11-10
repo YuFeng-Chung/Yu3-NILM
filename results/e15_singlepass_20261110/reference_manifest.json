@@ -1,0 +1,352 @@
+[
+  {
+    "model": "NoiseFB",
+    "seed": 42,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s42",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 43,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s43",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 44,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s44",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 45,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s45",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 46,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s46",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 47,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s47",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 48,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s48",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 49,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s49",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 50,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s50",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "NoiseFB",
+    "seed": 51,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s51",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 42,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s42",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 43,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s43",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 44,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s44",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 45,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s45",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 46,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s46",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 47,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s47",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 48,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s48",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 49,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s49",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 50,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s50",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "ZeroFB",
+    "seed": 51,
+    "endpoint": "reported",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/ZeroFB_no_defense_s51",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 42,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s42",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 43,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s43",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 44,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s44",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 45,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s45",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 46,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s46",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 47,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s47",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 48,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s48",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 49,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s49",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 50,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s50",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "Yu3",
+    "seed": 51,
+    "endpoint": "pass1",
+    "folder": "results/e14_noisefb_20261110/reference_evaluation/Yu3_no_defense_s51",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 42,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s42",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 43,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s43",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 44,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s44",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 45,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s45",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 46,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s46",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 47,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s47",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 48,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s48",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 49,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s49",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 50,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s50",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "RecAux",
+    "seed": 51,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/RecAux_no_defense_s51",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 42,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s42",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 43,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s43",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 44,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s44",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 45,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s45",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 46,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s46",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 47,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s47",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 48,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s48",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 49,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s49",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 50,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s50",
+    "source": "saved original predictions; no new training or forward"
+  },
+  {
+    "model": "M1",
+    "seed": 51,
+    "endpoint": "reported",
+    "folder": "results/e1_e4_mac_20261106/final/M1_no_defense_s51",
+    "source": "saved original predictions; no new training or forward"
+  }
+]

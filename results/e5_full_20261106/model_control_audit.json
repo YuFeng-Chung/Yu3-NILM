@@ -1,0 +1,6 @@
+{
+  "err_detach": 2358284,
+  "pass_specific_bn": 2358732,
+  "additional_bn_parameters": 448,
+  "note": "Pass-specific BN separates affine parameters and running buffers; convolutions remain shared."
+}

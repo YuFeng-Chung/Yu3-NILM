@@ -1,0 +1,9 @@
+{
+  "all_checks_passed": true,
+  "raw_csv_hashes": 1074,
+  "saved_W1_interpolations_checked": 965,
+  "fixed_training_waveform_examples": 11,
+  "criteria_bounds_checked": true,
+  "scope": "saved W1 interpolation/manifest bounds; not independent inference of physical activation or steady state",
+  "qa_source_sha256": "ee341100b07da5544ab493afb77b846711477aac722efcac6e9ea6509d7f8fe5"
+}

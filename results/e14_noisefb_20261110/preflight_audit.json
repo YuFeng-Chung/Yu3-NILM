@@ -1,0 +1,12 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "ZeroFB_unchanged": true,
+    "ShuffleFB_unchanged": true,
+    "NoiseFB_finite_gradient_repeat_order_invariance": true,
+    "PermFB_finite_gradient_repeat_order_invariance": true
+  },
+  "device": "mps",
+  "torch": "2.15.0",
+  "platform": "macOS-26.6.2-arm64-arm-64bit"
+}

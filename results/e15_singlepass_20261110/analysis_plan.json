@@ -1,0 +1,50 @@
+{
+  "fixed_before_E15_outer_evaluation": true,
+  "primary_model": "1P-NoiseCh",
+  "secondary_model": "1P-Mix",
+  "endpoint": "No-Defense [X,0] Macro-F1",
+  "severities": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "references": {
+    "NoiseFB": "E14 first pass",
+    "ZeroFB": "E14 saved native reported output"
+  },
+  "seed_pairing": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "pollution_realizations": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "aggregation": "average pollution realizations within training seed before paired test",
+  "test": "two-sided exact Wilcoxon sign enumeration; wilcox zero omission; rounded12 decimals; tied midranks",
+  "correction": "two comparisons within each severity separately for each new model; Holm alpha.05",
+  "descriptive_rule_pp": 3,
+  "rules": "supplied_spec.md section5 unchanged",
+  "exploratory": "[X,N], Yu3 first pass, RecAux, M1, all other severities/conditions; unadjusted",
+  "sources": {
+    "source/analyze_e15.py": "b93dec12ddf833d9884d750746d1ec482fcd6b6797560d3c526e261f1b2f23cd",
+    "source/plot_e15.py": "4710c9980251aa8a9a487927f3d2a6debdb0ed47c3cf45cefb4969027ea7cfe9",
+    "source/verify_training.py": "8c1b065cae65e534ffb268e2e0e893e09fa91b0316aa3a4486dc4dd3a2b895ac"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "runtime": "pytorch",
+  "threads": 1,
+  "path": "ResNet18",
+  "baseline_rss_bytes": 354025472,
+  "loaded_rss_bytes": 443432960,
+  "after_warmup_rss_bytes": 446038016,
+  "load_delta_rss_bytes": 89407488,
+  "warmup_delta_rss_bytes": 2605056,
+  "peak_lifetime_rss_bytes": 446038016
+}

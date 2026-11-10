@@ -1,0 +1,16 @@
+{
+  "model": "MobileNetV3",
+  "strategy": "combined",
+  "seed": 42,
+  "config": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.5
+  },
+  "selected_epoch": 57,
+  "stopped_epoch": 87,
+  "validation_macro_f1": 0.5463692914429239,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 293.3190893707797
+}

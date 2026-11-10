@@ -1,0 +1,77 @@
+{
+  "experiment": "E10 WHITED clean M1-M5 group CV",
+  "created": "2026-11-08T22:53:56.268137+08:00",
+  "authorization": "2026-11-08 author asks unattended continuation after E12 for morning results; agent chooses documented bounded protocol",
+  "models": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": 3,
+  "training_runs": 45,
+  "epoch_pilots": 15,
+  "conditions": [
+    "clean"
+  ],
+  "source_sha256": {
+    "experiments/e10_core.py": "722f396f98f5442f60c1eb6f033ab3c79b6009b1924821e1cb8df0c2b576f15d",
+    "experiments/prepare_e10_whited.py": "2c42ff9204234a13e9c82c01831ffa426042b92213f9afff940df4ec31ad1983",
+    "experiments/run_e10_whited.py": "77bb2b3ca8dbad333f313af7e41a904c98aa083bf9922325a0a52d79ad184b77",
+    "experiments/analyze_e10_whited.py": "3be7d46166b2ace4648ab435430167d1b0c75c393ea00edde07dc9d8b228b747",
+    "experiments/queue_e10_whited.py": "2cdd9638a12e5e6fcafbd5acd02d9316f1c687067f6631faa73722203e973707",
+    "experiments/prepare_e5_waveforms.py": "538ed437edb50c66011fcbd19969cc14d2a514b2f8bd90894437963bf3117e17",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗一/plaid_loader_vi.py": "eee27f9fbf640bfebde451bb37ca208a3c75a3ac999551f78b30993b5ac485c9"
+  },
+  "data_sha256": "7d7702f09d27f4cec557b73ac568794aeebc92d8a8446173bc1ff25ff9d48cc7",
+  "split_sha256": "e9da561b130facb5091707be94f0b96aec89c30641182e1ac1868d00e1fda9ce",
+  "dataset_audit_sha256": "3545e9b2a32b171ade0f5021cf509623c76936df32bf43db36d6685a23a96bd6",
+  "normalization": "per-waveform V and I z-score matching original Experiment1/2 image normalization, not Experiment4 global normalization",
+  "preprocessing": "README r1-r8; device classes>=3 groups; first-channel voltage/second current with README kit factors; one nominal mains cycle around largest absolute current difference with20% preceding samples; polyphase anti-aliased resampling to500points;64x64 occupancy .1 increment saturation; original uint8 PNG-equivalent quantization",
+  "split": "3 stratified device-group folds partition all included groups; per outer fold one remaining device group/class inner-validation, rest inner-train; group names class+device+region, not verified physical serials; not house-disjoint",
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.0005,
+    "weight_decay": 0,
+    "batch_size": 32,
+    "dropout": 0.5
+  },
+  "loss": "M1-M4 CE; M5 .5CE(pass1)+CE(pass2)+.5MSE(reconstruction,input), original detached absolute residual two-pass",
+  "pilot": {
+    "seed": 42,
+    "maximum_epochs": 100,
+    "minimum_eligible_epoch": 20,
+    "patience": 15,
+    "min_delta": 0.001,
+    "metric": "clean inner-validation Macro-F1",
+    "selection": "earliest eligible epoch improving incumbent by>.001"
+  },
+  "selection_boundary": "all15 epoch pilots frozen before any outer-test inference; each final model retrained from scratch on entire corresponding outer-train for fixed selected epoch",
+  "reporting": "per-fold per-seed metrics, class PRF and integer confusion; out-of-fold predictions pooled within training seed then mean/SD across3seeds; paired differences withM1 and M5-M3; no significance/equivalence claims, no post-test strategy/model selection",
+  "scope": "only clean-data architectural replication on second dataset; no corruption-grid or cross-dataset zero-shot transfer; manuscript and final preprocessing figure remain pending author review of results",
+  "limitations": [
+    "included subset excludes classes<3 filename device groups and undocumentedr9",
+    "minimum3 groups yields only1 training device/class in inner pilots for rare classes",
+    "single seed inner epoch selection, fixed inherited optimizer, no hyperparameter search",
+    "3fold results share training devices; folds are not independent replications",
+    "group identities and channel order based on archive naming/physical checks rather than serial-number registry",
+    "event locator not verified turn-on; selected window not certified steady state",
+    "Mac MPS descriptive results, not student CUDA reproduction",
+    "M5-M3 changes more than feedback signal, not pure causal effect",
+    "raw archive version not cryptographically identified by publisher; current download contains1339 root FLAC whereas official page reports1259"
+  ],
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "python": "3.12.14",
+    "torch": "2.15.0",
+    "device": "mps",
+    "threads": 4
+  }
+}

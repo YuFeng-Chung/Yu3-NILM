@@ -1,0 +1,13 @@
+{
+  "all_checks_passed": true,
+  "package": "E9_results_20261108.zip",
+  "package_sha256": "270bd38b4be1741fc38eb3b88fc540fb6439e2b315bb1151aa489a2f59198ae6",
+  "package_bytes": 6641361,
+  "zip_crc_and_every_file_sha_verified": true,
+  "files": 53,
+  "research_protocol_sources_unchanged": true,
+  "formal_word_response_complete": false,
+  "manuscript_changed": false,
+  "omitted": "full raw public archive, evaluation image cache, checkpoints and per-item prediction files remain at original results path; artifact hash manifest included",
+  "completed_local": "2026-11-08T20:01:06.305692+08:00"
+}

@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "NoiseFB": {
+      "histogram_or_noise_valid": true,
+      "no_aux_reconstruction_gradient": true,
+      "eval_global_rng_unchanged": true,
+      "eval_repeat_batch_invariant": true,
+      "train_batch_key_changes_aux": true
+    },
+    "PermFB": {
+      "histogram_or_noise_valid": true,
+      "no_aux_reconstruction_gradient": true,
+      "eval_global_rng_unchanged": true,
+      "eval_repeat_batch_invariant": true,
+      "train_batch_key_changes_aux": true
+    }
+  }
+}

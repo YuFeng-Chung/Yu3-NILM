@@ -1,0 +1,23 @@
+{
+  "all_checks_passed": true,
+  "real_saved_models_checked": 10,
+  "real_metric_independent_check": {
+    "predictions_recomputed": 275940,
+    "clean_predictions_rechecked": 2190,
+    "confusion_cells_verified": 152460,
+    "class_prf_values_verified": 41580,
+    "original_checkpoint_spec_clean_ids_unchanged": true
+  },
+  "statistical_synthetic_check": {
+    "paired_tests_verified": 1353,
+    "paired_differences_verified": 13530,
+    "p_independent_sign_enumeration": true,
+    "holm_and_bootstrap_verified": true,
+    "minimum_two_sided_p": 0.001953125,
+    "global_holm_first_threshold": 3.695491500369549e-05,
+    "global_holm_rejection_impossible_by_design": true
+  },
+  "synthetic_results_not_research": true,
+  "analysis_source": "experiments/analyze_e12.py",
+  "verification_source": "experiments/verify_e12.py"
+}

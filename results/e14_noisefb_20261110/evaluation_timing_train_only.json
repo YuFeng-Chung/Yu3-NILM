@@ -1,0 +1,11 @@
+{
+  "seconds_per_219": {
+    "NoiseFB": 0.10166449593380093,
+    "PermFB": 0.10448969998396933,
+    "Yu3": 0.08388780830428004,
+    "ZeroFB": 0.08354853331111371,
+    "ShuffleFB": 0.09333559172227979
+  },
+  "estimated_evaluation_seconds": 985.2141327289864,
+  "outer_test_accessed": false
+}

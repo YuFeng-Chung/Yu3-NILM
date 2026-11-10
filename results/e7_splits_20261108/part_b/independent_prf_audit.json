@@ -1,0 +1,6 @@
+{
+  "all_checks_passed": true,
+  "prediction_rows": 183960,
+  "class_metric_rows": 132,
+  "method": "Independent boolean TP/FP/FN and direct F1, no confusion-matrix function reused"
+}

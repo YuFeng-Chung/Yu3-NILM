@@ -1,0 +1,31 @@
+{
+  "source": "Completed original S3 training logs, ten seeds, original split; not current new-split preflight",
+  "rows": [
+    {
+      "model": "Yu3",
+      "fixed_epochs": 52,
+      "original_mean_training_seconds": 72.16128272498027,
+      "new_15_runs_training_seconds": 1082.419240874704
+    },
+    {
+      "model": "M1",
+      "fixed_epochs": 42,
+      "original_mean_training_seconds": 28.714805653458463,
+      "new_15_runs_training_seconds": 430.7220848018769
+    },
+    {
+      "model": "RecAux",
+      "fixed_epochs": 42,
+      "original_mean_training_seconds": 36.62452340135351,
+      "new_15_runs_training_seconds": 549.3678510203026
+    },
+    {
+      "model": "ResNet18",
+      "fixed_epochs": 66,
+      "original_mean_training_seconds": 490.21405600351284,
+      "new_15_runs_training_seconds": 7353.210840052692
+    }
+  ],
+  "training_only_minutes": 156.92866694582625,
+  "note": "Excludes new-grid evaluation and final audits/report; current-machine small preflight runs only after Combined exits"
+}

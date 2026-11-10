@@ -1,0 +1,11 @@
+{
+  "runtime": "onnxruntime",
+  "threads": 1,
+  "path": "MobileNetV3",
+  "baseline_rss_bytes": 354189312,
+  "loaded_rss_bytes": 370851840,
+  "after_warmup_rss_bytes": 371965952,
+  "load_delta_rss_bytes": 16662528,
+  "warmup_delta_rss_bytes": 1114112,
+  "peak_lifetime_rss_bytes": 371965952
+}

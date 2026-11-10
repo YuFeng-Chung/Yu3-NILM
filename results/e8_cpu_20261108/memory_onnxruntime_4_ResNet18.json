@@ -1,0 +1,11 @@
+{
+  "runtime": "onnxruntime",
+  "threads": 4,
+  "path": "ResNet18",
+  "baseline_rss_bytes": 354091008,
+  "loaded_rss_bytes": 424886272,
+  "after_warmup_rss_bytes": 425476096,
+  "load_delta_rss_bytes": 70795264,
+  "warmup_delta_rss_bytes": 589824,
+  "peak_lifetime_rss_bytes": 425476096
+}

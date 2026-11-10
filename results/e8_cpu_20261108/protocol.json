@@ -1,0 +1,355 @@
+{
+  "frozen_at_utc": "2026-11-07T22:15:23Z",
+  "purpose": "computer CPU only; no deployment claim",
+  "scope": "four S3 seed42 checkpoints plus same Yu3 pure Pass1; no retraining or test selection",
+  "input": "16 fixed synthetic uniform[0,1] FP32 tensors; rotate per invocation; batch=1 1x64x64; excludes preprocessing/I/O",
+  "inference": "eval + torch.inference_mode; final logits only; eager Yu3 still computes first classifier; ORT may prune unused outputs",
+  "threads": [
+    1,
+    4
+  ],
+  "interop": 1,
+  "rounds": 30,
+  "calls_per_block": 100,
+  "warmup_per_path": 50,
+  "setting_order": [
+    [
+      "pytorch",
+      1
+    ],
+    [
+      "onnxruntime",
+      4
+    ],
+    [
+      "onnxruntime",
+      1
+    ],
+    [
+      "pytorch",
+      4
+    ]
+  ],
+  "path_orders": [
+    [
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only"
+    ],
+    [
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny"
+    ],
+    [
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18"
+    ],
+    [
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3"
+    ],
+    [
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3"
+    ],
+    [
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only"
+    ],
+    [
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny"
+    ],
+    [
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18"
+    ],
+    [
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3"
+    ],
+    [
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3"
+    ],
+    [
+      "Yu3",
+      "MobileNetV3",
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3_pass1_only"
+    ],
+    [
+      "MobileNetV3",
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3_pass1_only",
+      "Yu3"
+    ],
+    [
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3_pass1_only",
+      "Yu3",
+      "MobileNetV3"
+    ],
+    [
+      "ResNet18",
+      "Yu3_pass1_only",
+      "Yu3",
+      "MobileNetV3",
+      "ViT-Tiny"
+    ],
+    [
+      "Yu3_pass1_only",
+      "Yu3",
+      "MobileNetV3",
+      "ViT-Tiny",
+      "ResNet18"
+    ],
+    [
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18"
+    ],
+    [
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3"
+    ],
+    [
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3"
+    ],
+    [
+      "ViT-Tiny",
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only"
+    ],
+    [
+      "ResNet18",
+      "Yu3",
+      "MobileNetV3",
+      "Yu3_pass1_only",
+      "ViT-Tiny"
+    ],
+    [
+      "Yu3_pass1_only",
+      "MobileNetV3",
+      "Yu3",
+      "ResNet18",
+      "ViT-Tiny"
+    ],
+    [
+      "MobileNetV3",
+      "Yu3",
+      "ResNet18",
+      "ViT-Tiny",
+      "Yu3_pass1_only"
+    ],
+    [
+      "Yu3",
+      "ResNet18",
+      "ViT-Tiny",
+      "Yu3_pass1_only",
+      "MobileNetV3"
+    ],
+    [
+      "ResNet18",
+      "ViT-Tiny",
+      "Yu3_pass1_only",
+      "MobileNetV3",
+      "Yu3"
+    ],
+    [
+      "ViT-Tiny",
+      "Yu3_pass1_only",
+      "MobileNetV3",
+      "Yu3",
+      "ResNet18"
+    ],
+    [
+      "Yu3",
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "MobileNetV3",
+      "ResNet18"
+    ],
+    [
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "MobileNetV3",
+      "ResNet18",
+      "Yu3"
+    ],
+    [
+      "ViT-Tiny",
+      "MobileNetV3",
+      "ResNet18",
+      "Yu3",
+      "Yu3_pass1_only"
+    ],
+    [
+      "MobileNetV3",
+      "ResNet18",
+      "Yu3",
+      "Yu3_pass1_only",
+      "ViT-Tiny"
+    ],
+    [
+      "ResNet18",
+      "Yu3",
+      "Yu3_pass1_only",
+      "ViT-Tiny",
+      "MobileNetV3"
+    ]
+  ],
+  "warmup_per_block": 3,
+  "retention": "all attempts retained; accept/reject entire five-model round only by load/power",
+  "gate": "1s external CPU <=15% of whole machine; max wait 300s per setting; deadline also applies",
+  "validity": "round external mean <=15%, max <=35% of machine; AC throughout sampled round",
+  "retry": "at most 10 extra round attempts per setting, independent of latency/ranking",
+  "drift": "last10/first10 block median >1.2 or <1/1.2 flagged; never silently remove slow samples",
+  "statistics": "descriptive repeated timing blocks; no seed-level accuracy inference or pseudoreplicated significance",
+  "memory": "fresh process per runtime/thread/path; common torch+ORT imports in baseline; RSS after imports/after load/after warmup; process lifetime ru_maxrss bytes on macOS; not activation-only peak",
+  "ort": "CPUExecutionProvider; sequential; intra-op spinning disabled; graph optimizations default",
+  "deadline_epoch": 1794092304,
+  "versions": {
+    "torch": "2.15.0",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.1",
+    "numpy": "2.5.4",
+    "psutil": "7.2.2",
+    "python": "3.12.14"
+  },
+  "host": {
+    "cpu": "Apple M2",
+    "memory_bytes": 25769803776,
+    "logical_cpus": 8,
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=23003235)\t100%; finishing charge; 0:00 remaining present: true",
+    "thermal": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded"
+  },
+  "source_hashes": {
+    "experiments/run_e8_efficiency.py": "e1e91c6ee83aa8d68aa0f68407db0315e653e2a99633cb647a790af66057607b",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa"
+  },
+  "inputs_sha256": "22d616d0ce383c1bfd0ca39fba78e6cc4282486637382a577255622133877076",
+  "models": {
+    "Yu3": {
+      "checkpoint": "results/e1_e4_mac_20261106/final/Yu3_S3_s42/checkpoint.pt",
+      "checkpoint_sha256": "6dbb7cfa4d8fe58504e058c43de1ad3c7e35c1117ce2f57185b681c987dddc41",
+      "run_spec_sha256": "699f69dafcd87d7c6216743676b958285329c0a7bcc2b8c16eee14650c0346e5",
+      "total_architecture_parameters": 2358284,
+      "parameter_bytes": 9433136,
+      "state_tensor_bytes": 9435736,
+      "onnx_bytes": 9455102,
+      "onnx_sha256": "39a4734191ef076eca9bb4d9ea2aea5fdbf3ae26e9d093964d544b444050ffc4",
+      "checkpoint_file_bytes": 9448488,
+      "onnx_nodes": 41,
+      "max_abs_error": 1.1444091796875e-05,
+      "parity_cases": 16,
+      "argmax_equal": true
+    },
+    "ResNet18": {
+      "checkpoint": "results/e1_e4_mac_20261106/final/ResNet18_S3_s42/checkpoint.pt",
+      "checkpoint_sha256": "6ec5ee67eaffecfb953a5559e3e3976ce751289de2f019219dc4316dd8b59856",
+      "run_spec_sha256": "27cdc7dd69c9b3fe81d52b8e02284804647d7feb199ed53b4c70399973df759c",
+      "total_architecture_parameters": 11173323,
+      "parameter_bytes": 44693292,
+      "state_tensor_bytes": 44731852,
+      "onnx_bytes": 44684530,
+      "onnx_sha256": "e45e55b67ae0f141b315ad51b62b4ce95e3973e2befc24956b78561397fcce6f",
+      "checkpoint_file_bytes": 44770507,
+      "onnx_nodes": 48,
+      "max_abs_error": 2.09808349609375e-05,
+      "parity_cases": 16,
+      "argmax_equal": true
+    },
+    "MobileNetV3": {
+      "checkpoint": "results/e1_e4_mac_20261106/final/MobileNetV3_S3_s42/checkpoint.pt",
+      "checkpoint_sha256": "147b541c61d014f9b539d31e987a3acc7c731bd71a0c86a325802d0831858a7c",
+      "run_spec_sha256": "782a65bec5448252b2a96eb23fec6bb1aaf5436765911026cc03fbc097f11829",
+      "total_architecture_parameters": 1528843,
+      "parameter_bytes": 6115372,
+      "state_tensor_bytes": 6164092,
+      "onnx_bytes": 6127729,
+      "onnx_sha256": "4dd20b486a0eb9db9e557ebcce320c6e3331a9e84bc8b5c94f30486ab6162877",
+      "checkpoint_file_bytes": 6245463,
+      "onnx_nodes": 122,
+      "max_abs_error": 2.47955322265625e-05,
+      "parity_cases": 16,
+      "argmax_equal": true
+    },
+    "ViT-Tiny": {
+      "checkpoint": "results/e1_e4_mac_20261106/final/ViT-Tiny_S3_s42/checkpoint.pt",
+      "checkpoint_sha256": "257590795a1f7e61456724c75a8791052ea957a2def06a1f2091e1f2c9a9e3dc",
+      "run_spec_sha256": "c3f65a93f573b2790e9e552c3fd485da20c88050b6e12a022e0c56493d01bb8b",
+      "total_architecture_parameters": 2696843,
+      "parameter_bytes": 10787372,
+      "state_tensor_bytes": 10787372,
+      "onnx_bytes": 10845011,
+      "onnx_sha256": "1d6989320563ac653df944bdf66e34d752a9d220aca0d4bb5f55d7ce7b0972b4",
+      "checkpoint_file_bytes": 10816883,
+      "onnx_nodes": 330,
+      "max_abs_error": 2.6226043701171875e-06,
+      "parity_cases": 16,
+      "argmax_equal": true
+    },
+    "Yu3_pass1_only": {
+      "checkpoint": "results/e1_e4_mac_20261106/final/Yu3_S3_s42/checkpoint.pt",
+      "checkpoint_sha256": "6dbb7cfa4d8fe58504e058c43de1ad3c7e35c1117ce2f57185b681c987dddc41",
+      "run_spec_sha256": "699f69dafcd87d7c6216743676b958285329c0a7bcc2b8c16eee14650c0346e5",
+      "total_architecture_parameters": 2358284,
+      "parameter_bytes": 9433136,
+      "state_tensor_bytes": 9435736,
+      "onnx_bytes": 8791375,
+      "onnx_sha256": "10f486dc6d1b9e46b7b7447afcaf8c8d3c49b3aa3863c74a7f90487a1203ecc0",
+      "checkpoint_file_bytes": 9448488,
+      "onnx_nodes": 15,
+      "max_abs_error": 9.5367431640625e-06,
+      "parity_cases": 16,
+      "argmax_equal": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": "Yu3",
+  "strategy": "no_defense",
+  "seed": 42,
+  "config": {
+    "lr": 0.0005,
+    "weight_decay": 0.0,
+    "dropout": 0.5
+  },
+  "selected_epoch": 84,
+  "stopped_epoch": 104,
+  "validation_macro_f1": 0.4900519656755419,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 126.22891624970362
+}

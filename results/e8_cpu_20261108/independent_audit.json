@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "pytorch_1_raw_reconstruction": true,
+    "onnxruntime_4_raw_reconstruction": true,
+    "onnxruntime_1_raw_reconstruction": true,
+    "pytorch_4_raw_reconstruction": true,
+    "all_raw_calls_and_summary_reconstructed": true,
+    "checkpoint_graph_hashes_and_parity": true,
+    "frozen_source_hashes": true,
+    "twenty_separate_memory_records": true,
+    "initial_incomplete_session_retained_and_criteria_verified": true,
+    "whole_setting_rerun_amendment_and_30second_gate": true,
+    "additional_four_thread_parity_present": true
+  },
+  "accepted_calls": 60000,
+  "total_round_attempts": 122,
+  "note": "Independent integrity audit; consult measurement_audit drift flags for stability limitations."
+}

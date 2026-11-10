@@ -1,0 +1,11 @@
+{
+  "cell": "C",
+  "model": "Yu3",
+  "seed": 42,
+  "selected_epoch": 50,
+  "stopped_epoch": 50,
+  "validation_macro_f1": null,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 61.454889541491866
+}

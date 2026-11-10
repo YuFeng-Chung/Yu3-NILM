@@ -1,0 +1,9 @@
+{
+  "all_checks_passed": true,
+  "zip_crc_passed": true,
+  "zip_all_file_sha256_passed": true,
+  "zip": "E12_results_20261108.zip",
+  "bytes": 59768122,
+  "sha256": "827a9b6268242cf666dffd46380e12344a211ee30d637fe61fabd20b5954e52e",
+  "files": 770
+}

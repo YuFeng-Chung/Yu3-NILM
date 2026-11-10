@@ -1,0 +1,16 @@
+{
+  "model": "Yu3",
+  "strategy": "regularization",
+  "seed": 42,
+  "config": {
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "dropout": 0.5
+  },
+  "selected_epoch": 35,
+  "stopped_epoch": 65,
+  "validation_macro_f1": 0.6380646057644949,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 77.74431758234277
+}

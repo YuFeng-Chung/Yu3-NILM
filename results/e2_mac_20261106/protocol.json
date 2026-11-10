@@ -1,0 +1,132 @@
+{
+  "experiment": "E2",
+  "models": [
+    "Yu3",
+    "ResNet18",
+    "MobileNetV3",
+    "ViT-Tiny"
+  ],
+  "grid": [
+    {
+      "lr": 0.0001,
+      "weight_decay": 0.0,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.0001,
+      "weight_decay": 0.0,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.0001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.0001,
+      "weight_decay": 0.001,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.0005,
+      "weight_decay": 0.0,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.0005,
+      "weight_decay": 0.0,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.0005,
+      "weight_decay": 0.0001,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.0005,
+      "weight_decay": 0.0001,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.0005,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.0005,
+      "weight_decay": 0.001,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.001,
+      "weight_decay": 0.0,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "dropout": 0.5
+    }
+  ],
+  "seed": 42,
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "strategy": "No-Defense",
+  "device": "mps",
+  "max_epochs": 150,
+  "min_epochs": 30,
+  "patience": 20,
+  "min_delta": 0.001,
+  "eligible_checkpoint": "epochs>=30; highest validation F1; earliest tie",
+  "early_stopping": "patience counter starts after epoch30; improvement over anchor by >0.001 resets; no counting before30",
+  "selection": "all18 completed per model; highest eligible validation F1; earlier grid index tie",
+  "normalization": "fit pilot training waveforms only, fixed for validation; no external stats reused",
+  "split_sha256": "9b2cb7c417d4787772b9bda01f6e650344d4927c8a08bcdaa374daa1818e0b91",
+  "source_sha256": {
+    "experiments/run_e2_search_mps.py": "c9d1452c66521351ef6a2393fcc53379333e340a631efeac4335dd6d0c641cfe",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "experiments/run_exp4_matched_controls.py": "da134c61f17c8512daeb4ce015c667feafeb5bba0344cba8cdb5a8e2cde14d37",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗四/exp4_raw_data_V2.py": "4332e4493aee9705ea2e2cefc1339f03cf18cc93f1935645922b48fbfa32360a",
+    "實驗四/exp4_defense_strategies_V2.py": "68681b277811854123ec6aaf1f89b316b226505009ce001d7c876fecd07eca27",
+    "data/plaid_2014_published/raw_windows.npz": "1b9db619f66081887bfe53457caf0cc35d2345a1aea6b279dfcd86dc263e9b34"
+  },
+  "environment": {
+    "torch": "2.15.0",
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "threads": 4
+  },
+  "limits": "single-seed HPO; one fixed inner split; outer test previously viewed in other experiments but not used by this selection; device/environment differs from original CUDA; max150 may censor convergence"
+}

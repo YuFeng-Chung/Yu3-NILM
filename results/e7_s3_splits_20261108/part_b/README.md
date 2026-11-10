@@ -1,0 +1,1 @@
+E7 S3 supplementary. Fixed original S3 settings; full AWGN and salt-pepper grids. Corruption realizations averaged within each training seed. Paired split/seed bootstrap intervals are descriptive conditional resampling summaries only; splits overlap. Original ten seeds are separate from five new splits with three seeds each. See protocol.json.

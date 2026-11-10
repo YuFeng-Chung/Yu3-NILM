@@ -1,0 +1,9 @@
+cell,model,selected_epoch,stopped_epoch,hit_max_epochs
+A,M1,92,112,False
+A,Yu3,36,56,False
+B,M1,36,56,False
+B,Yu3,46,66,False
+C,M1,34,53,False
+C,Yu3,50,70,False
+D,M1,38,58,False
+D,Yu3,59,79,False

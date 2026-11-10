@@ -1,0 +1,15 @@
+{
+  "source/launch_formal.py": "35ea097720e1ee21cff7f21d89948240873ac3f8946e53e5b2627d7aad8d0d83",
+  "source/prepare_pilot.py": "74205ea235ff00ec7fc92cd99c3ad43ec90a3186c0aaa16ed3e319837a0cf35a",
+  "source/original_e14_core.py": "b9eedcdd66a176a1224bdc255900e9848d946d1563af463cfec955567b1c1699",
+  "source/e15_core.py": "b083297cc02f364f606796c64439e1a90b1e0217f0619f375a55c10586921a28",
+  "source/run_e15.py": "c83d9a52a75869305542d3f2fd029aceb54fcb6bccd0cfe007468c2b8cb2e8aa",
+  "source/finalize_prelaunch.py": "efb1d209362d0cec7b8d48e13ad0e6290e199f1ce721bb052a280920f6333328",
+  "source/evaluate_e15.py": "b15fd9f4166f98a3f494bd7324d1a9a83598a4cb96be9c57e029ad6ead72450e",
+  "noise_scale.json": "5321bebe21c36dff9407115103ecf4052e1afc175208c5e3bb4270c4a2b8f6a6",
+  "noise_scale_seal.json": "75b2971e840ca7072f62bbd35c021c2cd05fee4022865bd83cba44356c3194ce",
+  "epoch_settings.json": "361e7d605bc4b33cc8bfc211b2c53e1647d5ca4b8bf60b6d7cffda56385ddef8",
+  "protocol.json": "108b39d6ca9707e770d241b5d192d6ce75d381aef93de2b7a2c03d02222d5dcc",
+  "supplied_spec.md": "47f8490cf70b42e7c7b63dcfdb23959cf22e42245ad6eb396abdfaa1937edc1a",
+  "authorization.json": "a3653aeacc826048355424c3348adee7ecd52236b316f380183a5b272eb4d16c"
+}

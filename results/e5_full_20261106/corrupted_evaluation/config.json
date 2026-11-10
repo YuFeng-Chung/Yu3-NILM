@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    "awgn_10db",
+    "consecutive_missing_20pct"
+  ],
+  "corruption_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "model_config_sha256": "2aa584738963c9de036414be6ad86b0eeb5fd2464facbef8c314ac9adc789d15",
+  "test_config_sha256": "7b7f1d4381c3a2c84cc37f36eee9af3d21063b352ef15e5560326705c88c4746",
+  "runner_sha256": "6d1be1c3c9b549410f440cb342f22bf0d9659c9cd1f075b102284dd9aa6c6466",
+  "device": "mps",
+  "n_training_seeds": 10,
+  "normalization": "E5 per-waveform; not Exp4 normalization",
+  "checkpoint_policy": "Evaluate fixed19-epoch checkpoints; no tuning or selection."
+}

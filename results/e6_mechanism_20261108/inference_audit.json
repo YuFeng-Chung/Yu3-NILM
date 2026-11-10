@@ -1,0 +1,6 @@
+{
+  "all_checks_passed": true,
+  "items": 310,
+  "normal_predictions_match_E4": true,
+  "weights_bn_unchanged": true
+}

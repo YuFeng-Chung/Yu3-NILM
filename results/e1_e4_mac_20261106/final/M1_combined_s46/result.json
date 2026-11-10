@@ -1,0 +1,16 @@
+{
+  "model": "M1",
+  "strategy": "combined",
+  "seed": 46,
+  "config": {
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "dropout": 0.5
+  },
+  "selected_epoch": 42,
+  "stopped_epoch": 42,
+  "validation_macro_f1": null,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 29.086136041674763
+}

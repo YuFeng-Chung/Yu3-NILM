@@ -1,0 +1,37 @@
+[
+  {
+    "path": "Yu3",
+    "valid_rounds": 23,
+    "calls": 2300,
+    "mean_ms": 1.6285573821739117,
+    "median_ms": 1.582104
+  },
+  {
+    "path": "ResNet18",
+    "valid_rounds": 23,
+    "calls": 2300,
+    "mean_ms": 10.574764266521765,
+    "median_ms": 10.455
+  },
+  {
+    "path": "MobileNetV3",
+    "valid_rounds": 23,
+    "calls": 2300,
+    "mean_ms": 37.28876749260871,
+    "median_ms": 37.216499999999996
+  },
+  {
+    "path": "ViT-Tiny",
+    "valid_rounds": 23,
+    "calls": 2300,
+    "mean_ms": 1.9514586726086975,
+    "median_ms": 1.9028334999999998
+  },
+  {
+    "path": "Yu3_pass1_only",
+    "valid_rounds": 23,
+    "calls": 2300,
+    "mean_ms": 0.6849766321739144,
+    "median_ms": 0.6287705
+  }
+]

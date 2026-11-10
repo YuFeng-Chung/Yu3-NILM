@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "experiments/analyze_e12.py": "a952ba0e531b91a0c6b5f15ae1570bd05fd8a8746552d0d0b5058e8ca4c39ec6",
+    "experiments/verify_e12.py": "02dd9e1deb10d27be68f25edb869573b9073c0cf61f280214a9cc305e7554b04",
+    "experiments/analyze_e5_full.py": "57acbc36c948a11434e2f02c30a4e23717650d9de319130f553a88d021ee06f5"
+  },
+  "note": "Analysis implementation finalized during inference; complete endpoints/contrasts/global family and bootstrap already frozen before new test inference. No outcome-dependent changes.",
+  "started_at": "2026-11-08T23:15:14.016393+08:00"
+}

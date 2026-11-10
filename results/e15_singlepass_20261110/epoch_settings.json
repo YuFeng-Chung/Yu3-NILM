@@ -1,0 +1,14 @@
+{
+  "fixed_epochs": {
+    "1P-NoiseCh": 42,
+    "1P-Mix": 37
+  },
+  "pilot_seconds_per_epoch": {
+    "1P-NoiseCh": 0.7856364339564202,
+    "1P-Mix": 0.7846743631829967
+  },
+  "pilot_train_count": 682,
+  "pilot_validation_count": 173,
+  "estimated_training_seconds": 777.6448361095183,
+  "outer_test_accessed": false
+}

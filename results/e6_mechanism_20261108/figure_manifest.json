@@ -1,0 +1,1692 @@
+[
+  {
+    "file": "figures/class0_clean_image.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_clean_reconstruction.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_clean_residual.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_awgn_image.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_awgn_reconstruction.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_awgn_residual.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_salt_pepper_image.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_salt_pepper_reconstruction.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_salt_pepper_residual.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_missing_consecutive_image.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_missing_consecutive_reconstruction.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_missing_consecutive_residual.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class0_four_conditions.png",
+    "sample_id": "15",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_clean_image.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_clean_reconstruction.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_clean_residual.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_awgn_image.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_awgn_reconstruction.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_awgn_residual.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_salt_pepper_image.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_salt_pepper_reconstruction.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_salt_pepper_residual.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_missing_consecutive_image.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_missing_consecutive_reconstruction.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_missing_consecutive_residual.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class1_four_conditions.png",
+    "sample_id": "18",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_clean_image.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_clean_reconstruction.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_clean_residual.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_awgn_image.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_awgn_reconstruction.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_awgn_residual.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_salt_pepper_image.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_salt_pepper_reconstruction.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_salt_pepper_residual.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_missing_consecutive_image.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_missing_consecutive_reconstruction.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_missing_consecutive_residual.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class2_four_conditions.png",
+    "sample_id": "170",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_clean_image.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_clean_reconstruction.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_clean_residual.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_awgn_image.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_awgn_reconstruction.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_awgn_residual.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_salt_pepper_image.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_salt_pepper_reconstruction.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_salt_pepper_residual.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_missing_consecutive_image.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_missing_consecutive_reconstruction.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_missing_consecutive_residual.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class3_four_conditions.png",
+    "sample_id": "23",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_clean_image.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_clean_reconstruction.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_clean_residual.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_awgn_image.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_awgn_reconstruction.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_awgn_residual.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_salt_pepper_image.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_salt_pepper_reconstruction.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_salt_pepper_residual.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_missing_consecutive_image.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_missing_consecutive_reconstruction.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_missing_consecutive_residual.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class4_four_conditions.png",
+    "sample_id": "108",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_clean_image.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_clean_reconstruction.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_clean_residual.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_awgn_image.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_awgn_reconstruction.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_awgn_residual.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_salt_pepper_image.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_salt_pepper_reconstruction.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_salt_pepper_residual.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_missing_consecutive_image.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_missing_consecutive_reconstruction.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_missing_consecutive_residual.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class5_four_conditions.png",
+    "sample_id": "135",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_clean_image.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_clean_reconstruction.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_clean_residual.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_awgn_image.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_awgn_reconstruction.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_awgn_residual.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_salt_pepper_image.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_salt_pepper_reconstruction.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_salt_pepper_residual.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_missing_consecutive_image.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_missing_consecutive_reconstruction.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_missing_consecutive_residual.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class6_four_conditions.png",
+    "sample_id": "146",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_clean_image.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_clean_reconstruction.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_clean_residual.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_awgn_image.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_awgn_reconstruction.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_awgn_residual.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_salt_pepper_image.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_salt_pepper_reconstruction.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_salt_pepper_residual.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_missing_consecutive_image.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_missing_consecutive_reconstruction.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_missing_consecutive_residual.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class7_four_conditions.png",
+    "sample_id": "1022",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_clean_image.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_clean_reconstruction.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_clean_residual.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_awgn_image.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_awgn_reconstruction.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_awgn_residual.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_salt_pepper_image.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_salt_pepper_reconstruction.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_salt_pepper_residual.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_missing_consecutive_image.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_missing_consecutive_reconstruction.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_missing_consecutive_residual.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class8_four_conditions.png",
+    "sample_id": "10",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_clean_image.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_clean_reconstruction.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_clean_residual.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_awgn_image.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_awgn_reconstruction.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_awgn_residual.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_salt_pepper_image.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_salt_pepper_reconstruction.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_salt_pepper_residual.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_missing_consecutive_image.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_missing_consecutive_reconstruction.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_missing_consecutive_residual.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class9_four_conditions.png",
+    "sample_id": "697",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_clean_image.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_clean_reconstruction.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_clean_residual.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_awgn_image.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_awgn_reconstruction.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_awgn_residual.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "awgn",
+      10,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_salt_pepper_image.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_salt_pepper_reconstruction.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_salt_pepper_residual.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_missing_consecutive_image.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "image",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_missing_consecutive_reconstruction.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "reconstruction",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_missing_consecutive_residual.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "condition": [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    "kind": "residual",
+    "dpi": 600
+  },
+  {
+    "file": "figures/class10_four_conditions.png",
+    "sample_id": "531",
+    "model_seed": 42,
+    "kind": "four_conditions",
+    "dpi": 600
+  },
+  {
+    "file": "figures/wrong_to_right.png",
+    "sample_id": "285",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "wrong_to_right",
+    "dpi": 600
+  },
+  {
+    "file": "figures/right_to_wrong.png",
+    "sample_id": "137",
+    "model_seed": 42,
+    "condition": [
+      "clean",
+      0,
+      -1
+    ],
+    "kind": "right_to_wrong",
+    "dpi": 600
+  },
+  {
+    "file": "figures/mechanism_summary.png",
+    "kind": "summary",
+    "dpi": 600
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "M1/no_defense": 70,
+  "RecAux/no_defense": 56,
+  "M3/no_defense": 36,
+  "Yu3/no_defense": 32,
+  "ZeroFB/no_defense": 32,
+  "ShuffleFB/no_defense": 36,
+  "M1/S3": 42,
+  "RecAux/S3": 42,
+  "M3/S3": 66,
+  "Yu3/S3": 52,
+  "ZeroFB/S3": 39,
+  "ShuffleFB/S3": 98,
+  "M1/combined": 42,
+  "RecAux/combined": 35,
+  "M3/combined": 38,
+  "Yu3/combined": 36,
+  "ZeroFB/combined": 46,
+  "ShuffleFB/combined": 41
+}

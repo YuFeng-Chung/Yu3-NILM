@@ -1,0 +1,11 @@
+{
+  "cell": "D",
+  "model": "M1",
+  "seed": 44,
+  "selected_epoch": 38,
+  "stopped_epoch": 38,
+  "validation_macro_f1": null,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 23.468929457943887
+}

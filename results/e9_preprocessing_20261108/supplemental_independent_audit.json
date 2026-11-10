@@ -1,0 +1,10 @@
+{
+  "all_checks_passed": true,
+  "all_cached_test_images_independently_rebuilt": 32800,
+  "per_class_rows_independently_verified": 18040,
+  "confusion_cells_independently_verified": 198440,
+  "all_diagnostic_geometry_rows_independently_recomputed": 32800,
+  "independent_rng_and_waveform_corruptions": true,
+  "qa_source_sha256": "bb2e4fb9767ca8a79cbd956f7559cb5933c9d2f869fbf0b3fb8c0f1124abe86c",
+  "scope": "all cached clean/noisy/missing images; all diagnostic overlap/L1/clip values; does not rerun every MPS classifier"
+}

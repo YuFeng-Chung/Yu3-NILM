@@ -1,0 +1,46 @@
+{
+  "experiment": "E5 clean fixed-protocol, all-11-class metrics",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "variants": [
+    "err_detach",
+    "err_no_detach",
+    "img_no_detach",
+    "img_detach",
+    "no_first_ce",
+    "no_recon_loss",
+    "recon_weight_one",
+    "rec_aux",
+    "three_pass",
+    "pass_specific_bn",
+    "no_feedback"
+  ],
+  "epochs": 19,
+  "batch_size": 32,
+  "adam_lr": 0.0005,
+  "weight_decay": 0.0,
+  "device": "mps",
+  "dropout": 0.5,
+  "train_size": 855,
+  "test_size": 219,
+  "source_model_sha256": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+  "runner_sha256": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+  "manifest_sha256": "f676c327043237d165e37d7116de97b0f629a97aef793320884aa832981eac09",
+  "rec_aux_note": "Two-channel encoder with zero auxiliary channel, matched to E5; not final E1 M1-based implementation.",
+  "selection": "No architecture selection on held-out scores. Fixed final epoch, no early stopping.",
+  "limits": [
+    "New macOS/MPS environment; not numerical reproduction of original CUDA runs.",
+    "Clean PNG branch only; no waveform corruption tests yet.",
+    "BN diagnostic gaps alone do not establish performance harm or absence of harm."
+  ]
+}

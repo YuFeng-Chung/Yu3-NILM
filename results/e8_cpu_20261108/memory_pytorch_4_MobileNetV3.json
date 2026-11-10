@@ -1,0 +1,11 @@
+{
+  "runtime": "pytorch",
+  "threads": 4,
+  "path": "MobileNetV3",
+  "baseline_rss_bytes": 353992704,
+  "loaded_rss_bytes": 368607232,
+  "after_warmup_rss_bytes": 372277248,
+  "load_delta_rss_bytes": 14614528,
+  "warmup_delta_rss_bytes": 3670016,
+  "peak_lifetime_rss_bytes": 372277248
+}

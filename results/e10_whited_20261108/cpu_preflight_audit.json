@@ -1,0 +1,42 @@
+{
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "model": "M1",
+      "device": "cpu",
+      "finite_backward": true,
+      "checkpoint_forward_exact": true,
+      "optimizer_next_step_exact": true
+    },
+    {
+      "model": "M2",
+      "device": "cpu",
+      "finite_backward": true,
+      "checkpoint_forward_exact": true,
+      "optimizer_next_step_exact": true
+    },
+    {
+      "model": "M3",
+      "device": "cpu",
+      "finite_backward": true,
+      "checkpoint_forward_exact": true,
+      "optimizer_next_step_exact": true
+    },
+    {
+      "model": "M4",
+      "device": "cpu",
+      "finite_backward": true,
+      "checkpoint_forward_exact": true,
+      "optimizer_next_step_exact": true
+    },
+    {
+      "model": "M5",
+      "device": "cpu",
+      "finite_backward": true,
+      "checkpoint_forward_exact": true,
+      "optimizer_next_step_exact": true
+    }
+  ],
+  "no_test_predictions": true,
+  "at": "2026-11-08T22:51:33.777357+08:00"
+}

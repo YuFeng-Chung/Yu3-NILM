@@ -1,0 +1,12 @@
+{
+  "protocol_version": 4,
+  "co_selection_all_pairs": true,
+  "all_checks_passed": true,
+  "models": 330,
+  "conditions_per_model": 210,
+  "corrupted_predictions_recomputed": 15176700,
+  "clean_predictions_recomputed": 72270,
+  "outer_selection": false,
+  "checks": "all raw predictions/metrics, IDs/labels,10-realization averages, epochs/BN counts, train-only normalization, disjoint groups, complete paired seeds",
+  "manuscript_modified": false
+}

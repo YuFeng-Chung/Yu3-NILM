@@ -1,0 +1,9 @@
+{
+  "all_checks_passed": true,
+  "at": "2026-11-08T22:52:43.805453+08:00",
+  "synthetic_analysis_plots_zip_independent_check": true,
+  "synthetic_data_never_research_results": true,
+  "known_asymmetric_metrics": true,
+  "active_e12_gate_refused": true,
+  "duplicate_lock_excluded": true
+}

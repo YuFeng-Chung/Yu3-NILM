@@ -1,0 +1,126 @@
+{
+  "files": [
+    {
+      "id": 21003648,
+      "name": "6170897.zip",
+      "size": 274337984,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/21003648",
+      "supplied_md5": "5997e0b22ad44e3f46c9ac74bb57fcda",
+      "computed_md5": "5997e0b22ad44e3f46c9ac74bb57fcda",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 3890017,
+      "full_name": "Mario Berges",
+      "first_name": "Mario",
+      "last_name": "Berges",
+      "is_active": true,
+      "url_name": "Mario_Berges",
+      "orcid_id": ""
+    },
+    {
+      "id": 5462489,
+      "full_name": "Jingkun  Gao",
+      "first_name": "Jingkun",
+      "last_name": "Gao",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 5462471,
+      "full_name": "Suman  Giri",
+      "first_name": "Suman",
+      "last_name": "Giri",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 7815870,
+      "full_name": "Emre Kara",
+      "first_name": "Emre",
+      "last_name": "Kara",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/PLAID_2014/11605074",
+  "download_disabled": false,
+  "description": "<div>The 2014 version of Plug-Load Appliance Identification Dataset (PLAID), containing voltage and current measurements from different electrical household appliances sampled at 30 kHz, collected at 65 different locations in Pittsburgh, Pennsylvania (US).</div>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 274337984,
+  "created_date": "2020-01-14T15:38:04Z",
+  "modified_date": "2020-01-14T15:38:04Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "NILM",
+    "appliance classification",
+    "submetered data",
+    "Power and Energy Systems Engineering (excl. Renewable Power)"
+  ],
+  "keywords": [
+    "NILM",
+    "appliance classification",
+    "submetered data",
+    "Power and Energy Systems Engineering (excl. Renewable Power)"
+  ],
+  "categories": [
+    {
+      "id": 26482,
+      "title": "Electrical engineering not elsewhere classified",
+      "parent_id": 26455,
+      "path": "/26212/26455/26482",
+      "source_id": "400899",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Berges, Mario; Gao, Jingkun; Giri, Suman; Kara, Emre (2020). PLAID 2014. figshare. Dataset. https://doi.org/10.6084/m9.figshare.11605074.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 11605074,
+  "title": "PLAID 2014",
+  "doi": "10.6084/m9.figshare.11605074.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/11605074",
+  "published_date": "2020-01-14T15:38:04Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/11605074",
+  "url_public_api": "https://api.figshare.com/v2/articles/11605074",
+  "url_private_html": "https://figshare.com/account/articles/11605074",
+  "url_public_html": "https://figshare.com/articles/dataset/PLAID_2014/11605074",
+  "timeline": {
+    "posted": "2020-01-14T15:38:04",
+    "firstOnline": "2020-01-14"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

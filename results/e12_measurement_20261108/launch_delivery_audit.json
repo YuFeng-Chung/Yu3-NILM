@@ -1,0 +1,13 @@
+{
+  "all_checks_passed": true,
+  "frozen_inference_sources_unchanged": true,
+  "analysis_imports_passed": true,
+  "waveform_audit_passed": true,
+  "analysis_preflight_passed": true,
+  "scoped_shared_markers_unique": true,
+  "analysis_sources": {
+    "experiments/analyze_e12.py": "a952ba0e531b91a0c6b5f15ae1570bd05fd8a8746552d0d0b5058e8ca4c39ec6",
+    "experiments/verify_e12.py": "02dd9e1deb10d27be68f25edb869573b9073c0cf61f280214a9cc305e7554b04"
+  },
+  "no_completed_claim": true
+}

@@ -1,0 +1,9 @@
+{
+  "raw_training_waveform_trace_figure": "all11_fixed_training_window_traces.png",
+  "inspected": true,
+  "classes": 11,
+  "notes": "All axes, selection shading, IDs and stability labels inspected; fixed outer-training examples; no test score selection.",
+  "f1_conditions_figure_inspected": true,
+  "fixed_training_vi_examples_inspected": true,
+  "checks": "titles/axes/legends readable, error bars present, no overlap/clipping; raw all11 trace figure already inspected"
+}

@@ -1,0 +1,6 @@
+{
+  "all_checks_passed": true,
+  "search_runs": 72,
+  "held_out_evaluations": 0,
+  "checks": "group split disjoint; training-only norm; all logs/checkpoint predictions recomputed per run"
+}

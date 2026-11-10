@@ -1,0 +1,13 @@
+model,reference,reference_endpoint,type,severity,endpoint,n,mean_difference_pp,median_difference_pp,wins,ties,statistic,p_raw,p_holm,family
+1P-NoiseCh,NoiseFB,pass1,salt_pepper,0.05,zero,10,-7.944323554497903,-6.6404659869741645,0,0,0.0,0.001953125,0.00390625,primary_0.05
+1P-NoiseCh,ZeroFB,reported,salt_pepper,0.05,zero,10,5.779633601641689,2.964296276446116,6,0,11.0,0.10546875,0.10546875,primary_0.05
+1P-NoiseCh,NoiseFB,pass1,salt_pepper,0.1,zero,10,-8.28616505817434,-8.170224260985906,1,0,1.0,0.00390625,0.0078125,primary_0.1
+1P-NoiseCh,ZeroFB,reported,salt_pepper,0.1,zero,10,7.727106781251162,7.409227649899538,8,0,3.0,0.009765625,0.009765625,primary_0.1
+1P-NoiseCh,NoiseFB,pass1,salt_pepper,0.2,zero,10,-9.38614920415283,-9.99662609988048,1,0,1.0,0.00390625,0.00390625,primary_0.2
+1P-NoiseCh,ZeroFB,reported,salt_pepper,0.2,zero,10,6.954351376096437,6.548595736508755,10,0,0.0,0.001953125,0.00390625,primary_0.2
+1P-Mix,NoiseFB,pass1,salt_pepper,0.05,zero,10,-4.467093134009078,-4.582738138414355,3,0,8.0,0.048828125,0.048828125,secondary_0.05
+1P-Mix,ZeroFB,reported,salt_pepper,0.05,zero,10,9.256864022130513,7.066204900820078,10,0,0.0,0.001953125,0.00390625,secondary_0.05
+1P-Mix,NoiseFB,pass1,salt_pepper,0.1,zero,10,-7.0081958543307135,-5.8514133826637975,1,0,2.0,0.005859375,0.005859375,secondary_0.1
+1P-Mix,ZeroFB,reported,salt_pepper,0.1,zero,10,9.005075985094782,5.541196814950275,10,0,0.0,0.001953125,0.00390625,secondary_0.1
+1P-Mix,NoiseFB,pass1,salt_pepper,0.2,zero,10,-7.496781753850589,-7.881956308873975,1,0,2.0,0.005859375,0.005859375,secondary_0.2
+1P-Mix,ZeroFB,reported,salt_pepper,0.2,zero,10,8.843718826398677,7.612865013693925,10,0,0.0,0.001953125,0.00390625,secondary_0.2

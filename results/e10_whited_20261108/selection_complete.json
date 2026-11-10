@@ -1,0 +1,31 @@
+{
+  "at": "2026-11-08T23:21:45.552985+08:00",
+  "epochs": {
+    "fold1_M1": 29,
+    "fold1_M2": 21,
+    "fold1_M3": 31,
+    "fold1_M4": 20,
+    "fold1_M5": 29,
+    "fold2_M1": 37,
+    "fold2_M2": 51,
+    "fold2_M3": 24,
+    "fold2_M4": 37,
+    "fold2_M5": 24,
+    "fold3_M1": 33,
+    "fold3_M2": 26,
+    "fold3_M3": 28,
+    "fold3_M4": 27,
+    "fold3_M5": 25
+  },
+  "outer_predictions_before_selection": 0,
+  "source_sha256": {
+    "experiments/e10_core.py": "722f396f98f5442f60c1eb6f033ab3c79b6009b1924821e1cb8df0c2b576f15d",
+    "experiments/prepare_e10_whited.py": "2c42ff9204234a13e9c82c01831ffa426042b92213f9afff940df4ec31ad1983",
+    "experiments/run_e10_whited.py": "77bb2b3ca8dbad333f313af7e41a904c98aa083bf9922325a0a52d79ad184b77",
+    "experiments/analyze_e10_whited.py": "3be7d46166b2ace4648ab435430167d1b0c75c393ea00edde07dc9d8b228b747",
+    "experiments/queue_e10_whited.py": "2cdd9638a12e5e6fcafbd5acd02d9316f1c687067f6631faa73722203e973707",
+    "experiments/prepare_e5_waveforms.py": "538ed437edb50c66011fcbd19969cc14d2a514b2f8bd90894437963bf3117e17",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗一/plaid_loader_vi.py": "eee27f9fbf640bfebde451bb37ca208a3c75a3ac999551f78b30993b5ac485c9"
+  }
+}

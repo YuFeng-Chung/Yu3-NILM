@@ -1,0 +1,59 @@
+{
+  "Yu3": {
+    "feature_shapes": [
+      [
+        2,
+        128,
+        8,
+        8
+      ],
+      [
+        2,
+        128,
+        8,
+        8
+      ]
+    ],
+    "parameters": 2358284,
+    "finite_forward_backward": true,
+    "head_dropout": 0.5
+  },
+  "ResNet18": {
+    "feature_shapes": [
+      [
+        2,
+        512,
+        8,
+        8
+      ]
+    ],
+    "parameters": 11173323,
+    "finite_forward_backward": true,
+    "head_dropout": 0.5
+  },
+  "MobileNetV3": {
+    "feature_shapes": [
+      [
+        2,
+        576,
+        8,
+        8
+      ]
+    ],
+    "parameters": 1528843,
+    "finite_forward_backward": true,
+    "head_dropout": 0.5
+  },
+  "ViT-Tiny": {
+    "feature_shapes": [
+      [
+        2,
+        64,
+        192
+      ]
+    ],
+    "parameters": 2696843,
+    "finite_forward_backward": true,
+    "head_dropout": 0.5
+  }
+}

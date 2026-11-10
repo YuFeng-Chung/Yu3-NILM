@@ -1,0 +1,32 @@
+{
+  "all_checks_passed": true,
+  "study": "E6",
+  "items": 310,
+  "model_seeds": 10,
+  "prediction_rows": 67890,
+  "energy_rows": 21900,
+  "core_audit_sha256": "3c81dd92bad37fb37536cddba02b79fcd972b12fb2c59dbfafdb5e57948a9fe2",
+  "independent_csv_f1_recomputed": true,
+  "zero_feedback_equals_pass1_predictions": true,
+  "figures": 146,
+  "red_figures": 14,
+  "figure_dpi": 600,
+  "word_pages": 17,
+  "word_tables_and_numbers_verified": true,
+  "red_runs": 52,
+  "word_visual_qa_sha256": "f020b2a37844e2359d2915ec28f1ecc771bbbb20568d99a0592fb710ceb48478",
+  "word_sha256": "8600ba2d176d3af7818f73e87d4ad3b64b6591a8296189d2d83f5eb2599d9ac5",
+  "writer_exited": true,
+  "source_sha256": {
+    "experiments/e6_mechanism_core.py": "83f4dc6c56b3c0531ab19f44a6627dc70cf65173a9ab0b2ee58f334e864d9c11",
+    "experiments/run_e6_mechanism.py": "6cb281f5cf7276779f9d5bdb2776b8ebf730512629be73cb3aed9cbcc4f61281",
+    "experiments/verify_e6_mechanism.py": "6db26f64b7a30805950e056d89daad4741fa5fa14951a0c4ab4725ee84878100",
+    "experiments/control_e6_mechanism.py": "c4c445ecfe36db04b810d63d8a78932af0e59aa461ab3f50ebe31911f6d4f565",
+    "experiments/analyze_e6_mechanism.py": "2954972fa0804f96acce1b2cc01d97d49e652e5a5dcb56d80c5dc6a76a7f4aad",
+    "experiments/prepare_e6_review_figures.py": "4f9225e60ea36b54b6727b4abc6526fb6a4a5d6fd17a467731ae28c3e455291c",
+    "experiments/build_e6_review.py": "bf1296a14588940cde7d32a4b05250fe3d97cfc73782de661655472f6f9fc7f3",
+    "experiments/finalize_e6_delivery.py": "5785e091cc266db20be20b7c881a70a3e4de0503a95f57bd7ced51448b1892fe"
+  },
+  "manuscript_modified": false,
+  "gradcam_performed": false
+}

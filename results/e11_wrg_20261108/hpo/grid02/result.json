@@ -1,0 +1,16 @@
+{
+  "model": "WRG-CNN",
+  "strategy": "no_defense",
+  "seed": 42,
+  "config": {
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "dropout": 0.2
+  },
+  "selected_epoch": 76,
+  "stopped_epoch": 96,
+  "validation_macro_f1": 0.5506276947453418,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 22.53236887557432
+}

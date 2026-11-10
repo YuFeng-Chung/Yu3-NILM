@@ -1,0 +1,73 @@
+{
+  "mu0": 0.013518345542252064,
+  "sigma0": 0.021488790400326252,
+  "std_correction": 0,
+  "aggregation": "median of 8550 per-sample pixel moments, equal weight per sample and seed",
+  "residual": "abs(X - first-pass reconstruction), eval mode, batch32",
+  "train_count": 855,
+  "checkpoint_count": 10,
+  "checkpoints": [
+    {
+      "seed": 42,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s42/checkpoint.pt",
+      "sha256": "145becea9151bcf2d0a68db76e11431d9403fc624db6246989f6f3d7f3cf0b0b"
+    },
+    {
+      "seed": 43,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s43/checkpoint.pt",
+      "sha256": "09e67ab2cd3dc19c161272e3e70f03d49d418c65f72b29c4430642fc40235d09"
+    },
+    {
+      "seed": 44,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s44/checkpoint.pt",
+      "sha256": "fb6135b392acf5bcac17e5f32f1e511da42e92b30efa931f1ae9a89fcf76f02f"
+    },
+    {
+      "seed": 45,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s45/checkpoint.pt",
+      "sha256": "f8a7520f1a12af1e2dc1b180695775206e3da3841ecfb99911b724bbb23e23b0"
+    },
+    {
+      "seed": 46,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s46/checkpoint.pt",
+      "sha256": "016c9324738098aec43dcbd9a1de8b1fedd3b75fce1ef2f445a4fcdc73cdfe27"
+    },
+    {
+      "seed": 47,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s47/checkpoint.pt",
+      "sha256": "27ffef1164abb44292efac19f671f0f80ed5fcca66347e2089983ca83831fa1f"
+    },
+    {
+      "seed": 48,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s48/checkpoint.pt",
+      "sha256": "14749a8fb04f3247cd8f5671b66f05c861f774d3edb612a107da2f355e5d1d24"
+    },
+    {
+      "seed": 49,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s49/checkpoint.pt",
+      "sha256": "db8f91f424be14ff694655b0f5a70b623c2a2092447ef7d6e212d375e64f4e0a"
+    },
+    {
+      "seed": 50,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s50/checkpoint.pt",
+      "sha256": "76bc602f8c963d467154ee734d36589b6ba063324753232d5db4de185a7c3f3d"
+    },
+    {
+      "seed": 51,
+      "path": "results/e14_noisefb_20261110/final/NoiseFB_no_defense_s51/checkpoint.pt",
+      "sha256": "e422b0ab00ae6679512632aba73bdba940283e9e6b92ee480da9001990078cc3"
+    }
+  ],
+  "outer_test_used": false,
+  "independent_numpy_moments_verified": true,
+  "normalization": {
+    "i_mean": 0.14650695025920868,
+    "i_std": 9.909158706665039,
+    "i_min": -104.38999938964844,
+    "i_max": 104.58000183105469,
+    "v_mean": -2.2169525623321533,
+    "v_std": 119.88373565673828,
+    "v_min": -1041.4000244140625,
+    "v_max": 571.3900146484375
+  }
+}

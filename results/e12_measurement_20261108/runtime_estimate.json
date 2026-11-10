@@ -1,0 +1,99 @@
+{
+  "point_inference_minutes": 66.57062022383325,
+  "inference_range_minutes": [
+    53.2564961790666,
+    106.5129923581332
+  ],
+  "research_with_analysis_and_independent_audit_minutes": [
+    63.2564961790666,
+    131.5129923581332
+  ],
+  "excludes": "Formal bilingual Word response and original-manuscript integration",
+  "timings": [
+    {
+      "model": "M1",
+      "median_seconds_per_219": 0.04177595814689994,
+      "all_seconds": [
+        0.044534457847476006,
+        0.04177595814689994,
+        0.041471333242952824
+      ]
+    },
+    {
+      "model": "RecAux",
+      "median_seconds_per_219": 0.06722704181447625,
+      "all_seconds": [
+        0.06731229182332754,
+        0.06670858385041356,
+        0.06722704181447625
+      ]
+    },
+    {
+      "model": "M3",
+      "median_seconds_per_219": 0.04500904167070985,
+      "all_seconds": [
+        0.04560270765796304,
+        0.04500904167070985,
+        0.044710292015224695
+      ]
+    },
+    {
+      "model": "Yu3",
+      "median_seconds_per_219": 0.11088950000703335,
+      "all_seconds": [
+        0.11061395797878504,
+        0.11088950000703335,
+        0.11106333415955305
+      ]
+    },
+    {
+      "model": "ZeroFB",
+      "median_seconds_per_219": 0.11022112518548965,
+      "all_seconds": [
+        0.11208087531849742,
+        0.10825054114684463,
+        0.11022112518548965
+      ]
+    },
+    {
+      "model": "ShuffleFB",
+      "median_seconds_per_219": 0.10527320904657245,
+      "all_seconds": [
+        0.10737016703933477,
+        0.10527320904657245,
+        0.10467187501490116
+      ]
+    },
+    {
+      "model": "ResNet18",
+      "median_seconds_per_219": 0.49744208296760917,
+      "all_seconds": [
+        0.49744208296760917,
+        0.49293904192745686,
+        0.4992611249908805
+      ]
+    },
+    {
+      "model": "MobileNetV3",
+      "median_seconds_per_219": 0.19131454220041633,
+      "all_seconds": [
+        0.19064975017681718,
+        0.19131454220041633,
+        0.1962001253850758
+      ]
+    },
+    {
+      "model": "ViT-Tiny",
+      "median_seconds_per_219": 0.08241833420470357,
+      "all_seconds": [
+        0.0856564580462873,
+        0.08241833420470357,
+        0.08182204095646739
+      ]
+    }
+  ],
+  "real_train_only": true,
+  "benchmark_samples": 219,
+  "new_conditions_per_model": 66,
+  "models": 330
+}

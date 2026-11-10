@@ -1,0 +1,37 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "1P-NoiseCh": {
+      "single_encoder_classifier_decoder_call": true,
+      "exact_CE_plus_half_MSE": true,
+      "finite_all_gradients": true,
+      "architecture_matches_NoiseFB": true,
+      "local_rng_only": true,
+      "independent_rng_formula": true,
+      "repeat_order_stable_noise": true,
+      "zero_eval_input": true
+    },
+    "1P-Mix": {
+      "single_encoder_classifier_decoder_call": true,
+      "exact_CE_plus_half_MSE": true,
+      "finite_all_gradients": true,
+      "architecture_matches_NoiseFB": true,
+      "local_rng_only": true,
+      "independent_rng_formula": true,
+      "repeat_order_stable_noise": true,
+      "zero_eval_input": true
+    },
+    "M1_inherited_unchanged": true,
+    "M3_inherited_unchanged": true,
+    "RecAux_inherited_unchanged": true,
+    "Yu3_inherited_unchanged": true,
+    "ZeroFB_inherited_unchanged": true,
+    "ShuffleFB_inherited_unchanged": true,
+    "NoiseFB_inherited_unchanged": true,
+    "PermFB_inherited_unchanged": true
+  },
+  "torch": "2.15.0",
+  "device": "mps",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "outer_test_accessed": false
+}

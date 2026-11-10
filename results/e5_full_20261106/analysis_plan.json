@@ -1,0 +1,130 @@
+{
+  "purpose": "Supplementary evidence about original Yu3; no architecture selection on test.",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "endpoint": "Clean all-11-class Macro-F1",
+  "families": {
+    "A": "feedback signal and detach, including interaction",
+    "B": "loss weights",
+    "C": "reconstruction supervision and pass count",
+    "D": "shared vs pass-specific BN"
+  },
+  "comparisons": [
+    {
+      "family": "A",
+      "name": "err_detach_vs_err_no_detach",
+      "coefficients": {
+        "err_detach": 1,
+        "err_no_detach": -1
+      }
+    },
+    {
+      "family": "A",
+      "name": "err_detach_vs_img_no_detach",
+      "coefficients": {
+        "err_detach": 1,
+        "img_no_detach": -1
+      }
+    },
+    {
+      "family": "A",
+      "name": "err_detach_vs_img_detach",
+      "coefficients": {
+        "err_detach": 1,
+        "img_detach": -1
+      }
+    },
+    {
+      "family": "A",
+      "name": "signal_detach_interaction",
+      "coefficients": {
+        "err_detach": 1,
+        "err_no_detach": -1,
+        "img_detach": -1,
+        "img_no_detach": 1
+      }
+    },
+    {
+      "family": "B",
+      "name": "err_detach_vs_no_first_ce",
+      "coefficients": {
+        "err_detach": 1,
+        "no_first_ce": -1
+      }
+    },
+    {
+      "family": "B",
+      "name": "err_detach_vs_no_recon_loss",
+      "coefficients": {
+        "err_detach": 1,
+        "no_recon_loss": -1
+      }
+    },
+    {
+      "family": "B",
+      "name": "err_detach_vs_recon_weight_one",
+      "coefficients": {
+        "err_detach": 1,
+        "recon_weight_one": -1
+      }
+    },
+    {
+      "family": "C",
+      "name": "err_detach_vs_rec_aux",
+      "coefficients": {
+        "err_detach": 1,
+        "rec_aux": -1
+      }
+    },
+    {
+      "family": "C",
+      "name": "err_detach_vs_three_pass",
+      "coefficients": {
+        "err_detach": 1,
+        "three_pass": -1
+      }
+    },
+    {
+      "family": "C",
+      "name": "err_detach_vs_no_feedback",
+      "coefficients": {
+        "err_detach": 1,
+        "no_feedback": -1
+      }
+    },
+    {
+      "family": "C",
+      "name": "rec_aux_vs_no_feedback",
+      "coefficients": {
+        "rec_aux": 1,
+        "no_feedback": -1
+      }
+    },
+    {
+      "family": "D",
+      "name": "err_detach_vs_pass_specific_bn",
+      "coefficients": {
+        "err_detach": 1,
+        "pass_specific_bn": -1
+      }
+    }
+  ],
+  "primary_correction": "Holm across all 12 unique tests; alpha=0.05",
+  "secondary_correction": "Within-family Holm, shown in full without replacing primary adjustment.",
+  "test": "Two-sided Wilcoxon signed-rank; exhaustive sign permutations via SciPy PermutationMethod(n_resamples=inf).",
+  "zeros": "wilcox; all-zero differences assigned p=1",
+  "difference_rounding_decimals": 12,
+  "disclosure": "Initial seeds42-44 had been inspected. This plan was fixed before remaining seeds45-51 completed; it is not a pristine preregistration.",
+  "limits": "Single held-out split; randomness over training seeds only. Non-significance does not establish equivalence; clean results do not establish robustness.",
+  "method_reference": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html"
+}

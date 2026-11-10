@@ -1,0 +1,8 @@
+{
+  "all_checks_passed": true,
+  "waveforms_verified": 14454,
+  "images_pixel_exact": 14454,
+  "max_waveform_absolute_error": 0.0,
+  "independent_harmonic_projection": true,
+  "no_test_fitted_parameters": true
+}

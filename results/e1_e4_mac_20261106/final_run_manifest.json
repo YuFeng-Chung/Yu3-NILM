@@ -1,0 +1,1982 @@
+[
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/M1_no_defense_s42"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/M1_no_defense_s43"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/M1_no_defense_s44"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/M1_no_defense_s45"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/M1_no_defense_s46"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/M1_no_defense_s47"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/M1_no_defense_s48"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/M1_no_defense_s49"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/M1_no_defense_s50"
+  },
+  {
+    "model": "M1",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/M1_no_defense_s51"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/RecAux_no_defense_s42"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/RecAux_no_defense_s43"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/RecAux_no_defense_s44"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/RecAux_no_defense_s45"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/RecAux_no_defense_s46"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/RecAux_no_defense_s47"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/RecAux_no_defense_s48"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/RecAux_no_defense_s49"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/RecAux_no_defense_s50"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/RecAux_no_defense_s51"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/M3_no_defense_s42"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/M3_no_defense_s43"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/M3_no_defense_s44"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/M3_no_defense_s45"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/M3_no_defense_s46"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/M3_no_defense_s47"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/M3_no_defense_s48"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/M3_no_defense_s49"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/M3_no_defense_s50"
+  },
+  {
+    "model": "M3",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/M3_no_defense_s51"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/Yu3_no_defense_s42"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/Yu3_no_defense_s43"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/Yu3_no_defense_s44"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/Yu3_no_defense_s45"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/Yu3_no_defense_s46"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/Yu3_no_defense_s47"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/Yu3_no_defense_s48"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/Yu3_no_defense_s49"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/Yu3_no_defense_s50"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/Yu3_no_defense_s51"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/ZeroFB_no_defense_s42"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/ZeroFB_no_defense_s43"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/ZeroFB_no_defense_s44"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/ZeroFB_no_defense_s45"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/ZeroFB_no_defense_s46"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/ZeroFB_no_defense_s47"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/ZeroFB_no_defense_s48"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/ZeroFB_no_defense_s49"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/ZeroFB_no_defense_s50"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/ZeroFB_no_defense_s51"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/ShuffleFB_no_defense_s42"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/ShuffleFB_no_defense_s43"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/ShuffleFB_no_defense_s44"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/ShuffleFB_no_defense_s45"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/ShuffleFB_no_defense_s46"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/ShuffleFB_no_defense_s47"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/ShuffleFB_no_defense_s48"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/ShuffleFB_no_defense_s49"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/ShuffleFB_no_defense_s50"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/ShuffleFB_no_defense_s51"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/M1_S3_s42"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/M1_S3_s43"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/M1_S3_s44"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/M1_S3_s45"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/M1_S3_s46"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/M1_S3_s47"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/M1_S3_s48"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/M1_S3_s49"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/M1_S3_s50"
+  },
+  {
+    "model": "M1",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/M1_S3_s51"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/RecAux_S3_s42"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/RecAux_S3_s43"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/RecAux_S3_s44"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/RecAux_S3_s45"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/RecAux_S3_s46"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/RecAux_S3_s47"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/RecAux_S3_s48"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/RecAux_S3_s49"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/RecAux_S3_s50"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/RecAux_S3_s51"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/M3_S3_s42"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/M3_S3_s43"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/M3_S3_s44"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/M3_S3_s45"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/M3_S3_s46"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/M3_S3_s47"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/M3_S3_s48"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/M3_S3_s49"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/M3_S3_s50"
+  },
+  {
+    "model": "M3",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/M3_S3_s51"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/Yu3_S3_s42"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/Yu3_S3_s43"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/Yu3_S3_s44"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/Yu3_S3_s45"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/Yu3_S3_s46"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/Yu3_S3_s47"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/Yu3_S3_s48"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/Yu3_S3_s49"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/Yu3_S3_s50"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/Yu3_S3_s51"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/ZeroFB_S3_s42"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/ZeroFB_S3_s43"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/ZeroFB_S3_s44"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/ZeroFB_S3_s45"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/ZeroFB_S3_s46"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/ZeroFB_S3_s47"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/ZeroFB_S3_s48"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/ZeroFB_S3_s49"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/ZeroFB_S3_s50"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/ZeroFB_S3_s51"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/ShuffleFB_S3_s42"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/ShuffleFB_S3_s43"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/ShuffleFB_S3_s44"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/ShuffleFB_S3_s45"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/ShuffleFB_S3_s46"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/ShuffleFB_S3_s47"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/ShuffleFB_S3_s48"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/ShuffleFB_S3_s49"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/ShuffleFB_S3_s50"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/ShuffleFB_S3_s51"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/M1_combined_s42"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/M1_combined_s43"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/M1_combined_s44"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/M1_combined_s45"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/M1_combined_s46"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/M1_combined_s47"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/M1_combined_s48"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/M1_combined_s49"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/M1_combined_s50"
+  },
+  {
+    "model": "M1",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/M1_combined_s51"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/RecAux_combined_s42"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/RecAux_combined_s43"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/RecAux_combined_s44"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/RecAux_combined_s45"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/RecAux_combined_s46"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/RecAux_combined_s47"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/RecAux_combined_s48"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/RecAux_combined_s49"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/RecAux_combined_s50"
+  },
+  {
+    "model": "RecAux",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/RecAux_combined_s51"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/M3_combined_s42"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/M3_combined_s43"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/M3_combined_s44"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/M3_combined_s45"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/M3_combined_s46"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/M3_combined_s47"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/M3_combined_s48"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/M3_combined_s49"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/M3_combined_s50"
+  },
+  {
+    "model": "M3",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/M3_combined_s51"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/Yu3_combined_s42"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/Yu3_combined_s43"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/Yu3_combined_s44"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/Yu3_combined_s45"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/Yu3_combined_s46"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/Yu3_combined_s47"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/Yu3_combined_s48"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/Yu3_combined_s49"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/Yu3_combined_s50"
+  },
+  {
+    "model": "Yu3",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/Yu3_combined_s51"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/ZeroFB_combined_s42"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/ZeroFB_combined_s43"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/ZeroFB_combined_s44"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/ZeroFB_combined_s45"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/ZeroFB_combined_s46"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/ZeroFB_combined_s47"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/ZeroFB_combined_s48"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/ZeroFB_combined_s49"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/ZeroFB_combined_s50"
+  },
+  {
+    "model": "ZeroFB",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/ZeroFB_combined_s51"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/ShuffleFB_combined_s42"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/ShuffleFB_combined_s43"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/ShuffleFB_combined_s44"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/ShuffleFB_combined_s45"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/ShuffleFB_combined_s46"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/ShuffleFB_combined_s47"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/ShuffleFB_combined_s48"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/ShuffleFB_combined_s49"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/ShuffleFB_combined_s50"
+  },
+  {
+    "model": "ShuffleFB",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/ShuffleFB_combined_s51"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/ResNet18_no_defense_s42"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/ResNet18_no_defense_s43"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/ResNet18_no_defense_s44"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/ResNet18_no_defense_s45"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/ResNet18_no_defense_s46"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/ResNet18_no_defense_s47"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/ResNet18_no_defense_s48"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/ResNet18_no_defense_s49"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/ResNet18_no_defense_s50"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/ResNet18_no_defense_s51"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/ResNet18_S3_s42"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/ResNet18_S3_s43"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/ResNet18_S3_s44"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/ResNet18_S3_s45"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/ResNet18_S3_s46"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/ResNet18_S3_s47"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/ResNet18_S3_s48"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/ResNet18_S3_s49"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/ResNet18_S3_s50"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/ResNet18_S3_s51"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/ResNet18_combined_s42"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/ResNet18_combined_s43"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/ResNet18_combined_s44"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/ResNet18_combined_s45"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/ResNet18_combined_s46"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/ResNet18_combined_s47"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/ResNet18_combined_s48"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/ResNet18_combined_s49"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/ResNet18_combined_s50"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/ResNet18_combined_s51"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 42,
+    "path": "final/ResNet18_S4_s42"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 43,
+    "path": "final/ResNet18_S4_s43"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 44,
+    "path": "final/ResNet18_S4_s44"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 45,
+    "path": "final/ResNet18_S4_s45"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 46,
+    "path": "final/ResNet18_S4_s46"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 47,
+    "path": "final/ResNet18_S4_s47"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 48,
+    "path": "final/ResNet18_S4_s48"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 49,
+    "path": "final/ResNet18_S4_s49"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 50,
+    "path": "final/ResNet18_S4_s50"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "S4",
+    "seed": 51,
+    "path": "final/ResNet18_S4_s51"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 42,
+    "path": "final/ResNet18_augmentation_s42"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 43,
+    "path": "final/ResNet18_augmentation_s43"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 44,
+    "path": "final/ResNet18_augmentation_s44"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 45,
+    "path": "final/ResNet18_augmentation_s45"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 46,
+    "path": "final/ResNet18_augmentation_s46"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 47,
+    "path": "final/ResNet18_augmentation_s47"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 48,
+    "path": "final/ResNet18_augmentation_s48"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 49,
+    "path": "final/ResNet18_augmentation_s49"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 50,
+    "path": "final/ResNet18_augmentation_s50"
+  },
+  {
+    "model": "ResNet18",
+    "strategy": "augmentation",
+    "seed": 51,
+    "path": "final/ResNet18_augmentation_s51"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/MobileNetV3_no_defense_s42"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/MobileNetV3_no_defense_s43"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/MobileNetV3_no_defense_s44"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/MobileNetV3_no_defense_s45"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/MobileNetV3_no_defense_s46"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/MobileNetV3_no_defense_s47"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/MobileNetV3_no_defense_s48"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/MobileNetV3_no_defense_s49"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/MobileNetV3_no_defense_s50"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/MobileNetV3_no_defense_s51"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/MobileNetV3_S3_s42"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/MobileNetV3_S3_s43"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/MobileNetV3_S3_s44"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/MobileNetV3_S3_s45"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/MobileNetV3_S3_s46"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/MobileNetV3_S3_s47"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/MobileNetV3_S3_s48"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/MobileNetV3_S3_s49"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/MobileNetV3_S3_s50"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/MobileNetV3_S3_s51"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/MobileNetV3_combined_s42"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/MobileNetV3_combined_s43"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/MobileNetV3_combined_s44"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/MobileNetV3_combined_s45"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/MobileNetV3_combined_s46"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/MobileNetV3_combined_s47"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/MobileNetV3_combined_s48"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/MobileNetV3_combined_s49"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/MobileNetV3_combined_s50"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/MobileNetV3_combined_s51"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 42,
+    "path": "final/MobileNetV3_S4_s42"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 43,
+    "path": "final/MobileNetV3_S4_s43"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 44,
+    "path": "final/MobileNetV3_S4_s44"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 45,
+    "path": "final/MobileNetV3_S4_s45"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 46,
+    "path": "final/MobileNetV3_S4_s46"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 47,
+    "path": "final/MobileNetV3_S4_s47"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 48,
+    "path": "final/MobileNetV3_S4_s48"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 49,
+    "path": "final/MobileNetV3_S4_s49"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 50,
+    "path": "final/MobileNetV3_S4_s50"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "S4",
+    "seed": 51,
+    "path": "final/MobileNetV3_S4_s51"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 42,
+    "path": "final/MobileNetV3_augmentation_s42"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 43,
+    "path": "final/MobileNetV3_augmentation_s43"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 44,
+    "path": "final/MobileNetV3_augmentation_s44"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 45,
+    "path": "final/MobileNetV3_augmentation_s45"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 46,
+    "path": "final/MobileNetV3_augmentation_s46"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 47,
+    "path": "final/MobileNetV3_augmentation_s47"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 48,
+    "path": "final/MobileNetV3_augmentation_s48"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 49,
+    "path": "final/MobileNetV3_augmentation_s49"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 50,
+    "path": "final/MobileNetV3_augmentation_s50"
+  },
+  {
+    "model": "MobileNetV3",
+    "strategy": "augmentation",
+    "seed": 51,
+    "path": "final/MobileNetV3_augmentation_s51"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 42,
+    "path": "final/ViT-Tiny_no_defense_s42"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 43,
+    "path": "final/ViT-Tiny_no_defense_s43"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 44,
+    "path": "final/ViT-Tiny_no_defense_s44"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 45,
+    "path": "final/ViT-Tiny_no_defense_s45"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 46,
+    "path": "final/ViT-Tiny_no_defense_s46"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 47,
+    "path": "final/ViT-Tiny_no_defense_s47"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 48,
+    "path": "final/ViT-Tiny_no_defense_s48"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 49,
+    "path": "final/ViT-Tiny_no_defense_s49"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 50,
+    "path": "final/ViT-Tiny_no_defense_s50"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "no_defense",
+    "seed": 51,
+    "path": "final/ViT-Tiny_no_defense_s51"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 42,
+    "path": "final/ViT-Tiny_S3_s42"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 43,
+    "path": "final/ViT-Tiny_S3_s43"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 44,
+    "path": "final/ViT-Tiny_S3_s44"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 45,
+    "path": "final/ViT-Tiny_S3_s45"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 46,
+    "path": "final/ViT-Tiny_S3_s46"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 47,
+    "path": "final/ViT-Tiny_S3_s47"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 48,
+    "path": "final/ViT-Tiny_S3_s48"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 49,
+    "path": "final/ViT-Tiny_S3_s49"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 50,
+    "path": "final/ViT-Tiny_S3_s50"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S3",
+    "seed": 51,
+    "path": "final/ViT-Tiny_S3_s51"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 42,
+    "path": "final/ViT-Tiny_combined_s42"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 43,
+    "path": "final/ViT-Tiny_combined_s43"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 44,
+    "path": "final/ViT-Tiny_combined_s44"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 45,
+    "path": "final/ViT-Tiny_combined_s45"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 46,
+    "path": "final/ViT-Tiny_combined_s46"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 47,
+    "path": "final/ViT-Tiny_combined_s47"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 48,
+    "path": "final/ViT-Tiny_combined_s48"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 49,
+    "path": "final/ViT-Tiny_combined_s49"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 50,
+    "path": "final/ViT-Tiny_combined_s50"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "combined",
+    "seed": 51,
+    "path": "final/ViT-Tiny_combined_s51"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 42,
+    "path": "final/ViT-Tiny_S4_s42"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 43,
+    "path": "final/ViT-Tiny_S4_s43"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 44,
+    "path": "final/ViT-Tiny_S4_s44"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 45,
+    "path": "final/ViT-Tiny_S4_s45"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 46,
+    "path": "final/ViT-Tiny_S4_s46"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 47,
+    "path": "final/ViT-Tiny_S4_s47"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 48,
+    "path": "final/ViT-Tiny_S4_s48"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 49,
+    "path": "final/ViT-Tiny_S4_s49"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 50,
+    "path": "final/ViT-Tiny_S4_s50"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "S4",
+    "seed": 51,
+    "path": "final/ViT-Tiny_S4_s51"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 42,
+    "path": "final/ViT-Tiny_augmentation_s42"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 43,
+    "path": "final/ViT-Tiny_augmentation_s43"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 44,
+    "path": "final/ViT-Tiny_augmentation_s44"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 45,
+    "path": "final/ViT-Tiny_augmentation_s45"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 46,
+    "path": "final/ViT-Tiny_augmentation_s46"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 47,
+    "path": "final/ViT-Tiny_augmentation_s47"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 48,
+    "path": "final/ViT-Tiny_augmentation_s48"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 49,
+    "path": "final/ViT-Tiny_augmentation_s49"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 50,
+    "path": "final/ViT-Tiny_augmentation_s50"
+  },
+  {
+    "model": "ViT-Tiny",
+    "strategy": "augmentation",
+    "seed": 51,
+    "path": "final/ViT-Tiny_augmentation_s51"
+  }
+]

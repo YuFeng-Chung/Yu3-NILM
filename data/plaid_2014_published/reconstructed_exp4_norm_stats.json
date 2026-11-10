@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "i_mean": 0.14650695025920868,
+    "i_std": 9.909158706665039,
+    "i_min": -104.38999938964844,
+    "i_max": 104.58000183105469,
+    "v_mean": -2.2169525623321533,
+    "v_std": 119.88373565673828,
+    "v_min": -1041.4000244140625,
+    "v_max": 571.3900146484375
+  },
+  "source": "Published PLAID2014 matched1074 suppliedPNG; fixed outer855 training samples only.",
+  "dtype": "float32 matching supplied Exp4 loader",
+  "sample_order": "Numeric published sample ID; original historical os.listdir order unknown.",
+  "use": "Future Exp4 final outer-training normalization; inner validation/CV must fit on each inner training fold separately. Not an archived original JSON."
+}

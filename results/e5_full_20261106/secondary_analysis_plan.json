@@ -1,0 +1,12 @@
+{
+  "conditions": [
+    "awgn_10db",
+    "consecutive_missing_20pct"
+  ],
+  "endpoint": "D_abs = clean Macro-F1 - mean corrupted Macro-F1; smaller degradation is better.",
+  "replicate_unit": "10 paired training seeds42-51; average each metric over contamination seeds1000-1009 first.",
+  "multiplicity": "Holm across24 secondary D_abs contrasts (12 per condition); additionally show36-test Holm combining12 clean primary contrasts.",
+  "selection": "No architecture, hyperparameter or epoch selection from these held-out results.",
+  "scope": "Supplementary E5 fixed19-epoch clean-trained models; does not replace Exp4 defense experiments.",
+  "frozen_before": "Corrupted predictions were generated."
+}

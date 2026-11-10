@@ -1,0 +1,42 @@
+{
+  "Yu3_S3": {
+    "fixed_epoch": 81,
+    "val_f1": 0.6752402245425502
+  },
+  "Yu3_S4": {
+    "fixed_epoch": 38,
+    "val_f1": 0.6764292380382063
+  },
+  "Yu3_augmentation": {
+    "fixed_epoch": 37,
+    "val_f1": 0.6687165617167036
+  },
+  "Yu3_combined": {
+    "fixed_epoch": 51,
+    "val_f1": 0.6479396495166662
+  },
+  "ResNet18_S3": {
+    "fixed_epoch": 59,
+    "val_f1": 0.665570330712326
+  },
+  "MobileNetV3_S3": {
+    "fixed_epoch": 94,
+    "val_f1": 0.603628662733211
+  },
+  "ViT-Tiny_S3": {
+    "fixed_epoch": 57,
+    "val_f1": 0.49980838416075746
+  },
+  "ResNet18_combined": {
+    "fixed_epoch": 21,
+    "val_f1": 0.6356232931001783
+  },
+  "MobileNetV3_combined": {
+    "fixed_epoch": 38,
+    "val_f1": 0.42420180075352487
+  },
+  "ViT-Tiny_combined": {
+    "fixed_epoch": 180,
+    "val_f1": 0.49931619716383574
+  }
+}

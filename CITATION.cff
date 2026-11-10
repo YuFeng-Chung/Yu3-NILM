@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Yu3: code, data splits and results"
+authors:
+  - family-names: Chung
+    given-names: Yu-Feng
+    affiliation: "National Taitung University"
+  - family-names: Chen
+    given-names: Tsang-Yu
+    affiliation: "National Taitung University"
+  - family-names: Tseng
+    given-names: Yu-Hsiang
+    affiliation: "National Taitung University"
+  - family-names: Chung
+    given-names: Cheng-Ying
+    affiliation: "National Ilan University"
+repository-code: "https://github.com/YuFeng-Chung/Yu3-NILM"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-30"
+preferred-citation:
+  type: article
+  title: "Yu3: Improving the Robustness of V–I Appliance Identification to Unseen Waveform Perturbations through Two-Pass Training with a Varying Auxiliary Channel"
+  authors:
+    - family-names: Chung
+      given-names: Yu-Feng
+    - family-names: Chen
+      given-names: Tsang-Yu
+    - family-names: Tseng
+      given-names: Yu-Hsiang
+    - family-names: Chung
+      given-names: Cheng-Ying
+  journal: "IEEE Access"
+  year: 2026

@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "authorized_by": "Author explicitly approved retaining all exact ties in this chat on 2026-11-07, after viewing partial inner results.",
+  "timestamp_utc": "2026-11-07T01:38:28.816838+00:00",
+  "outer_test_evaluations": 0,
+  "prior_protocol_sha256": "afaa7fd8f13cd2f02dcf9fd8782e962006e90a0fdf1b07e86361d42cc826d954",
+  "rules": "Noise: all exactly equal within-fold leaders get a win, then maximize five-fold wins and mean severe-score, retaining exact final ties. Missing: strictly beat same-fold No-Defense, maximize min-win then total-win, retain all exact ties. No listed-order tie-break. Exact equality, no tolerance.",
+  "evaluation": "Train/evaluate every co-selected strategy. All unique Yu3-baseline strategy pair combinations enter same E3 Holm family. Never select by outer-test outcomes.",
+  "disclosure": "Prospective for current outer test; post hoc to observed partial inner validation. Not pristine preregistration. Training, data, seeds, folds, epochs and pollution levels unchanged.",
+  "paused": {
+    "run": "ViT-Tiny_fold3_regularization",
+    "saved_epoch": 5,
+    "status": "paused"
+  }
+}

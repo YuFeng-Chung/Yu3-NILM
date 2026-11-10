@@ -1,0 +1,19 @@
+{
+  "source_directory": "e5_20261106",
+  "unchanged_runner_sha256": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+  "reused_seeds": [
+    42,
+    43,
+    44
+  ],
+  "new_seeds": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "reason": "Expand predeclared seeds without repeating completed identical-protocol runs."
+}

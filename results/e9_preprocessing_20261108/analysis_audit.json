@@ -1,0 +1,10 @@
+{
+  "all_checks_passed": true,
+  "prediction_rows": 328000,
+  "metric_rows": 1640,
+  "per_class_rows": 18040,
+  "confusion_cells": 198440,
+  "diagnostic_rows": 32800,
+  "summary_rows": 40,
+  "descriptive_only": true
+}

@@ -1,0 +1,11 @@
+{
+  "stage": "complete",
+  "research_complete": true,
+  "report_complete": true,
+  "workflow_sync_complete": true,
+  "formal_models": 20,
+  "reference_models": 30,
+  "official_evaluation_batch": 32,
+  "report_pages": 10,
+  "original_manuscript_modified": false
+}

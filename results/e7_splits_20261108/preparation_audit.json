@@ -1,0 +1,28 @@
+{
+  "all_checks_passed": true,
+  "raw_samples": 1074,
+  "groups": 230,
+  "unique_splits": 6,
+  "metadata_group_match": true,
+  "split_reproducible": true,
+  "all_classes_and_disjoint_groups": true,
+  "baseline": "ResNet18",
+  "frozen_before_new_training": true,
+  "source_sha256": {
+    "experiments/e7_split_core.py": "edc318859124d4eaea628fedb2d0df429ee8e3e781354a4b4344a9baaa96ddd2",
+    "experiments/prepare_e7_splits.py": "1a66876c0b3fe3a7372b51c89d7b27429761e2faa65f9b64fca97d25ca998d34",
+    "experiments/preflight_e7_splits.py": "0925e2b0d1600078491a4574b9d2cd80c6415f14e8672e9b973904259ac44e78",
+    "experiments/run_e7_splits.py": "6eb14d96237bf2113c214288d80522f51d4000955fcabfe2f4909638b4dfdd87",
+    "experiments/analyze_e7_splits.py": "8ba417fe3908bfd6636942c05c1015a32bd630c5880c0cb9c3ae23d94be6f61c",
+    "experiments/control_e7_splits.py": "cec3f9f1e26f21e6f109edb4344e2a9846100a6d49bdb263ef61bc8c1490f0f1",
+    "experiments/revision_followup_core.py": "434cd7b1aa80eaeb8991927b4e67f3eaf88803e5d56863076e63b4ada174a399",
+    "experiments/run_revision_followup_v4.py": "f38e650ce9cc3894f45cc92352403de17a154901e7d5f5b0dafd479b42c18a92",
+    "experiments/run_e2_search_mps.py": "c9d1452c66521351ef6a2393fcc53379333e340a631efeac4335dd6d0c641cfe",
+    "experiments/run_exp4_matched_controls.py": "da134c61f17c8512daeb4ce015c667feafeb5bba0344cba8cdb5a8e2cde14d37",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗四/exp4_raw_data_V2.py": "4332e4493aee9705ea2e2cefc1339f03cf18cc93f1935645922b48fbfa32360a",
+    "實驗四/exp4_defense_strategies_V2.py": "68681b277811854123ec6aaf1f89b316b226505009ce001d7c876fecd07eca27"
+  }
+}

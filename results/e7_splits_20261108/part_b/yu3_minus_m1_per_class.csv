@@ -1,0 +1,34 @@
+condition,label,class_name,difference_pp,rank_from_lowest,among_bottom_three,among_top_three
+clean,2,Fan,-7.983695974519156,1,True,False
+clean,3,Fridge,-2.629120879120872,2,True,False
+clean,8,Microwave,-1.3822447015482409,3,True,False
+clean,1,Compact Fluorescent Lamp,0.11484837280708593,4,False,False
+clean,4,Hairdryer,0.22472447407709817,5,False,False
+clean,9,Vacuum,0.4985014985014913,6,False,False
+clean,6,Incandescent Light Bulb,1.2120160242484745,7,False,False
+clean,7,Laptop,1.3217570261753298,8,False,False
+clean,10,Washing Machine,2.3131313131313114,9,False,True
+clean,0,Air Conditioner,2.8101851892057272,10,False,True
+clean,5,Heater,6.1389101094983465,11,False,True
+awgn_10,10,Washing Machine,-4.064605077325527,1,True,False
+awgn_10,2,Fan,-3.9032965620559605,2,True,False
+awgn_10,7,Laptop,-3.08760832240228,3,True,False
+awgn_10,3,Fridge,-0.5722623575255156,4,False,False
+awgn_10,5,Heater,0.0,5,False,False
+awgn_10,6,Incandescent Light Bulb,0.40357386322846245,6,False,False
+awgn_10,8,Microwave,2.102696041435803,7,False,False
+awgn_10,4,Hairdryer,2.9752240406652177,8,False,False
+awgn_10,1,Compact Fluorescent Lamp,7.742649185753931,9,False,True
+awgn_10,0,Air Conditioner,9.163750995825126,10,False,True
+awgn_10,9,Vacuum,17.743201243201245,11,False,True
+missing_consecutive_0.2,10,Washing Machine,-7.057315551665411,1,True,False
+missing_consecutive_0.2,2,Fan,-5.9010371797597605,2,True,False
+missing_consecutive_0.2,3,Fridge,-5.155484204478011,3,True,False
+missing_consecutive_0.2,6,Incandescent Light Bulb,-2.4274878211845374,4,False,False
+missing_consecutive_0.2,8,Microwave,-2.3702476939745254,5,False,False
+missing_consecutive_0.2,1,Compact Fluorescent Lamp,-0.4653896313752903,6,False,False
+missing_consecutive_0.2,9,Vacuum,-0.37780846604374974,7,False,False
+missing_consecutive_0.2,4,Hairdryer,-0.2517059215066064,8,False,False
+missing_consecutive_0.2,5,Heater,0.07455827626105527,9,False,True
+missing_consecutive_0.2,7,Laptop,0.20389887538107,10,False,True
+missing_consecutive_0.2,0,Air Conditioner,1.491450050551918,11,False,True

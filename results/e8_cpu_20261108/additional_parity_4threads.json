@@ -1,0 +1,32 @@
+[
+  {
+    "path": "Yu3",
+    "threads": 4,
+    "max_abs_error": 5.7220458984375e-06,
+    "cases": 4
+  },
+  {
+    "path": "ResNet18",
+    "threads": 4,
+    "max_abs_error": 1.52587890625e-05,
+    "cases": 4
+  },
+  {
+    "path": "MobileNetV3",
+    "threads": 4,
+    "max_abs_error": 1.71661376953125e-05,
+    "cases": 4
+  },
+  {
+    "path": "ViT-Tiny",
+    "threads": 4,
+    "max_abs_error": 2.6226043701171875e-06,
+    "cases": 4
+  },
+  {
+    "path": "Yu3_pass1_only",
+    "threads": 4,
+    "max_abs_error": 6.67572021484375e-06,
+    "cases": 4
+  }
+]

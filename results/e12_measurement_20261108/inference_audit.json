@@ -1,0 +1,13 @@
+{
+  "all_checks_passed": true,
+  "models": 330,
+  "conditions_per_model": 126,
+  "predictions": 9106020,
+  "new_inference_predictions": 4769820,
+  "reused_component_predictions": 4336200,
+  "clean_matches_E4": true,
+  "weights_bn_unchanged": true,
+  "started_at": "2026-11-08T22:14:44.229559+08:00",
+  "ended_at": "2026-11-08T23:15:13.175513+08:00",
+  "elapsed_seconds": 3628.928426916711
+}

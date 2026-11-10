@@ -1,0 +1,11 @@
+{
+  "runtime": "pytorch",
+  "threads": 1,
+  "path": "Yu3",
+  "baseline_rss_bytes": 354091008,
+  "loaded_rss_bytes": 372932608,
+  "after_warmup_rss_bytes": 374800384,
+  "load_delta_rss_bytes": 18841600,
+  "warmup_delta_rss_bytes": 1867776,
+  "peak_lifetime_rss_bytes": 374800384
+}

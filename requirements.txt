@@ -1,0 +1,17 @@
+# Versions used for Experiments 2–5 (Apple M2, Python 3.12). Experiment 1 used the same PyTorch major version with CUDA 11.8.
+torch==2.15.0
+torchvision==0.29.2
+timm==1.0.31
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+scikit-learn==1.9.1
+statsmodels
+matplotlib==3.11.2
+pillow==13.0.0
+soundfile==0.14.0
+psutil
+onnx
+onnxruntime==1.31.1
+onnxscript
+thop

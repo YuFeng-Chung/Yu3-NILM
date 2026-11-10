@@ -1,0 +1,16 @@
+{
+  "model": "ViT-Tiny",
+  "strategy": "augmentation",
+  "seed": 49,
+  "config": {
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "dropout": 0.2
+  },
+  "selected_epoch": 81,
+  "stopped_epoch": 81,
+  "validation_macro_f1": null,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 104.94594083540142
+}

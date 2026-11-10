@@ -1,0 +1,199 @@
+{
+  "study": "E1/E3/E4 MPS follow-up after full E2",
+  "selected_settings": {
+    "Yu3": {
+      "model": "Yu3",
+      "grid_index": 7,
+      "seed": 42,
+      "lr": 0.0005,
+      "weight_decay": 0.0,
+      "dropout": 0.5,
+      "best_epoch": 32,
+      "validation_macro_f1": 0.7161942044448683,
+      "stopped_epoch": 52,
+      "hit_max_epochs": false,
+      "prediction_audit_passed": true
+    },
+    "ResNet18": {
+      "model": "ResNet18",
+      "grid_index": 4,
+      "seed": 42,
+      "lr": 0.0001,
+      "weight_decay": 0.001,
+      "dropout": 0.2,
+      "best_epoch": 64,
+      "validation_macro_f1": 0.6594688886736214,
+      "stopped_epoch": 84,
+      "hit_max_epochs": false,
+      "prediction_audit_passed": true
+    },
+    "MobileNetV3": {
+      "model": "MobileNetV3",
+      "grid_index": 15,
+      "seed": 42,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "dropout": 0.5,
+      "best_epoch": 40,
+      "validation_macro_f1": 0.5798754286828992,
+      "stopped_epoch": 60,
+      "hit_max_epochs": false,
+      "prediction_audit_passed": true
+    },
+    "ViT-Tiny": {
+      "model": "ViT-Tiny",
+      "grid_index": 8,
+      "seed": 42,
+      "lr": 0.0005,
+      "weight_decay": 0.0001,
+      "dropout": 0.2,
+      "best_epoch": 51,
+      "validation_macro_f1": 0.5782122584536024,
+      "stopped_epoch": 71,
+      "hit_max_epochs": false,
+      "prediction_audit_passed": true
+    }
+  },
+  "e2_sha256": {
+    "selected_settings.json": "46a7675751cf881aa93f3f1a2ba79005a80e4b263eb03c167306244052f3b501",
+    "protocol.json": "85384ad858e49941ac4de467fa29dc78745a07b0442c60034177a9ee97952dfa",
+    "completed_audit.json": "0034ab894151db3b37e7f8e1e0050d2d36b539cdd3b65af9253f9ac053479ffa"
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "pollution_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "device": "mps",
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "family": [
+    "M1",
+    "RecAux",
+    "M3",
+    "Yu3",
+    "ZeroFB",
+    "ShuffleFB"
+  ],
+  "core_family": [
+    "M1",
+    "RecAux",
+    "M3",
+    "Yu3"
+  ],
+  "candidates": [
+    "Yu3",
+    "ResNet18",
+    "MobileNetV3",
+    "ViT-Tiny"
+  ],
+  "initial_common_strategies": [
+    "no_defense",
+    "S3",
+    "combined"
+  ],
+  "epoch_rule": "Each model/strategy independently: seed42 clean inner validation; best epoch>=30; delta .001 patience20 no_defense,30 defenses counted after30; cap150. Final fits full855 for selected fixed epoch. No outer test selection.",
+  "regularization": "Use E2 lr/dropout/wd for model; E1 all family inherit Yu3. S4/regularization/combined wd=max(E2wd,1e-4), others E2wd. This transparent strategy override is common within family; E2 already selecting wd may make regularization contrast redundant for some baselines.",
+  "reconstruction": "RecAux one-channel M1 encoder, same decoder as Yu3; CE+.5MSE to actual training image (including augmentation). Yu3 .5CE1+CE2+.5MSE, detached absolute residual, original shared BN.",
+  "sensitivity": "ZeroFB/ShuffleFB retain two passes, same loss, decoder, two-channel encoder and BN; shuffle uses cyclic replacement in fixed 32-sample minibatches. Not a causal decomposition; extra controls exploratory.",
+  "folds": "New reproducible 5-fold class-pure device-group assignment, per-class shuffled tie order seed42 then size-descending greedy smallest class count. Original fold manifest unavailable: do not claim historical fold reproduction. Every fold normalization fit its own training indices only.",
+  "strategy_selection": "5-fold clean validation epoch selection per training recipe; fold noise mean F1 AWGN0+SP20 majority; missing min(random20 wins,consecutive20 wins), then total wins. Fixed listed order ties. Ten pollution realizations averaged before votes. S0/S1/S2 reuse identical clean training recipe; missing no_defense reuses it too.",
+  "noise_order": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "missing_order": [
+    "no_defense",
+    "regularization",
+    "augmentation",
+    "combined"
+  ],
+  "cv_training_recipes": [
+    "no_defense",
+    "S3",
+    "S4",
+    "regularization",
+    "augmentation",
+    "combined"
+  ],
+  "schedule": "E1 pilots+180 final fits incl60 sensitivity; E3 120 fold fits + selected pilots/final fits; outer evaluation only after ALL epoch and strategy selection. Baselines also common S3/combined for supplement; Yu3-selected new strategies propagated to family.",
+  "severity_grids": {
+    "awgn": [
+      30,
+      20,
+      15,
+      10,
+      5,
+      0
+    ],
+    "salt_pepper": [
+      0.01,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "missing_random": [
+      0.01,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "missing_consecutive": [
+      0.01,
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ]
+  },
+  "contamination": "Outer219 previously viewed in older experiments; no outer outcomes accessed by this new selection queue. New environment not historical numerical reproduction.",
+  "augmentation": "Existing supplied default p=.5, equiprobable types and uniform original severities1-20%; historical default fidelity unconfirmed. New30-50% consecutive missing evaluated only, never trained.",
+  "primary_tests": "Two-sided exact signed-rank permutation, train seed paired n10, ten pollution seeds averaged first. E1 four contrasts Yu3-RecAux,Yu3-M1,RecAux-M1,M3-M1, 3 common strategies, clean F1 + full severity F1/Dabs; single Holm across all prespecified common-strategy tests. E3 separate Holm over Yu3-three-baselines, all matched track conditions+NoDefense clean. Sensitivity controls descriptive. Bootstrap paired mean CI seed20261106,10000 draws; rank-biserial effects.",
+  "relative_ce": "From original Word math: sum_s[(1-F1_s)-(1-F1_clean)] / same M1 sum, per train seed, F1 fractions. Native levels and extended consecutive grid separate. Denominator <=1e-6 flagged (raw ratio retained unless |denominator|<=1e-6); stable aggregate excludes flagged, random CE un-interpreted; mCE requires all three noise/SP/consecutive valid.",
+  "source_sha256": {
+    "experiments/run_revision_followup.py": "69651bf6aa969283a43409938f688edb00e85f5d3de8abe7016db41e46d874cd",
+    "experiments/revision_followup_core.py": "434cd7b1aa80eaeb8991927b4e67f3eaf88803e5d56863076e63b4ada174a399",
+    "experiments/analyze_revision_followup.py": "3d6607fdca9cf777daa5578883df1524904bd872f534ae1082bfeff580219da0",
+    "experiments/analyze_e5_full.py": "57acbc36c948a11434e2f02c30a4e23717650d9de319130f553a88d021ee06f5",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "experiments/run_exp4_matched_controls.py": "da134c61f17c8512daeb4ce015c667feafeb5bba0344cba8cdb5a8e2cde14d37",
+    "experiments/run_e2_search_mps.py": "c9d1452c66521351ef6a2393fcc53379333e340a631efeac4335dd6d0c641cfe",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗四/exp4_raw_data_V2.py": "4332e4493aee9705ea2e2cefc1339f03cf18cc93f1935645922b48fbfa32360a",
+    "實驗四/exp4_defense_strategies_V2.py": "68681b277811854123ec6aaf1f89b316b226505009ce001d7c876fecd07eca27",
+    "data/plaid_2014_published/raw_windows.npz": "1b9db619f66081887bfe53457caf0cc35d2345a1aea6b279dfcd86dc263e9b34"
+  },
+  "environment": {
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "threads": 4
+  },
+  "manuscript_modified": false
+}

@@ -1,0 +1,40 @@
+{
+  "exact_duplicate_png_across_train_test": [],
+  "all_class_names": [
+    "Air Conditioner",
+    "Compact Fluorescent Lamp",
+    "Fan",
+    "Fridge",
+    "Hairdryer",
+    "Heater",
+    "Incandescent Light Bulb",
+    "Laptop",
+    "Microwave",
+    "Vacuum",
+    "Washing Machine"
+  ],
+  "split_sha256": "1ea889be1761f614708c1d4c134d4329e21466e31410e6b771fe0b17220cc815",
+  "cache_sha256": "cdb41ca3d1df3884b139c52091722d8db64eb724f006f15d7aaaa022c8ddd1df",
+  "train": {
+    "shape": [
+      855,
+      1,
+      64,
+      64
+    ],
+    "min": 0,
+    "max": 255,
+    "constant_images": 0
+  },
+  "val": {
+    "shape": [
+      219,
+      1,
+      64,
+      64
+    ],
+    "min": 0,
+    "max": 255,
+    "constant_images": 0
+  }
+}

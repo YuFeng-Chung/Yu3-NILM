@@ -1,0 +1,50 @@
+{
+  "all_checks_passed": true,
+  "device": "mps",
+  "rows": [
+    {
+      "model": "Yu3",
+      "training_epoch_seconds": 1.899778749793768,
+      "parity_conditions": 101,
+      "seconds": 13.770474208053201
+    },
+    {
+      "model": "M1",
+      "training_epoch_seconds": 0.7770628752186894,
+      "parity_conditions": 101,
+      "seconds": 6.494692541193217
+    },
+    {
+      "model": "RecAux",
+      "training_epoch_seconds": 1.0221735830418766,
+      "parity_conditions": 101,
+      "seconds": 9.136264875065535
+    },
+    {
+      "model": "ResNet18",
+      "training_epoch_seconds": 7.5627764579840004,
+      "parity_conditions": 101,
+      "seconds": 58.58075337531045
+    }
+  ],
+  "source_sha256": {
+    "experiments/e7_s3_split_core.py": "a36aa7cf725a7ba9951d5f330821630b1178b3610c4ff3dbd66611956456e304",
+    "experiments/prepare_e7_s3_splits.py": "ca0bd6a6cb3d47a32ba2b0c7b8dd1b472203b0f7c6270eedffe6dd33ab361cb7",
+    "experiments/preflight_e7_s3_splits.py": "7b08250ef870ee5676375e5caef1925fb46d69c590fa74b552a3ac65048e8d04",
+    "experiments/run_e7_s3_splits.py": "b1d02082ded256cbeb7fc63726a5d38d30dd947de939af217b6413762748aabb",
+    "experiments/analyze_e7_s3_splits.py": "a8d1b9b2d35bd92ee6a6799a403754e1d2684ef7854b37bdbd084063da6a0bb2",
+    "experiments/control_e7_s3_splits.py": "b14d9db685a247c14d5d281f930657a8954fbfbd23d0683b8b1343b67703c952",
+    "experiments/queue_e7_s3.py": "30a2676053d9e82290ce26d7248010fdedaab3bbb97938d88c3fed6afd6bc5f1",
+    "experiments/revision_followup_core.py": "434cd7b1aa80eaeb8991927b4e67f3eaf88803e5d56863076e63b4ada174a399",
+    "experiments/run_revision_followup_v4.py": "f38e650ce9cc3894f45cc92352403de17a154901e7d5f5b0dafd479b42c18a92",
+    "experiments/run_e2_search_mps.py": "c9d1452c66521351ef6a2393fcc53379333e340a631efeac4335dd6d0c641cfe",
+    "experiments/run_exp4_matched_controls.py": "da134c61f17c8512daeb4ce015c667feafeb5bba0344cba8cdb5a8e2cde14d37",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗四/exp4_raw_data_V2.py": "4332e4493aee9705ea2e2cefc1339f03cf18cc93f1935645922b48fbfa32360a",
+    "實驗四/exp4_defense_strategies_V2.py": "68681b277811854123ec6aaf1f89b316b226505009ce001d7c876fecd07eca27"
+  },
+  "estimated_training_seconds": 10102.495086947456,
+  "note": "Estimate from one training-only epoch per model, excludes evaluation/checkpoint/analysis; not completion promise. Smoke scratch deleted, no research run reused."
+}

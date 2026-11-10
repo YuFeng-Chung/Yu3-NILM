@@ -1,0 +1,7 @@
+{
+  "formal_models": 20,
+  "fixed_epochs": {
+    "1P-NoiseCh": 42,
+    "1P-Mix": 37
+  }
+}

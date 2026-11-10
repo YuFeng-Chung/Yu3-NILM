@@ -1,0 +1,11 @@
+{
+  "runtime": "pytorch",
+  "threads": 4,
+  "path": "ViT-Tiny",
+  "baseline_rss_bytes": 353943552,
+  "loaded_rss_bytes": 376045568,
+  "after_warmup_rss_bytes": 377602048,
+  "load_delta_rss_bytes": 22102016,
+  "warmup_delta_rss_bytes": 1556480,
+  "peak_lifetime_rss_bytes": 377602048
+}

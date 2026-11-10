@@ -1,0 +1,16 @@
+{
+  "model": "ResNet18",
+  "strategy": "S4",
+  "seed": 42,
+  "config": {
+    "lr": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": 0.2
+  },
+  "selected_epoch": 47,
+  "stopped_epoch": 77,
+  "validation_macro_f1": 0.6256628236789533,
+  "hit_max_epochs": false,
+  "prediction_reload_audit": true,
+  "training_seconds": 503.1793617946096
+}

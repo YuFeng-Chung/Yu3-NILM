@@ -1,0 +1,514 @@
+{
+  "experiment": "E15",
+  "tables": [
+    {
+      "caption": "Table E15 S1 訓練配置與資料邊界",
+      "red": false,
+      "cells": [
+        [
+          "項目",
+          "1P-NoiseCh",
+          "1P-Mix"
+        ],
+        [
+          "角色",
+          "主要",
+          "次要"
+        ],
+        [
+          "訓練輔助通道",
+          "固定尺度N",
+          "逐樣本50%零／50% N"
+        ],
+        [
+          "encoder passes與loss",
+          "1；CE＋0.5MSE",
+          "1；CE＋0.5MSE"
+        ],
+        [
+          "fixed epochs／pilot停止",
+          "42／72",
+          "37／67"
+        ],
+        [
+          "正式seed與切分",
+          "42–51；855／219",
+          "42–51；855／219"
+        ],
+        [
+          "主要／次要測試輸入",
+          "[X,0]／[X,N]",
+          "[X,0]／[X,N]"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 S2 事先判讀規則",
+      "red": false,
+      "cells": [
+        [
+          "條件",
+          "規格判讀名稱"
+        ],
+        [
+          "顯著高於ZeroFB且與NoiseFB平均差絕對值≤3 pp",
+          "單次足夠"
+        ],
+        [
+          "與ZeroFB平均差絕對值≤3 pp且顯著低於NoiseFB",
+          "兩次必要"
+        ],
+        [
+          "其他情況",
+          "部分或中間效果"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 R1 主要零通道測試與保存對照",
+      "red": true,
+      "cells": [
+        [
+          "模型",
+          "乾淨",
+          "脈衝5%",
+          "脈衝10%",
+          "脈衝20%"
+        ],
+        [
+          "1P-NoiseCh",
+          "73.07 ± 4.19",
+          "56.27 ± 6.44",
+          "48.88 ± 6.12",
+          "39.22 ± 2.44"
+        ],
+        [
+          "1P-Mix",
+          "73.65 ± 3.76",
+          "59.75 ± 6.99",
+          "50.16 ± 8.57",
+          "41.11 ± 6.15"
+        ],
+        [
+          "NoiseFB",
+          "71.00 ± 4.40",
+          "64.21 ± 6.21",
+          "57.17 ± 7.33",
+          "48.61 ± 7.31"
+        ],
+        [
+          "ZeroFB",
+          "70.23 ± 4.18",
+          "50.49 ± 3.82",
+          "41.15 ± 5.06",
+          "32.27 ± 4.49"
+        ],
+        [
+          "Yu3",
+          "71.86 ± 4.50",
+          "63.84 ± 8.75",
+          "56.37 ± 7.84",
+          "47.10 ± 6.92"
+        ],
+        [
+          "RecAux",
+          "71.11 ± 5.40",
+          "50.16 ± 6.33",
+          "42.29 ± 5.18",
+          "33.56 ± 4.04"
+        ],
+        [
+          "M1",
+          "70.14 ± 4.06",
+          "54.07 ± 5.71",
+          "44.15 ± 6.74",
+          "37.09 ± 6.49"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 R2 主要1P-NoiseCh配對檢定",
+      "red": true,
+      "cells": [
+        [
+          "脈衝",
+          "對照",
+          "平均差pp",
+          "原始p",
+          "Holm p",
+          "勝出"
+        ],
+        [
+          "5%",
+          "NoiseFB",
+          "-7.94",
+          "0.001953",
+          "0.003906",
+          "0/10"
+        ],
+        [
+          "5%",
+          "ZeroFB",
+          "+5.78",
+          "0.105469",
+          "0.105469",
+          "6/10"
+        ],
+        [
+          "10%",
+          "NoiseFB",
+          "-8.29",
+          "0.003906",
+          "0.007812",
+          "1/10"
+        ],
+        [
+          "10%",
+          "ZeroFB",
+          "+7.73",
+          "0.009766",
+          "0.009766",
+          "8/10"
+        ],
+        [
+          "20%",
+          "NoiseFB",
+          "-9.39",
+          "0.003906",
+          "0.003906",
+          "1/10"
+        ],
+        [
+          "20%",
+          "ZeroFB",
+          "+6.95",
+          "0.001953",
+          "0.003906",
+          "10/10"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 R3 次要1P-Mix配對檢定",
+      "red": true,
+      "cells": [
+        [
+          "脈衝",
+          "對照",
+          "平均差pp",
+          "原始p",
+          "Holm p",
+          "勝出"
+        ],
+        [
+          "5%",
+          "NoiseFB",
+          "-4.47",
+          "0.048828",
+          "0.048828",
+          "3/10"
+        ],
+        [
+          "5%",
+          "ZeroFB",
+          "+9.26",
+          "0.001953",
+          "0.003906",
+          "10/10"
+        ],
+        [
+          "10%",
+          "NoiseFB",
+          "-7.01",
+          "0.005859",
+          "0.005859",
+          "1/10"
+        ],
+        [
+          "10%",
+          "ZeroFB",
+          "+9.01",
+          "0.001953",
+          "0.003906",
+          "10/10"
+        ],
+        [
+          "20%",
+          "NoiseFB",
+          "-7.50",
+          "0.005859",
+          "0.005859",
+          "1/10"
+        ],
+        [
+          "20%",
+          "ZeroFB",
+          "+8.84",
+          "0.001953",
+          "0.003906",
+          "10/10"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 R4 固定規則逐強度判讀",
+      "red": true,
+      "cells": [
+        [
+          "模型",
+          "5%",
+          "10%",
+          "20%"
+        ],
+        [
+          "1P-NoiseCh",
+          "部分或中間效果",
+          "部分或中間效果",
+          "部分或中間效果"
+        ],
+        [
+          "1P-Mix",
+          "部分或中間效果",
+          "部分或中間效果",
+          "部分或中間效果"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 R5 次要非零通道測試F1",
+      "red": true,
+      "cells": [
+        [
+          "模型",
+          "乾淨",
+          "脈衝5%",
+          "脈衝10%",
+          "脈衝20%"
+        ],
+        [
+          "1P-NoiseCh",
+          "73.54 ± 4.26",
+          "56.82 ± 6.15",
+          "49.42 ± 6.51",
+          "39.61 ± 2.57"
+        ],
+        [
+          "1P-Mix",
+          "74.56 ± 3.55",
+          "60.86 ± 7.30",
+          "51.37 ± 8.55",
+          "42.52 ± 6.25"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 S3 全部AWGN強度F1均值",
+      "red": true,
+      "cells": [
+        [
+          "模型",
+          "30dB",
+          "20dB",
+          "15dB",
+          "10dB",
+          "5dB",
+          "0dB"
+        ],
+        [
+          "1P-NoiseCh",
+          "68.42",
+          "49.67",
+          "34.12",
+          "21.35",
+          "12.49",
+          "7.76"
+        ],
+        [
+          "1P-Mix",
+          "69.27",
+          "53.49",
+          "38.35",
+          "22.54",
+          "13.18",
+          "7.47"
+        ],
+        [
+          "NoiseFB",
+          "67.69",
+          "48.92",
+          "35.75",
+          "27.38",
+          "17.11",
+          "9.11"
+        ],
+        [
+          "ZeroFB",
+          "67.86",
+          "52.90",
+          "37.44",
+          "22.85",
+          "11.64",
+          "7.26"
+        ],
+        [
+          "Yu3",
+          "68.07",
+          "51.16",
+          "38.05",
+          "28.18",
+          "18.27",
+          "9.82"
+        ],
+        [
+          "RecAux",
+          "67.11",
+          "50.60",
+          "35.18",
+          "21.56",
+          "11.47",
+          "6.83"
+        ],
+        [
+          "M1",
+          "67.02",
+          "50.49",
+          "36.19",
+          "22.83",
+          "12.16",
+          "7.06"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 S4 代表缺失強度F1均值及SD",
+      "red": true,
+      "cells": [
+        [
+          "模型",
+          "隨機20%",
+          "連續20%",
+          "連續50%"
+        ],
+        [
+          "1P-NoiseCh",
+          "73.12 ± 3.80",
+          "66.98 ± 3.39",
+          "41.67 ± 2.51"
+        ],
+        [
+          "1P-Mix",
+          "74.14 ± 3.68",
+          "68.22 ± 2.98",
+          "42.86 ± 2.62"
+        ],
+        [
+          "NoiseFB",
+          "71.13 ± 4.04",
+          "65.64 ± 2.73",
+          "41.28 ± 1.63"
+        ],
+        [
+          "ZeroFB",
+          "69.79 ± 3.42",
+          "66.01 ± 2.71",
+          "42.32 ± 1.82"
+        ],
+        [
+          "Yu3",
+          "71.95 ± 4.12",
+          "66.50 ± 2.52",
+          "40.87 ± 2.15"
+        ],
+        [
+          "RecAux",
+          "71.21 ± 4.86",
+          "66.44 ± 3.26",
+          "42.77 ± 2.42"
+        ],
+        [
+          "M1",
+          "71.15 ± 3.45",
+          "66.72 ± 3.61",
+          "41.81 ± 3.10"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E15 S5 輸出與查核入口",
+      "red": false,
+      "cells": [
+        [
+          "相對本目錄路徑",
+          "內容"
+        ],
+        [
+          "source/",
+          "隔離引擎、正式訓練／推論、分析與建稿來源"
+        ],
+        [
+          "noise_scale.json／noise_scale_seal.json",
+          "固定μ0／σ0與SHA封存"
+        ],
+        [
+          "pilots/／final/",
+          "原始checkpoint、run_spec、逐輪log與evaluation"
+        ],
+        [
+          "per_seed_condition_realization.csv",
+          "逐seed×條件×污染實現×端點四指標"
+        ],
+        [
+          "per_seed_averaged.csv／summary.csv",
+          "先平均污染實現再跨seed均值及樣本SD"
+        ],
+        [
+          "paired_tests_prespecified.csv／paired_tests_all.csv",
+          "12事先主要／次要檢定與全部探索檢定"
+        ],
+        [
+          "prespecified_interpretation.csv",
+          "逐模型／強度機械套用原規格"
+        ],
+        [
+          "reference_manifest.json／confusion_counts/",
+          "保存對照來源與新模型逐條件11×11混淆計數"
+        ],
+        [
+          "completed_audit.json／qa/",
+          "逐筆獨立數據、訓練、文件與視覺稽核"
+        ]
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "source": "figures/impulse_inputs.png",
+      "sha256": "bfb7149a6a35b983b17ebd3b3e20d3ddd007f248809fa5890a5c7a27386cd090",
+      "caption": "Figure E15 R1 十seed平均及SD 左為[X,0] 右為[X,N] 參照模型在兩圖均保持各自同一保存端點"
+    },
+    {
+      "source": "figures/all_corruption_curves.png",
+      "sha256": "2bf29a283a6a76a31228d57b7c082a135d40a0e28699a2ef325b1b5bae228102",
+      "caption": "Figure E15 S1 全部強度主要[X,0]測試之十seed平均F1 AWGN橫軸由高SNR至低SNR 完整SD見CSV"
+    },
+    {
+      "source": "figures/pilot_epochs.png",
+      "sha256": "2919740b42171be27bdb29d7cc68937304994be108fbd3e49841a3b4e9125b2c",
+      "caption": "Figure E15 S2 Seed 42內層驗證完整曲線 灰區1至29輪不具選輪資格 虛線為選定epoch"
+    }
+  ],
+  "responses": [
+    {
+      "code": "R3-1 E15 follow-up",
+      "paragraphs": [
+        "Thank you for raising the mechanism of the auxiliary channel. As a follow-up to E14, we added a primary single-pass noisy-channel control (1P-NoiseCh) and a secondary zero/noise mixture (1P-Mix), retaining the two-channel architecture and reconstruction supervision. Their epochs and noise scale were fixed before the new outer-test evaluations.",
+        "At 5% impulses, 1P-NoiseCh with [X,0] achieved 56.27% Macro-F1, differing from the NoiseFB first pass by -7.94 pp (Holm p=0.003906) and from ZeroFB by +5.78 pp (Holm p=0.105469). At 10% impulses, 1P-NoiseCh with [X,0] achieved 48.88% Macro-F1, differing from the NoiseFB first pass by -8.29 pp (Holm p=0.007812) and from ZeroFB by +7.73 pp (Holm p=0.009766). At 20% impulses, 1P-NoiseCh with [X,0] achieved 39.22% Macro-F1, differing from the NoiseFB first pass by -9.39 pp (Holm p=0.003906) and from ZeroFB by +6.95 pp (Holm p=0.003906).",
+        "1P-NoiseCh showed partial or intermediate effects at all three primary impulse severities. Neither the single-pass sufficiency rule nor the two-pass necessity rule was met; these results do not establish universal necessity of two passes. The secondary 1P-Mix decisions were: 5%: partial or intermediate effect; 10%: partial or intermediate effect; 20%: partial or intermediate effect. The complete [X,N] results and all corruption conditions are also disclosed. These findings are bounded by the tested fixed-scale recipes; the descriptive 3 pp rule does not establish equivalence or universal necessity.",
+        "感謝審稿人關注輔助通道的機制。我們在E14後新增主要單次雜訊通道1P-NoiseCh與次要零／雜訊混合1P-Mix，保留兩通道架構及重建監督；新外層評估前已固定尺度與各自epoch。",
+        "脈衝5%時，1P-NoiseCh以[X,0]測試的Macro-F1為56.27%，相對NoiseFB第一次推論-7.94 pp（Holm p=0.003906），相對ZeroFB +5.78 pp（Holm p=0.105469）。 脈衝10%時，1P-NoiseCh以[X,0]測試的Macro-F1為48.88%，相對NoiseFB第一次推論-8.29 pp（Holm p=0.007812），相對ZeroFB +7.73 pp（Holm p=0.009766）。 脈衝20%時，1P-NoiseCh以[X,0]測試的Macro-F1為39.22%，相對NoiseFB第一次推論-9.39 pp（Holm p=0.003906），相對ZeroFB +6.95 pp（Holm p=0.003906）。",
+        "1P-NoiseCh在三個主要脈衝強度均屬部分或中間效果；未達單次足夠規則，也未達兩次必要規則，不能據此宣稱兩次推論普遍必要。 次要1P-Mix逐強度判讀：5%: 部分或中間效果；10%: 部分或中間效果；20%: 部分或中間效果。另完整揭露[X,N]及全部污染條件；此結論限受測固定尺度方法，3 pp規則不代表統計等效或普遍必要性。"
+      ]
+    }
+  ],
+  "docx_sha256": "2e21c6daa9a8a392cfafb0f1482de989880e1f97a61311e48f42e4f799b8d711"
+}

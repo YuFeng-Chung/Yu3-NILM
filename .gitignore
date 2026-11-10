@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+image_cache/
+data/plaid/raw/
+data/whited/

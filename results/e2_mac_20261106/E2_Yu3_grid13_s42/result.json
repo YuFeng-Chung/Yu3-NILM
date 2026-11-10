@@ -1,0 +1,13 @@
+{
+  "model": "Yu3",
+  "grid_index": 13,
+  "seed": 42,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "dropout": 0.5,
+  "best_epoch": 33,
+  "validation_macro_f1": 0.7038582266634626,
+  "stopped_epoch": 53,
+  "hit_max_epochs": false,
+  "prediction_audit_passed": true
+}

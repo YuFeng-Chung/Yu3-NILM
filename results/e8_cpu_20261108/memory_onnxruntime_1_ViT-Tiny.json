@@ -1,0 +1,11 @@
+{
+  "runtime": "onnxruntime",
+  "threads": 1,
+  "path": "ViT-Tiny",
+  "baseline_rss_bytes": 354074624,
+  "loaded_rss_bytes": 377028608,
+  "after_warmup_rss_bytes": 378175488,
+  "load_delta_rss_bytes": 22953984,
+  "warmup_delta_rss_bytes": 1146880,
+  "peak_lifetime_rss_bytes": 378175488
+}

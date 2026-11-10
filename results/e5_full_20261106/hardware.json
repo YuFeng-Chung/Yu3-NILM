@@ -1,0 +1,5 @@
+{
+  "chip": "Apple M2",
+  "memory_bytes": 25769803776,
+  "accelerator": "Apple Metal / PyTorch MPS"
+}

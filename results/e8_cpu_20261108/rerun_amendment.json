@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-11-07T22:30:48Z",
+  "reason": "Initial PyTorch4 setting incomplete due to preregistered external-load exclusions, not latency/ranking.",
+  "initial_accepted_rounds": 23,
+  "initial_attempts": 40,
+  "preserved_initial_file": "initial_incomplete_timing_pytorch_4.json",
+  "rule": "One whole-setting rerun only, same 30 rounds/calls/orders/gates, max40 attempts. No slower/faster selection; new complete session is main, incomplete session remains separately reported.",
+  "extra_precondition": "30 consecutive 1-second CPU samples <=15% machine before rerun; max wait300s",
+  "original_protocol_sha256": "e2dd55e70bf7677e4cb79be3f12dc9d4d8f264426bd7ee9e6e45de350c4938b6",
+  "manuscript_note": "Post-start scheduling amendment, not a prospectively frozen original design. No held-out accuracy selection."
+}

@@ -1,0 +1,13 @@
+{
+  "fixed_epochs": {
+    "1P-NoiseCh": 42,
+    "1P-Mix": 37
+  },
+  "config": {
+    "lr": 0.0005,
+    "weight_decay": 0.0,
+    "dropout": 0.5
+  },
+  "scale_sha256": "5321bebe21c36dff9407115103ecf4052e1afc175208c5e3bb4270c4a2b8f6a6",
+  "outer_test_evaluations_at_selection": 0
+}

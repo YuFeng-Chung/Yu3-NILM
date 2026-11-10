@@ -1,0 +1,6 @@
+{
+  "start_local": "2026-11-08T19:18:52.047278+08:00",
+  "research_audit_complete_local": "2026-11-08T19:59:39.515905+08:00",
+  "research_elapsed_minutes": 40.79114378333334,
+  "basis": "local process metadata mtime and completed_audit mtime; includes pilots/formal training/evaluation/core analysis; extra QA/packaging later"
+}

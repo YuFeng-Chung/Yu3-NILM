@@ -1,0 +1,6 @@
+{
+  "all_checks_passed": true,
+  "prediction_rows": 884760,
+  "class_rows": 484,
+  "method": "Independent per-class boolean TP FP FN, direct F1"
+}

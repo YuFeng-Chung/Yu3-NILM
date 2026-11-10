@@ -1,0 +1,29 @@
+{
+  "all_checks_passed": true,
+  "scale_sealed": true,
+  "independent_median": true,
+  "independent_saved_validation_F1": true,
+  "epoch_selection_and_stop_verified": true,
+  "one_pass_BN_counts": true,
+  "inherited_AST_unchanged": true,
+  "protected_source_count": 36379,
+  "protected_sources_unchanged": true,
+  "outer_test_scores_accessed": false,
+  "formal_model_count": 0,
+  "summaries": {
+    "1P-NoiseCh": {
+      "fixed_epochs": 42,
+      "stopped_epoch": 72,
+      "validation_macro_f1": 0.6772594540652809,
+      "seconds_per_epoch": 0.7856364339564202
+    },
+    "1P-Mix": {
+      "fixed_epochs": 37,
+      "stopped_epoch": 67,
+      "validation_macro_f1": 0.6940268777881021,
+      "seconds_per_epoch": 0.7846743631829967
+    }
+  },
+  "preparation_writer_exited": true,
+  "writer_lock_released": true
+}

@@ -1,0 +1,82 @@
+{
+  "all_checks_passed": true,
+  "formal_models": 20,
+  "prediction_files": 18990,
+  "prediction_labels": 4158810,
+  "conditions_per_model": 211,
+  "per_realization_rows": 18990,
+  "per_seed_rows": 1980,
+  "all_tests": 440,
+  "prespecified_tests": 12,
+  "independent_boolean_four_metrics_verified": true,
+  "all_p_exact_sign_enumeration_verified": true,
+  "saved_E14_scores_identical": true,
+  "reference_models": 50,
+  "new_prediction_files": 8440,
+  "interpretation": [
+    {
+      "model": "1P-NoiseCh",
+      "severity": 0.05,
+      "decision": "partial_or_intermediate",
+      "delta_vs_NoiseFB_pp": -7.944323554497903,
+      "delta_vs_ZeroFB_pp": 5.779633601641689,
+      "p_holm_vs_NoiseFB": 0.00390625,
+      "p_holm_vs_ZeroFB": 0.10546875
+    },
+    {
+      "model": "1P-NoiseCh",
+      "severity": 0.1,
+      "decision": "partial_or_intermediate",
+      "delta_vs_NoiseFB_pp": -8.28616505817434,
+      "delta_vs_ZeroFB_pp": 7.727106781251162,
+      "p_holm_vs_NoiseFB": 0.0078125,
+      "p_holm_vs_ZeroFB": 0.009765625
+    },
+    {
+      "model": "1P-NoiseCh",
+      "severity": 0.2,
+      "decision": "partial_or_intermediate",
+      "delta_vs_NoiseFB_pp": -9.38614920415283,
+      "delta_vs_ZeroFB_pp": 6.954351376096437,
+      "p_holm_vs_NoiseFB": 0.00390625,
+      "p_holm_vs_ZeroFB": 0.00390625
+    },
+    {
+      "model": "1P-Mix",
+      "severity": 0.05,
+      "decision": "partial_or_intermediate",
+      "delta_vs_NoiseFB_pp": -4.467093134009078,
+      "delta_vs_ZeroFB_pp": 9.256864022130513,
+      "p_holm_vs_NoiseFB": 0.048828125,
+      "p_holm_vs_ZeroFB": 0.00390625
+    },
+    {
+      "model": "1P-Mix",
+      "severity": 0.1,
+      "decision": "partial_or_intermediate",
+      "delta_vs_NoiseFB_pp": -7.0081958543307135,
+      "delta_vs_ZeroFB_pp": 9.005075985094782,
+      "p_holm_vs_NoiseFB": 0.005859375,
+      "p_holm_vs_ZeroFB": 0.00390625
+    },
+    {
+      "model": "1P-Mix",
+      "severity": 0.2,
+      "decision": "partial_or_intermediate",
+      "delta_vs_NoiseFB_pp": -7.496781753850589,
+      "delta_vs_ZeroFB_pp": 8.843718826398677,
+      "p_holm_vs_NoiseFB": 0.005859375,
+      "p_holm_vs_ZeroFB": 0.00390625
+    }
+  ],
+  "limitations": [
+    "Single historical outer split, hypotheses motivated by prior test diagnostics; not pristine preregistration",
+    "Calibration transferred from E14 models trained on all855, includes later inner-validation samples; not fully nested",
+    "No outer test used to calibrate scale or select epoch",
+    "Independent epochs and one versus two encoder passes and loss weights differ; not a pure causal intervention",
+    "3pp is descriptive, not equivalence; necessity only a scoped rule label for tested recipes",
+    "Reference seed pairs do not eliminate all architectural or optimization differences",
+    "Holm within each severity and model family only; other comparisons exploratory unadjusted",
+    "Mac/MPS; no independent CUDA replication"
+  ]
+}

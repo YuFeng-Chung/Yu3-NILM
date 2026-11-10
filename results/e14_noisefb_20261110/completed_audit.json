@@ -1,0 +1,77 @@
+{
+  "all_checks_passed": true,
+  "prediction_files": 21100,
+  "prediction_labels": 4620900,
+  "per_realization_rows": 21100,
+  "per_seed_rows": 2200,
+  "prespecified_tests": 12,
+  "all_p_exact_sign_enumeration_verified": true,
+  "independent_boolean_F1_verified": true,
+  "conditions_per_model": 211,
+  "formal_models": 20,
+  "reference_models": 30,
+  "interpretation": [
+    {
+      "model": "NoiseFB",
+      "severity": 0.05,
+      "decision": "varying_channel_rule_met",
+      "delta_vs_Yu3_pp": 0.3781914067178338,
+      "delta_vs_ZeroFB_pp": 13.723957156139594,
+      "p_holm_vs_Yu3": 0.6953125,
+      "p_holm_vs_ZeroFB": 0.00390625
+    },
+    {
+      "model": "NoiseFB",
+      "severity": 0.1,
+      "decision": "varying_channel_rule_met",
+      "delta_vs_Yu3_pp": 0.7990894135780459,
+      "delta_vs_ZeroFB_pp": 16.013271839425492,
+      "p_holm_vs_Yu3": 0.556640625,
+      "p_holm_vs_ZeroFB": 0.00390625
+    },
+    {
+      "model": "NoiseFB",
+      "severity": 0.2,
+      "decision": "varying_channel_rule_met",
+      "delta_vs_Yu3_pp": 1.509977036901217,
+      "delta_vs_ZeroFB_pp": 16.340500580249266,
+      "p_holm_vs_Yu3": 0.232421875,
+      "p_holm_vs_ZeroFB": 0.00390625
+    },
+    {
+      "model": "PermFB",
+      "severity": 0.05,
+      "decision": "varying_channel_rule_met",
+      "delta_vs_Yu3_pp": 2.123940571182561,
+      "delta_vs_ZeroFB_pp": 15.46970632060432,
+      "p_holm_vs_Yu3": 0.845703125,
+      "p_holm_vs_ZeroFB": 0.00390625
+    },
+    {
+      "model": "PermFB",
+      "severity": 0.1,
+      "decision": "partial_or_intermediate",
+      "delta_vs_Yu3_pp": 3.741472612435384,
+      "delta_vs_ZeroFB_pp": 18.95565503828283,
+      "p_holm_vs_Yu3": 0.232421875,
+      "p_holm_vs_ZeroFB": 0.00390625
+    },
+    {
+      "model": "PermFB",
+      "severity": 0.2,
+      "decision": "partial_or_intermediate",
+      "delta_vs_Yu3_pp": 3.7460908527535155,
+      "delta_vs_ZeroFB_pp": 18.576614396101572,
+      "p_holm_vs_Yu3": 0.10546875,
+      "p_holm_vs_ZeroFB": 0.00390625
+    }
+  ],
+  "limitations": [
+    "Single historical split and reused controls; new hypotheses motivated by prior diagnostics",
+    "Holm per severity two comparisons, not across severities or model families",
+    "3pp is a descriptive rule, not an equivalence test",
+    "NoiseFB preserves sample residual moments; does not establish that every varying input works",
+    "PermFB preserves sample histogram; does not uniquely identify spatial structure",
+    "Mac/MPS only; no independent student CUDA reproduction"
+  ]
+}

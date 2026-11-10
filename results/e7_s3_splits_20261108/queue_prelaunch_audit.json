@@ -1,0 +1,9 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "preflight_before_combined_refused": true,
+    "controller_before_combined_refused": true,
+    "bootstrap_constant_effect_and_mixed_seed_counts": true,
+    "frozen_sources_match": true
+  }
+}

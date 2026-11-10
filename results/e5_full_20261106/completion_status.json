@@ -1,0 +1,33 @@
+{
+  "stage": "E5 supporting-evidence follow-up complete",
+  "training_runs": 110,
+  "reused_runs": 33,
+  "new_training_runs": 77,
+  "training_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "corruption_evaluations": 2200,
+  "corrupted_prediction_rows": 481800,
+  "clean_prediction_rows": 24090,
+  "all_output_audits_passed": true,
+  "published_waveforms_exactly_match_existing_1074_pngs": true,
+  "original_architecture_retained": true,
+  "manuscript_modified": false,
+  "github_uploaded": false,
+  "pending": [
+    "Exp4-matched mechanism controls",
+    "fair baseline architecture and hyperparameter search",
+    "per-model defense strategy selection",
+    "remaining reviewer experiments"
+  ],
+  "report": "e5_supporting_evidence_20261106.md"
+}

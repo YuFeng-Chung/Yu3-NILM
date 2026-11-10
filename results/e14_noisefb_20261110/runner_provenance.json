@@ -1,0 +1,17 @@
+{
+  "initial_E1_runner": "experiments/run_revision_followup.py",
+  "later_active_runner": "experiments/run_revision_followup_v4.py",
+  "same_train_engine": true,
+  "shared_core_sha256": "434cd7b1aa80eaeb8991927b4e67f3eaf88803e5d56863076e63b4ada174a399",
+  "v1_v4_nested_pilot_and_final_AST_identical": true,
+  "old_epochs": {
+    "ZeroFB": 32,
+    "ShuffleFB": 36
+  },
+  "evidence": [
+    "old run.log lines444/489 ZeroFB and494/539 ShuffleFB complete in first E1 stage; later v4 reentry skips existing results",
+    "ZeroFB_s42 checkpoint timestamp2026-11-06 22:19:59 +0800; ShuffleFB_s51 checkpoint2026-11-06 22:35:22 +0800; protocol_v4 timestamp2026-11-07 09:46:17 +0800",
+    "protocol_v4 amendment states Original training unchanged"
+  ],
+  "correction": "Prelaunch shorthand v4-trained refers to final active pipeline, not original checkpoint provenance; initial shared family trainer produced controls before v4. E14 uses identical family pilot/final engine, explicit patience30 override."
+}

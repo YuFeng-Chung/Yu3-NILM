@@ -1,0 +1,13 @@
+{
+  "model": "ResNet18",
+  "grid_index": 11,
+  "seed": 42,
+  "lr": 0.0005,
+  "weight_decay": 0.001,
+  "dropout": 0.5,
+  "best_epoch": 68,
+  "validation_macro_f1": 0.571606935405267,
+  "stopped_epoch": 88,
+  "hit_max_epochs": false,
+  "prediction_audit_passed": true
+}

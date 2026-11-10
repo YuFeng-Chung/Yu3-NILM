@@ -1,0 +1,315 @@
+{
+  "experiment": "E9 isolated preprocessing sensitivity",
+  "authorization": "2026-11-08 author: 好的，就這樣進行吧",
+  "cells": {
+    "A": [
+      "W0",
+      "N0"
+    ],
+    "B": [
+      "W1",
+      "N0"
+    ],
+    "C": [
+      "W0",
+      "N1"
+    ],
+    "D": [
+      "W1",
+      "N1"
+    ]
+  },
+  "models": [
+    "M1",
+    "Yu3"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "conditions": [
+    [
+      "clean",
+      0,
+      0
+    ],
+    [
+      "awgn",
+      30,
+      1000
+    ],
+    [
+      "awgn",
+      30,
+      1001
+    ],
+    [
+      "awgn",
+      30,
+      1002
+    ],
+    [
+      "awgn",
+      30,
+      1003
+    ],
+    [
+      "awgn",
+      30,
+      1004
+    ],
+    [
+      "awgn",
+      30,
+      1005
+    ],
+    [
+      "awgn",
+      30,
+      1006
+    ],
+    [
+      "awgn",
+      30,
+      1007
+    ],
+    [
+      "awgn",
+      30,
+      1008
+    ],
+    [
+      "awgn",
+      30,
+      1009
+    ],
+    [
+      "awgn",
+      20,
+      1000
+    ],
+    [
+      "awgn",
+      20,
+      1001
+    ],
+    [
+      "awgn",
+      20,
+      1002
+    ],
+    [
+      "awgn",
+      20,
+      1003
+    ],
+    [
+      "awgn",
+      20,
+      1004
+    ],
+    [
+      "awgn",
+      20,
+      1005
+    ],
+    [
+      "awgn",
+      20,
+      1006
+    ],
+    [
+      "awgn",
+      20,
+      1007
+    ],
+    [
+      "awgn",
+      20,
+      1008
+    ],
+    [
+      "awgn",
+      20,
+      1009
+    ],
+    [
+      "awgn",
+      10,
+      1000
+    ],
+    [
+      "awgn",
+      10,
+      1001
+    ],
+    [
+      "awgn",
+      10,
+      1002
+    ],
+    [
+      "awgn",
+      10,
+      1003
+    ],
+    [
+      "awgn",
+      10,
+      1004
+    ],
+    [
+      "awgn",
+      10,
+      1005
+    ],
+    [
+      "awgn",
+      10,
+      1006
+    ],
+    [
+      "awgn",
+      10,
+      1007
+    ],
+    [
+      "awgn",
+      10,
+      1008
+    ],
+    [
+      "awgn",
+      10,
+      1009
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1001
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1002
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1003
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1004
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1005
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1006
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1007
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1008
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1009
+    ]
+  ],
+  "config": {
+    "M1": {
+      "lr": 0.0005,
+      "weight_decay": 0.0,
+      "dropout": 0.5
+    },
+    "Yu3": {
+      "lr": 0.0005,
+      "weight_decay": 0.0,
+      "dropout": 0.5
+    }
+  },
+  "hyperparameter_source": "Yu3 frozen E2 setting transferred unchanged to both M1 and Yu3; no new HPO; not per-preprocessing optimum",
+  "strategy": "No-Defense",
+  "pilots": {
+    "seed": 42,
+    "max_epochs": 150,
+    "min_epochs": 30,
+    "patience": 20,
+    "min_delta": 0.001,
+    "checkpoint": "highest clean inner-validation Macro-F1 eligible epoch>=30; earliest tie; patience begins after30"
+  },
+  "formal_training": "8 inner epoch pilots then 40 independent outer-train fixed-epoch runs; selection_complete before outer predictions",
+  "window_rule": {
+    "fs": 30000,
+    "output_points": 500,
+    "smooth_voltage_points": 15,
+    "min_crossing_gap": 400,
+    "min_cycle_points": 450,
+    "max_cycle_points": 550,
+    "tail_cycles": 20,
+    "stable_cycles": 3,
+    "rms_relative_spread_max": 0.05,
+    "adjacent_current_nrmse_max": 0.1,
+    "activity_fraction_of_record_cycle_rms_p95": 0.1,
+    "min_current_rms": 1e-06,
+    "min_start_index": 1000,
+    "selection": "latest qualifying three-cycle block in last20; choose middle cycle; no averaging; no fallback"
+  },
+  "voltage": "per-waveform z-score in all cells",
+  "current": "N0 per-waveform; N1 window-specific training-only fixed z-score",
+  "imaging": "same64x64 .1 occupancy accumulation and saturation; float32 input; no uint8 PNG round-trip; N0 baseline matches original pre-PNG float image",
+  "normalization": "one inner-training fit per window for pilots; one outer-training fit per window for final; never fit validation/test",
+  "split": "same original inner/outer membership restricted to common W1 eligible samples; coverage and exclusions reported",
+  "inference": "AWGN based on per-channel mean-removed variance, independent V/I noise, after window extraction; no noisy-event detection claim",
+  "reporting": "all11-class Macro-F1, accuracy, per-class PRF/confusion; degradation clean minus corrupted in pp; average10 pollution seeds within training seed; descriptive n5, no confirmatory p-values or equivalence claims",
+  "diagnostics": "AWGN30/20 image IoU/add/remove/L1; waveform SP1/20 pre-mapping abs(z)>3 and actual index clipping per V/I, N0/N1; current RMS; no pixel SP reanalysis or E13 deletion",
+  "limitations": "historical test already viewed; overlapping knowledge with previous studies; group is class x house proxy; one inner split, seed42 epoch pilot; fixed transferred config; common eligibility subset; candidate stability criteria do not certify physical steady state; Mac MPS not CUDA reproduction; M1/Yu3 difference not pure feedback causality",
+  "source_sha256": {
+    "experiments/e9_core.py": "7241cd4cabbb0a106010997cc2aacc8a67448ed5a19b1349508bc3041f682efb",
+    "experiments/prepare_e9.py": "6b825e1b232d639ff4e7dc87575381d2d249551e0d85f143d332b2c11bbe6120",
+    "experiments/preflight_e9.py": "c75c11bf9105375bcd1f528635c3c978e8f05da6af254b3e7b0f24b049e04217",
+    "experiments/run_e9.py": "94d981b29d26694fa40d43140f8129a4c92a93d832706e0e204bbc55204e50b9",
+    "experiments/control_e9.py": "abc87adf6d6b89b71e49f36b9f76d678148f8a07de8295b7907c5e7db393e2ae",
+    "experiments/analyze_e9.py": "60dbae2bad8bdf340c4dbd02d8fb91e9536c3ed6ccb86255fc3f82474bac918e",
+    "experiments/verify_e9.py": "a8ffbf1614816e57d7aacc6f473a190a16b522976ee3d315cbacb1c9396faea5",
+    "experiments/revision_followup_core.py": "434cd7b1aa80eaeb8991927b4e67f3eaf88803e5d56863076e63b4ada174a399",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "experiments/run_exp4_matched_controls.py": "da134c61f17c8512daeb4ce015c667feafeb5bba0344cba8cdb5a8e2cde14d37",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "experiments/run_e2_search_mps.py": "c9d1452c66521351ef6a2393fcc53379333e340a631efeac4335dd6d0c641cfe",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗一/plaid_loader_vi.py": "eee27f9fbf640bfebde451bb37ca208a3c75a3ac999551f78b30993b5ac485c9",
+    "實驗四/exp4_raw_data_V2.py": "4332e4493aee9705ea2e2cefc1339f03cf18cc93f1935645922b48fbfa32360a",
+    "實驗四/exp4_defense_strategies_V2.py": "68681b277811854123ec6aaf1f89b316b226505009ce001d7c876fecd07eca27"
+  },
+  "data_sha256": "d875beb04e0bba5eed4d33a7f49b812c16a550286e6aa0af2e8d4036bbecc05a",
+  "split_sha256": "010ef2f990e239210c240ddf588b0c846bc16177cae15267f9c0cf08740a7ff3",
+  "e2_setting_sha256": "46a7675751cf881aa93f3f1a2ba79005a80e4b263eb03c167306244052f3b501",
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.15.0",
+    "device": "mps",
+    "threads": 4
+  }
+}

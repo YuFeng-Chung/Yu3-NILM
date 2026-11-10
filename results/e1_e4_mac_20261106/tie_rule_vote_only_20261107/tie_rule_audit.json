@@ -1,0 +1,200 @@
+{
+  "all_checks_passed": true,
+  "complete_model_choices": {
+    "Yu3": {
+      "model": "Yu3",
+      "noise": [
+        "S3"
+      ],
+      "missing": [
+        "combined"
+      ],
+      "noise_votes": {
+        "S0": 0,
+        "S1": 0,
+        "S2": 0,
+        "S3": 3,
+        "S4": 2
+      },
+      "noise_fold_winners": [
+        [
+          "S4"
+        ],
+        [
+          "S3"
+        ],
+        [
+          "S4"
+        ],
+        [
+          "S3"
+        ],
+        [
+          "S3"
+        ]
+      ],
+      "noise_mean_scores": {
+        "S0": 0.22916785594279027,
+        "S1": 0.28906705719267833,
+        "S2": 0.22211002530907514,
+        "S3": 0.44287803135617326,
+        "S4": 0.4307305814486096
+      },
+      "random_wins": {
+        "no_defense": 0,
+        "regularization": 1,
+        "augmentation": 4,
+        "combined": 4
+      },
+      "consecutive_wins": {
+        "no_defense": 0,
+        "regularization": 1,
+        "augmentation": 3,
+        "combined": 4
+      },
+      "protocol_version": 4,
+      "tie_definition": "Exact equality of saved scores or integer ranking keys; no tolerance or outer-test tie-break.",
+      "noise_tie": "All equal fold leaders receive a win (totals may exceed five); maximum wins only; equal vote leaders retained; five-fold means are descriptive only.",
+      "missing_tie": "Strictly beat same-fold No-Defense; maximize min(random wins,consecutive wins), then total wins; retain all exact ties. No-Defense is anchor."
+    },
+    "ResNet18": {
+      "model": "ResNet18",
+      "noise": [
+        "S3",
+        "S4"
+      ],
+      "missing": [
+        "augmentation",
+        "combined"
+      ],
+      "noise_votes": {
+        "S0": 0,
+        "S1": 0,
+        "S2": 0,
+        "S3": 5,
+        "S4": 5
+      },
+      "noise_fold_winners": [
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S3",
+          "S4"
+        ]
+      ],
+      "noise_mean_scores": {
+        "S0": 0.13682569443836806,
+        "S1": 0.2248356163114352,
+        "S2": 0.1409996503274086,
+        "S3": 0.4133400294836953,
+        "S4": 0.4133400294836953
+      },
+      "random_wins": {
+        "no_defense": 0,
+        "regularization": 1,
+        "augmentation": 3,
+        "combined": 3
+      },
+      "consecutive_wins": {
+        "no_defense": 0,
+        "regularization": 1,
+        "augmentation": 4,
+        "combined": 4
+      },
+      "protocol_version": 4,
+      "tie_definition": "Exact equality of saved scores or integer ranking keys; no tolerance or outer-test tie-break.",
+      "noise_tie": "All equal fold leaders receive a win (totals may exceed five); maximum wins only; equal vote leaders retained; five-fold means are descriptive only.",
+      "missing_tie": "Strictly beat same-fold No-Defense; maximize min(random wins,consecutive wins), then total wins; retain all exact ties. No-Defense is anchor."
+    },
+    "MobileNetV3": {
+      "model": "MobileNetV3",
+      "noise": [
+        "S3",
+        "S4"
+      ],
+      "missing": [
+        "augmentation",
+        "combined"
+      ],
+      "noise_votes": {
+        "S0": 0,
+        "S1": 0,
+        "S2": 0,
+        "S3": 5,
+        "S4": 5
+      },
+      "noise_fold_winners": [
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S3",
+          "S4"
+        ],
+        [
+          "S3",
+          "S4"
+        ]
+      ],
+      "noise_mean_scores": {
+        "S0": 0.13807389931764782,
+        "S1": 0.21638859953947293,
+        "S2": 0.14733510794379587,
+        "S3": 0.41866429804374744,
+        "S4": 0.41866429804374744
+      },
+      "random_wins": {
+        "no_defense": 0,
+        "regularization": 1,
+        "augmentation": 4,
+        "combined": 4
+      },
+      "consecutive_wins": {
+        "no_defense": 0,
+        "regularization": 1,
+        "augmentation": 4,
+        "combined": 4
+      },
+      "protocol_version": 4,
+      "tie_definition": "Exact equality of saved scores or integer ranking keys; no tolerance or outer-test tie-break.",
+      "noise_tie": "All equal fold leaders receive a win (totals may exceed five); maximum wins only; equal vote leaders retained; five-fold means are descriptive only.",
+      "missing_tie": "Strictly beat same-fold No-Defense; maximize min(random wins,consecutive wins), then total wins; retain all exact ties. No-Defense is anchor."
+    }
+  },
+  "prediction_rows_recomputed": 584740,
+  "retained_artifacts_checked": 1720,
+  "training_function_identity": true,
+  "paused_epoch": 35,
+  "real_outer_test_evaluations": 0,
+  "synthetic_cases": 4,
+  "source_sha256": {
+    "experiments/verify_e3_co_selection_v4.py": "2162833a3a237a37f500f7936bb187982d08dab4c0c40749965e97fc87b4ac9e",
+    "experiments/run_revision_followup_v4.py": "f38e650ce9cc3894f45cc92352403de17a154901e7d5f5b0dafd479b42c18a92",
+    "experiments/revision_strategy_selection_v4.py": "5d19c8f2b20ed999c978b18a5882444c01f2f3196efff7f733c6368cbd23e8a4",
+    "experiments/analyze_revision_followup_v4.py": "b268334431af1f5f7749432b11aba4bdfbcc86c9c77748a7b3d05ebc192d5063",
+    "experiments/control_revision_followup.py": "f73d5d721a216347c41b9e4a637ff69156e595e555bdbc163a42c055ebf0b264"
+  }
+}

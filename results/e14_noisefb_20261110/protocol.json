@@ -1,0 +1,1236 @@
+{
+  "study": "E14 NoiseFB primary, PermFB secondary",
+  "runner_basis": "experiments/run_revision_followup_v4.py",
+  "engine_basis": "experiments/revision_followup_core.py",
+  "config": {
+    "lr": 0.0005,
+    "weight_decay": 0.0,
+    "dropout": 0.5
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "pilot": {
+    "seed": 42,
+    "min_epochs": 30,
+    "patience": 30,
+    "max_epochs": 150,
+    "delta": 0.001,
+    "selection": "best clean inner-validation macro-F1 at epoch>=30"
+  },
+  "deviation": "Old v4 no_defense pilot patience=20; E14 specification requires30",
+  "rng": "SHA256 UTF8 pipe-separated keys, first8 bytes little-endian modulo(2**63-1); CPU torch.Generator; train keys=(training_seed,epoch,zero_based_batch_index), eval key=(sample_ID); Noise std correction=0",
+  "conditions": [
+    [
+      "awgn",
+      30,
+      1000
+    ],
+    [
+      "awgn",
+      30,
+      1001
+    ],
+    [
+      "awgn",
+      30,
+      1002
+    ],
+    [
+      "awgn",
+      30,
+      1003
+    ],
+    [
+      "awgn",
+      30,
+      1004
+    ],
+    [
+      "awgn",
+      30,
+      1005
+    ],
+    [
+      "awgn",
+      30,
+      1006
+    ],
+    [
+      "awgn",
+      30,
+      1007
+    ],
+    [
+      "awgn",
+      30,
+      1008
+    ],
+    [
+      "awgn",
+      30,
+      1009
+    ],
+    [
+      "awgn",
+      20,
+      1000
+    ],
+    [
+      "awgn",
+      20,
+      1001
+    ],
+    [
+      "awgn",
+      20,
+      1002
+    ],
+    [
+      "awgn",
+      20,
+      1003
+    ],
+    [
+      "awgn",
+      20,
+      1004
+    ],
+    [
+      "awgn",
+      20,
+      1005
+    ],
+    [
+      "awgn",
+      20,
+      1006
+    ],
+    [
+      "awgn",
+      20,
+      1007
+    ],
+    [
+      "awgn",
+      20,
+      1008
+    ],
+    [
+      "awgn",
+      20,
+      1009
+    ],
+    [
+      "awgn",
+      15,
+      1000
+    ],
+    [
+      "awgn",
+      15,
+      1001
+    ],
+    [
+      "awgn",
+      15,
+      1002
+    ],
+    [
+      "awgn",
+      15,
+      1003
+    ],
+    [
+      "awgn",
+      15,
+      1004
+    ],
+    [
+      "awgn",
+      15,
+      1005
+    ],
+    [
+      "awgn",
+      15,
+      1006
+    ],
+    [
+      "awgn",
+      15,
+      1007
+    ],
+    [
+      "awgn",
+      15,
+      1008
+    ],
+    [
+      "awgn",
+      15,
+      1009
+    ],
+    [
+      "awgn",
+      10,
+      1000
+    ],
+    [
+      "awgn",
+      10,
+      1001
+    ],
+    [
+      "awgn",
+      10,
+      1002
+    ],
+    [
+      "awgn",
+      10,
+      1003
+    ],
+    [
+      "awgn",
+      10,
+      1004
+    ],
+    [
+      "awgn",
+      10,
+      1005
+    ],
+    [
+      "awgn",
+      10,
+      1006
+    ],
+    [
+      "awgn",
+      10,
+      1007
+    ],
+    [
+      "awgn",
+      10,
+      1008
+    ],
+    [
+      "awgn",
+      10,
+      1009
+    ],
+    [
+      "awgn",
+      5,
+      1000
+    ],
+    [
+      "awgn",
+      5,
+      1001
+    ],
+    [
+      "awgn",
+      5,
+      1002
+    ],
+    [
+      "awgn",
+      5,
+      1003
+    ],
+    [
+      "awgn",
+      5,
+      1004
+    ],
+    [
+      "awgn",
+      5,
+      1005
+    ],
+    [
+      "awgn",
+      5,
+      1006
+    ],
+    [
+      "awgn",
+      5,
+      1007
+    ],
+    [
+      "awgn",
+      5,
+      1008
+    ],
+    [
+      "awgn",
+      5,
+      1009
+    ],
+    [
+      "awgn",
+      0,
+      1000
+    ],
+    [
+      "awgn",
+      0,
+      1001
+    ],
+    [
+      "awgn",
+      0,
+      1002
+    ],
+    [
+      "awgn",
+      0,
+      1003
+    ],
+    [
+      "awgn",
+      0,
+      1004
+    ],
+    [
+      "awgn",
+      0,
+      1005
+    ],
+    [
+      "awgn",
+      0,
+      1006
+    ],
+    [
+      "awgn",
+      0,
+      1007
+    ],
+    [
+      "awgn",
+      0,
+      1008
+    ],
+    [
+      "awgn",
+      0,
+      1009
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1000
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1001
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1002
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1003
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1004
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1005
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1006
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1007
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1008
+    ],
+    [
+      "salt_pepper",
+      0.01,
+      1009
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1000
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1001
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1002
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1003
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1004
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1005
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1006
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1007
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1008
+    ],
+    [
+      "salt_pepper",
+      0.05,
+      1009
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1000
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1001
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1002
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1003
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1004
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1005
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1006
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1007
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1008
+    ],
+    [
+      "salt_pepper",
+      0.1,
+      1009
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1000
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1001
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1002
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1003
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1004
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1005
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1006
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1007
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1008
+    ],
+    [
+      "salt_pepper",
+      0.2,
+      1009
+    ],
+    [
+      "missing_random",
+      0.01,
+      1000
+    ],
+    [
+      "missing_random",
+      0.01,
+      1001
+    ],
+    [
+      "missing_random",
+      0.01,
+      1002
+    ],
+    [
+      "missing_random",
+      0.01,
+      1003
+    ],
+    [
+      "missing_random",
+      0.01,
+      1004
+    ],
+    [
+      "missing_random",
+      0.01,
+      1005
+    ],
+    [
+      "missing_random",
+      0.01,
+      1006
+    ],
+    [
+      "missing_random",
+      0.01,
+      1007
+    ],
+    [
+      "missing_random",
+      0.01,
+      1008
+    ],
+    [
+      "missing_random",
+      0.01,
+      1009
+    ],
+    [
+      "missing_random",
+      0.05,
+      1000
+    ],
+    [
+      "missing_random",
+      0.05,
+      1001
+    ],
+    [
+      "missing_random",
+      0.05,
+      1002
+    ],
+    [
+      "missing_random",
+      0.05,
+      1003
+    ],
+    [
+      "missing_random",
+      0.05,
+      1004
+    ],
+    [
+      "missing_random",
+      0.05,
+      1005
+    ],
+    [
+      "missing_random",
+      0.05,
+      1006
+    ],
+    [
+      "missing_random",
+      0.05,
+      1007
+    ],
+    [
+      "missing_random",
+      0.05,
+      1008
+    ],
+    [
+      "missing_random",
+      0.05,
+      1009
+    ],
+    [
+      "missing_random",
+      0.1,
+      1000
+    ],
+    [
+      "missing_random",
+      0.1,
+      1001
+    ],
+    [
+      "missing_random",
+      0.1,
+      1002
+    ],
+    [
+      "missing_random",
+      0.1,
+      1003
+    ],
+    [
+      "missing_random",
+      0.1,
+      1004
+    ],
+    [
+      "missing_random",
+      0.1,
+      1005
+    ],
+    [
+      "missing_random",
+      0.1,
+      1006
+    ],
+    [
+      "missing_random",
+      0.1,
+      1007
+    ],
+    [
+      "missing_random",
+      0.1,
+      1008
+    ],
+    [
+      "missing_random",
+      0.1,
+      1009
+    ],
+    [
+      "missing_random",
+      0.2,
+      1000
+    ],
+    [
+      "missing_random",
+      0.2,
+      1001
+    ],
+    [
+      "missing_random",
+      0.2,
+      1002
+    ],
+    [
+      "missing_random",
+      0.2,
+      1003
+    ],
+    [
+      "missing_random",
+      0.2,
+      1004
+    ],
+    [
+      "missing_random",
+      0.2,
+      1005
+    ],
+    [
+      "missing_random",
+      0.2,
+      1006
+    ],
+    [
+      "missing_random",
+      0.2,
+      1007
+    ],
+    [
+      "missing_random",
+      0.2,
+      1008
+    ],
+    [
+      "missing_random",
+      0.2,
+      1009
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1000
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1001
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1002
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1003
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1004
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1005
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1006
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1007
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1008
+    ],
+    [
+      "missing_consecutive",
+      0.01,
+      1009
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1000
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1001
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1002
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1003
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1004
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1005
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1006
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1007
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1008
+    ],
+    [
+      "missing_consecutive",
+      0.05,
+      1009
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1000
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1001
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1002
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1003
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1004
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1005
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1006
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1007
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1008
+    ],
+    [
+      "missing_consecutive",
+      0.1,
+      1009
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1000
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1001
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1002
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1003
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1004
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1005
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1006
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1007
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1008
+    ],
+    [
+      "missing_consecutive",
+      0.2,
+      1009
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1000
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1001
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1002
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1003
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1004
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1005
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1006
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1007
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1008
+    ],
+    [
+      "missing_consecutive",
+      0.3,
+      1009
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1000
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1001
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1002
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1003
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1004
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1005
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1006
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1007
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1008
+    ],
+    [
+      "missing_consecutive",
+      0.4,
+      1009
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1000
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1001
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1002
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1003
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1004
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1005
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1006
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1007
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1008
+    ],
+    [
+      "missing_consecutive",
+      0.5,
+      1009
+    ]
+  ],
+  "primary": "pass1 MacroF1 SP5/10/20, average 10 pollution realizations within training seed; exact two-sided signed-rank sign permutation, two contrasts per severity Holm; PermFB separate secondary family",
+  "source_sha256": {
+    "experiments/build_e5_ready_responses.py": "f2a1e0e713ea4713216d5634a084de3ed81531ecbe1e5ba85ad904550a31b12f",
+    "experiments/run_e7_s3_splits.py": "b1d02082ded256cbeb7fc63726a5d38d30dd947de939af217b6413762748aabb",
+    "experiments/prepare_e12_review.py": "a517911dd0ee3de2eb09d0daa8b07211b617fca3f4abad231be6f900972cf520",
+    "experiments/preflight_revision_followup.py": "ed0b2f019ff60245f2584316a374976e237aaeb55886943bc7b7ec10edbef003",
+    "experiments/verify_e12.py": "02dd9e1deb10d27be68f25edb869573b9073c0cf61f280214a9cc305e7554b04",
+    "experiments/control_e7_splits.py": "cec3f9f1e26f21e6f109edb4344e2a9846100a6d49bdb263ef61bc8c1490f0f1",
+    "experiments/run_exp4_matched_controls.py": "da134c61f17c8512daeb4ce015c667feafeb5bba0344cba8cdb5a8e2cde14d37",
+    "experiments/build_e5_full_review.py": "0fc8c4a84054fe9f61f5c004ac02f1f97ec25998b52d34c5abecb42929f3250c",
+    "experiments/preflight_e9.py": "c75c11bf9105375bcd1f528635c3c978e8f05da6af254b3e7b0f24b049e04217",
+    "experiments/plot_e7_response_assets.py": "c16ea1b6a98e17cfd34e8dd10e22e87e46824d6eb5f2b17b80a17dc6c0bfde7e",
+    "experiments/e11_wrg_core.py": "3b4d6c32e0e989578310b49a4bcfac277d383b5c92e3df383f658b687e6adba1",
+    "experiments/control_e6_mechanism.py": "c4c445ecfe36db04b810d63d8a78932af0e59aa461ab3f50ebe31911f6d4f565",
+    "experiments/build_e2_review.py": "5fac3344d8be013888e802adf16d6438e2211bd1a371e213ec2d5facf131ae3a",
+    "experiments/restructure_e2_response_20261107.py": "ce341908b284fbf78b522ff59cf5433b6a16863feb1d9fee6efbf394cd0afc19",
+    "experiments/build_e8_response.py": "c256bd1a297bd12b89df72564ea751f79ae68b38d401f4fae548b7ff334cb5ff",
+    "experiments/prepare_e7_s3_splits.py": "ca0bd6a6cb3d47a32ba2b0c7b8dd1b472203b0f7c6270eedffe6dd33ab361cb7",
+    "experiments/run_e7_splits.py": "6eb14d96237bf2113c214288d80522f51d4000955fcabfe2f4909638b4dfdd87",
+    "experiments/seal_student_all_20261109.py": "28aa173bdb7852d7d2ed17acdd479a68e5b01f9a95c650e6effab71f7c0cee3b",
+    "experiments/prepare_e11_wrg.py": "c461883138d8bf12cdd7fe2ffd6554e218f03e21ae4da0b8a68a2acfc4d3a607",
+    "experiments/e7_split_core.py": "edc318859124d4eaea628fedb2d0df429ee8e3e781354a4b4344a9baaa96ddd2",
+    "experiments/revision_followup_core.py": "434cd7b1aa80eaeb8991927b4e67f3eaf88803e5d56863076e63b4ada174a399",
+    "experiments/verify_e8_measurements.py": "3ae0a9f7c0d9be74328eec016b82152de748e0863ea04b69307222bd2eecc6d2",
+    "experiments/control_e7_s3_splits.py": "b14d9db685a247c14d5d281f930657a8954fbfbd23d0683b8b1343b67703c952",
+    "experiments/run_e6_mechanism.py": "6cb281f5cf7276779f9d5bdb2776b8ebf730512629be73cb3aed9cbcc4f61281",
+    "experiments/e9_core.py": "7241cd4cabbb0a106010997cc2aacc8a67448ed5a19b1349508bc3041f682efb",
+    "experiments/student_reproduce.py": "d393500b212f376f526f010ed6bc9d1cf7cff8aab1b1689c1771ae73449b2dbc",
+    "experiments/summarize_e5.py": "34c897e9f14c42d6bcaa761b666c20c7f4c500ad4fb0c162d56657471d4c9382",
+    "experiments/audit_e9_supplement.py": "bb2e4fb9767ca8a79cbd956f7559cb5933c9d2f869fbf0b3fb8c0f1124abe86c",
+    "experiments/verify_e7_data.py": "3c7b7ad3ff30a0e779aa9f361dbfcd0eec6117cba10a7c9897b61563ce7009e3",
+    "experiments/finalize_individual_experiment_responses.py": "c4e3bbb70ef5c03cbc755c11bd09a022783bbc4f2fad8cf0befdca31f67ef3c7",
+    "experiments/e7_s3_split_core.py": "a36aa7cf725a7ba9951d5f330821630b1178b3610c4ff3dbd66611956456e304",
+    "experiments/run_e12.py": "fcbcd525c9c391fbb77deb65552d4cbeed068e1dae689c7636a673fa8abd2721",
+    "experiments/finalize_e12_response.py": "475c44556c3a4b0c583955cfa86249fcb100823a78a7f2678650d940d6c4f03a",
+    "experiments/sync_e2_review_package.py": "bd172285a91005e9e32c40d40f030f072072e2ce101348e0e1d837bb4bf1b366",
+    "experiments/prepare_e10_whited.py": "2c42ff9204234a13e9c82c01831ffa426042b92213f9afff940df4ec31ad1983",
+    "experiments/analyze_e5_full.py": "57acbc36c948a11434e2f02c30a4e23717650d9de319130f553a88d021ee06f5",
+    "experiments/execute_e8_batch.py": "ccef4ab6c6f64405e2c5110169f1f74bad8869f0554f1647e1e21b4b1cf60483",
+    "experiments/preflight_e7_splits.py": "0925e2b0d1600078491a4574b9d2cd80c6415f14e8672e9b973904259ac44e78",
+    "experiments/analyze_e12.py": "a952ba0e531b91a0c6b5f15ae1570bd05fd8a8746552d0d0b5058e8ca4c39ec6",
+    "experiments/finalize_e11_delivery.py": "fb8ec366855e547c4c446897c8fbe731f1208c30a102c5987b3cc1f93bbd496c",
+    "experiments/build_e10_response.py": "8db9c8b5700c3fa78390dd89adcf419fe14bf0ea2ba70f44d589e94cb9745e89",
+    "experiments/run_e8_efficiency.py": "e1e91c6ee83aa8d68aa0f68407db0315e653e2a99633cb647a790af66057607b",
+    "experiments/preflight_e2_mac.py": "00a0a3c4d7c4a1314d5f2f33a5f373772056988bc642f2ea04028129e3d21ded",
+    "experiments/e12_core.py": "aa98d71971d8b033f0c0456b871433c0145a9300e0b58d88c87926101e749a85",
+    "experiments/build_e5_family_a_table.py": "f02d7fcd950dc8f02d7e8e3e2087685db7f8674ef02a07e49b216b4a61ce33e7",
+    "experiments/prepare_e5_images.py": "61bba31fe3759a1a9ad5b0b7ba991fda42546be02e3b9a4b197280928d3af6a4",
+    "experiments/verify_e2_pause_resume.py": "c67164aa16cc8b6ca0322075dc508526a9f80c4ad3d8420dd8eff7413f3e23a0",
+    "experiments/prepare_e5_waveforms.py": "538ed437edb50c66011fcbd19969cc14d2a514b2f8bd90894437963bf3117e17",
+    "experiments/sync_e10_review.py": "680d3f70b610fa3e640cd79362a28b28c71c5c45ad09d33b88d71ffe3cc4820c",
+    "experiments/build_experiment_workflows_doc.py": "b2e92af8d579d371948ebfd37f79ec3f69c6cbc290cc9f151dd244e7123ab346",
+    "experiments/control_revision_followup.py": "f73d5d721a216347c41b9e4a637ff69156e595e555bdbc163a42c055ebf0b264",
+    "experiments/build_e7_response.py": "41fb69d4f62f779bf559e4e9623d9ac1c75a8afd872c5a1e0d3f2d7c6631bbf4",
+    "experiments/verify_followup_analysis_v4.py": "45cdbed189adb1824fd88f2260ac7327a369d96877c20303aa41bb555f73fbe7",
+    "experiments/build_e13_response.py": "b8d2c5f3c207707a21735b71aedb3da6089990408e4f1be42a4a074f63d1b711",
+    "experiments/build_individual_experiment_responses.py": "888c64a04ed432a6070e44095ec4fdc688c8ed1d6a8d674abef968d613a7d33b",
+    "experiments/prepare_e6_review_figures.py": "4f9225e60ea36b54b6727b4abc6526fb6a4a5d6fd17a467731ae28c3e455291c",
+    "experiments/revision_strategy_selection_v4.py": "5d19c8f2b20ed999c978b18a5882444c01f2f3196efff7f733c6368cbd23e8a4",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "experiments/analyze_e9.py": "60dbae2bad8bdf340c4dbd02d8fb91e9536c3ed6ccb86255fc3f82474bac918e",
+    "experiments/analyze_revision_followup_v2.py": "3a24d7f9a5533c901807118bb5ac9367f93db27c4f23bce317631beb2474fce3",
+    "experiments/finalize_e11_response.py": "1cae1b4571e0ef5b51f88e4633d26389f172b902fefddc31b7aa59690c4500b5",
+    "experiments/build_e1_e4_review.py": "9eccdbbe0fa866bd25fd3e0ce8b6983e2870c53f3685dce65fb64db2c555e1ea",
+    "experiments/e10_core.py": "722f396f98f5442f60c1eb6f033ab3c79b6009b1924821e1cb8df0c2b576f15d",
+    "experiments/verify_e5_corruptions.py": "75c90390149d77c0371128670b8f350bacb375aea1a0c5578337a6278aa28ade",
+    "experiments/control_e2_mac.py": "d192850532202b349c2defdf0a1ca65e10c30abdc9c7737aa198af323ed79e65",
+    "experiments/append_e10_statistics.py": "8dc13bbc46b995d0b05843f0612e0137d13f2ae6026a14403d5dd250c7fed99b",
+    "experiments/finalize_e6_delivery.py": "5785e091cc266db20be20b7c881a70a3e4de0503a95f57bd7ced51448b1892fe",
+    "experiments/prepare_mac_e2.py": "a17e6ee3b9e3ec13e42f147523ba4e99c19a19ee1f20d46be9524bf2bcb31948",
+    "experiments/prepare_e9.py": "6b825e1b232d639ff4e7dc87575381d2d249551e0d85f143d332b2c11bbe6120",
+    "experiments/finalize_e9_response.py": "d5f966251d2a3e6b42b261a13bee0e4e8d1ea730ae94a27f46f62e00ebe90c8e",
+    "experiments/verify_e3_co_selection_v3.py": "c9b4d34df6f31de6f9039ad88287c28254d0bdcd4aa840fc30f85e7478c0f9ac",
+    "experiments/run_revision_followup_v4.py": "f38e650ce9cc3894f45cc92352403de17a154901e7d5f5b0dafd479b42c18a92",
+    "experiments/analyze_revision_followup_v3.py": "8287931f90ca1f337ae2a097f128891d0ab7c08e211380a6178462c6b2608566",
+    "experiments/run_e2_search_mps.py": "c9d1452c66521351ef6a2393fcc53379333e340a631efeac4335dd6d0c641cfe",
+    "experiments/prepare_e10_contrasts.py": "9d4b42b63856da0ae61ea038bd90d0506de80764abc96746083bd8b4d49900e7",
+    "experiments/analyze_e7_s3_splits.py": "a8d1b9b2d35bd92ee6a6799a403754e1d2684ef7854b37bdbd084063da6a0bb2",
+    "experiments/package_mac_e2.py": "e2df46e30dd38738044aac6c6d60eb348d7fd43b24c32aa5232c93213ffd838a",
+    "experiments/queue_e10_whited.py": "2cdd9638a12e5e6fcafbd5acd02d9316f1c687067f6631faa73722203e973707",
+    "experiments/analyze_e6_mechanism.py": "2954972fa0804f96acce1b2cc01d97d49e652e5a5dcb56d80c5dc6a76a7f4aad",
+    "experiments/analyze_e10_whited.py": "3be7d46166b2ace4648ab435430167d1b0c75c393ea00edde07dc9d8b228b747",
+    "experiments/run_e9.py": "94d981b29d26694fa40d43140f8129a4c92a93d832706e0e204bbc55204e50b9",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "experiments/supplement_e8_batch.py": "7e79892cee144a1124472d026418d62d6977160b1231ecf154c55c221a83026c",
+    "experiments/prepare_e5_corruptions.py": "a527ee3058db58518d945ddd6540cddd4599fc57c01615d0b7bba815f52e722e",
+    "experiments/revision_models.py": "ca62f7fe4b0872ef882359fb7e6a2e7fff8384a40eb18ffca3ee3f2ab858c5a8",
+    "experiments/finalize_e7_response.py": "94671650a8678562133145eca8f4ef2b7faeb46f983f8b14fc7891079dfa0b10",
+    "experiments/prepare_e2_review.py": "974e1fd69f29f9547e4b57a450bf679a7111d5d6f4f9bfd1823f1502f276b33f",
+    "experiments/control_e9.py": "abc87adf6d6b89b71e49f36b9f76d678148f8a07de8295b7907c5e7db393e2ae",
+    "experiments/run_revision_followup.py": "69651bf6aa969283a43409938f688edb00e85f5d3de8abe7016db41e46d874cd",
+    "experiments/verify_followup_analysis_v2.py": "922d47a89e60ef776e1ca8a4281ee4ad5a5fdd241790480f82e99b7066c3167a",
+    "experiments/prepare_e10_review.py": "a789758655f0a52ad5a1cc9d6d96e8385d156123e6903004cb8d694ab9ca5892",
+    "experiments/finalize_e9_results.py": "250753c034350dd5e12703795593a8297f458ad62a20e4943aba4074c0024869",
+    "experiments/build_e11_response.py": "ce04ff7f9ea4de1975d4ebfcd306b6325e5d20497fe11a2ae0ba776805ab213f",
+    "experiments/finalize_e1_e4_review.py": "1778838be49b2cb1d9c82b0ab240bd1003f6aef1f8eee85bf37b597953eb1499",
+    "experiments/run_revision_followup_v3.py": "ed2f6e406e1b0c4876c3fc115c51d128ec9c47f8f0c3dd738fa094c895e1b226",
+    "experiments/finalize_e13_response.py": "93160d9dcf5885239cccb303b84e0d9342d957a605840d233fe502ad59e3a7fa",
+    "experiments/verify_e3_co_selection_v4.py": "2162833a3a237a37f500f7936bb187982d08dab4c0c40749965e97fc87b4ac9e",
+    "experiments/download_plaid_2014.py": "da84a7960c7a7bc2a7682460fa4fd1e3eb246ba6a58d567749c3bdfe47aa6e4b",
+    "experiments/analyze_revision_followup_v4.py": "b268334431af1f5f7749432b11aba4bdfbcc86c9c77748a7b3d05ebc192d5063",
+    "experiments/report_e5_supporting_evidence.py": "35ebcf9a02cce38c258d92192c485fbc7e93ddfb20f3e6c38ccf0edc09377483",
+    "experiments/control_e11_wrg.py": "fecdc923f46bcbec9602dc8ded261c002a914c08369c49523b2ddb2c5aa7e7d1",
+    "experiments/analyze_e10_statistics.py": "5590b8ddf96b59db4868e531a8634737cf89b6fa44bebc18d353096cca48c09f",
+    "experiments/analyze_e11_wrg.py": "d67ae86787f09bd95fa4af572e4724e5ec0b66b2ff8317e582ad72a8e92e3e38",
+    "experiments/run_revision_followup_v2.py": "d3d52341136df3070cdd4eef2e5e7c03b4ae14307c61596838d026355ccb687c",
+    "experiments/revision_strategy_selection_v3.py": "36770626590e97764dbb99af7afcff3701c9e12af0856e9990b372e29473cd66",
+    "experiments/run_e11_wrg.py": "588325bbdf19745924d476df384b79c02d512be1c018daf2bf3badc593d7c921",
+    "experiments/package_student_completed_20261108.py": "ca4eeff02e708dedac722e1709e2f10ba666577785416f6fe418a1a1d6c2fab4",
+    "experiments/build_discussion_package.py": "daacd38c65dfc127c7ecbf1e28af05c41c10e6777ed291d28e8bbbe209618f5e",
+    "experiments/prepare_e7_splits.py": "1a66876c0b3fe3a7372b51c89d7b27429761e2faa65f9b64fca97d25ca998d34",
+    "experiments/queue_e7_s3.py": "30a2676053d9e82290ce26d7248010fdedaab3bbb97938d88c3fed6afd6bc5f1",
+    "experiments/build_experiment_status_doc.py": "aa75b61c50926f72aaa2ac6b415fdcec1b60164a253ac092fec40a6e4951713b",
+    "experiments/build_e9_response.py": "6de146a3a0289a20c6952b64aa451412d2dae1ef5fe45d56edc7f70113bc8312",
+    "experiments/revision_strategy_selection.py": "90607736cbf1d037f318169e213d76184e57cfc8b14be27aadb57ce0409af418",
+    "experiments/verify_followup_analysis.py": "c742c12366f055a3c4bce4a42e7bd2abb49af35c6638e2473210a398aa911dd5",
+    "experiments/build_e6_review.py": "bf1296a14588940cde7d32a4b05250fe3d97cfc73782de661655472f6f9fc7f3",
+    "experiments/evaluate_e5_corruptions.py": "6d1be1c3c9b549410f440cb342f22bf0d9659c9cd1f075b102284dd9aa6c6466",
+    "experiments/plot_e8_results.py": "8cccbee111a8a428b95967d807450f4e6012063a31ff6902a51577dad38e94d7",
+    "experiments/preflight_e7_s3_splits.py": "7b08250ef870ee5676375e5caef1925fb46d69c590fa74b552a3ac65048e8d04",
+    "experiments/analyze_e5_corruptions.py": "acddfa54701d3358ce8619b7ba388a20f67cc3ead3ff52b1cd226d2eba08dbb8",
+    "experiments/verify_e9.py": "a8ffbf1614816e57d7aacc6f473a190a16b522976ee3d315cbacb1c9396faea5",
+    "experiments/build_e5_response_brief.py": "3b3bcfa81d9c1f834617cc81a2a91cd804deaec153c612c352c7e391e248ec49",
+    "experiments/preflight_e12.py": "d73e9ed7bbe8a8ece8da0b605494deb3f8fd3e693b43f3b1656009e9d64afb14",
+    "experiments/verify_followup_analysis_v3.py": "40e2142ad212077dc041f8b36d44178bfc7f9bd6b1083f0bd28999c5a28e7186",
+    "experiments/prepare_e1_e4_review.py": "4d7f98b066f543f9eba32656a415bf209a51c2818c1a74a68045d1cf3fda27ff",
+    "experiments/run_e10_whited.py": "77bb2b3ca8dbad333f313af7e41a904c98aa083bf9922325a0a52d79ad184b77",
+    "experiments/package_student_e1_e5.py": "17931716d790c7dca838d1e890e04249b0e2c72a7d30d549dd92db9260bfdb9b",
+    "experiments/prepare_e2_red_figure.py": "ccce4c1a5f3b390d052459dcab0b908b8a8854abb613eed047e621f5d5071429",
+    "experiments/preflight_e11_wrg.py": "45bebcf180a3de4271ce52ae9587ddfb67afe4c3b7fde6c867bf347e25f5f2c8",
+    "experiments/verify_e5_outputs.py": "96e5132e5c45e2d7a21ea96f6909cc7ca8f825b7a52fa64575ab87004ed7167f",
+    "experiments/e6_mechanism_core.py": "83f4dc6c56b3c0531ab19f44a6627dc70cf65173a9ab0b2ee58f334e864d9c11",
+    "experiments/verify_e3_selection_correction.py": "217657d6255f99614881a5ecb17d77ece6767375df91dc6f272de56aef915d1b",
+    "experiments/control_e12.py": "c51999a20f0e8749b891917f52d1bac7dbe9fbfd262cd3d6a62b63177c5f0c5d",
+    "experiments/preflight_e8_schedule.py": "f11a810974f7f0328aef070e89b519b02729996283501b2134e51af8719426cb",
+    "experiments/finalize_e8_response.py": "01372b517277cbf65c1b165226627b06ca97f24d23f8b4a6f5c5d5139107119d",
+    "experiments/verify_e6_mechanism.py": "6db26f64b7a30805950e056d89daad4741fa5fa14951a0c4ab4725ee84878100",
+    "experiments/plot_e8_response_assets.py": "7647417c962baad62e975f99e8a56a7121361fafd78a96d1af08f140018980dc",
+    "experiments/analyze_exp4_matched_controls.py": "be1a2889df9d778747f71ff7002eba9436a73090c56ead8502f7c9591222b01c",
+    "experiments/finalize_e10_statistics.py": "0d9b3921ca5b517dd0f52b7e9752f3404203b7628ac8fa4608118c5e0099aef8",
+    "experiments/package_student_all_20261109.py": "e23c4a304cb70d1d57dbcb6a8d3aefd42a168473e47876884f737fa89e9a1906",
+    "experiments/analyze_revision_followup.py": "3d6607fdca9cf777daa5578883df1524904bd872f534ae1082bfeff580219da0",
+    "experiments/build_e8_report.py": "6d7c96482020cb820e11e06bd2bbe05ce4160cd5bb93b8953892eba137f127f9",
+    "experiments/analyze_e7_splits.py": "8ba417fe3908bfd6636942c05c1015a32bd630c5880c0cb9c3ae23d94be6f61c",
+    "experiments/finalize_e10_response.py": "00e7ac77e9ac847f536011de6f0393c29f26fd964765f9275a94988ff1a751f4",
+    "experiments/run_e2_search.py": "f3493d100352afa0d2529390f66af5373947dc196bb8726503f4ce4f7f7a6c24",
+    "experiments/build_e12_response.py": "41ccb6ade23cf8d72fcf34d6d6df954f32be74501d959e0f3be1ac43d2764dac",
+    "experiments/append_e2_supplementary_red.py": "5b1a64782acea06f7e96d02a024258f230ce659db0dbec140d83d0707e0265be",
+    "experiments/build_e2_reports.py": "eb8d5aafd5a2d39619dc226c9aa300c0dc4341d1fe5a9910599579a0c113272e",
+    "experiments/build_e5_review_docx.py": "04c4ed2b369831515bf6fe2d240ef2dd58027b589c4ea841b8e9a34691f0d8a1"
+  },
+  "spec_sha256": "0cf260545f0ee173d4d75eb18d4093471a81348fd257b18253e5e23ae5c651cb"
+}

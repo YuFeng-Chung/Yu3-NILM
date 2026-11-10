@@ -1,0 +1,32 @@
+{
+  "epochs": {
+    "A_M1": 92,
+    "A_Yu3": 36,
+    "B_M1": 36,
+    "B_Yu3": 46,
+    "C_M1": 34,
+    "C_Yu3": 50,
+    "D_M1": 38,
+    "D_Yu3": 59
+  },
+  "source_sha256": {
+    "experiments/e9_core.py": "7241cd4cabbb0a106010997cc2aacc8a67448ed5a19b1349508bc3041f682efb",
+    "experiments/prepare_e9.py": "6b825e1b232d639ff4e7dc87575381d2d249551e0d85f143d332b2c11bbe6120",
+    "experiments/preflight_e9.py": "c75c11bf9105375bcd1f528635c3c978e8f05da6af254b3e7b0f24b049e04217",
+    "experiments/run_e9.py": "94d981b29d26694fa40d43140f8129a4c92a93d832706e0e204bbc55204e50b9",
+    "experiments/control_e9.py": "abc87adf6d6b89b71e49f36b9f76d678148f8a07de8295b7907c5e7db393e2ae",
+    "experiments/analyze_e9.py": "60dbae2bad8bdf340c4dbd02d8fb91e9536c3ed6ccb86255fc3f82474bac918e",
+    "experiments/verify_e9.py": "a8ffbf1614816e57d7aacc6f473a190a16b522976ee3d315cbacb1c9396faea5",
+    "experiments/revision_followup_core.py": "434cd7b1aa80eaeb8991927b4e67f3eaf88803e5d56863076e63b4ada174a399",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "experiments/run_exp4_matched_controls.py": "da134c61f17c8512daeb4ce015c667feafeb5bba0344cba8cdb5a8e2cde14d37",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "experiments/run_e2_search_mps.py": "c9d1452c66521351ef6a2393fcc53379333e340a631efeac4335dd6d0c641cfe",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗一/plaid_loader_vi.py": "eee27f9fbf640bfebde451bb37ca208a3c75a3ac999551f78b30993b5ac485c9",
+    "實驗四/exp4_raw_data_V2.py": "4332e4493aee9705ea2e2cefc1339f03cf18cc93f1935645922b48fbfa32360a",
+    "實驗四/exp4_defense_strategies_V2.py": "68681b277811854123ec6aaf1f89b316b226505009ce001d7c876fecd07eca27"
+  },
+  "pilot_count": 8,
+  "outer_predictions_opened": false
+}

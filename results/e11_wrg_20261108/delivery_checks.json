@@ -1,0 +1,15 @@
+{
+  "all_checks_passed": true,
+  "completed_writer_exit_checked_by_parent": true,
+  "exact_equivalent_prediction_pairs": 4220,
+  "exact_equivalent_prediction_rows": 924180,
+  "started_taiwan": "2026-11-08 14:12:38 +0800",
+  "compute_completed_taiwan": "2026-11-08 14:51:52 +0800",
+  "compute_minutes": 39.23690043290456,
+  "figure_count": 7,
+  "figure_layout": "common 2x2; selected 1x2, no blank subplot rows",
+  "report_has_both_positive_and_negative_results": true,
+  "source_sha256": "fb8ec366855e547c4c446897c8fbe731f1208c30a102c5987b3cc1f93bbd496c",
+  "manuscript_modified": false,
+  "formal_word_created": false
+}

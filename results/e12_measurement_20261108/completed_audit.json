@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "experiment": "E12",
+  "models": 330,
+  "conditions_per_model": 126,
+  "training": false,
+  "experiment_complete": true,
+  "analysis_complete": true,
+  "independent_audit_complete": true,
+  "figure_visual_inspection": false,
+  "formal_response_docx_complete": false,
+  "original_manuscript_modified": false,
+  "completed_at": "2026-11-08T23:16:44.732556+08:00",
+  "analysis_seconds": 90.72581108286977,
+  "independent_audit_sha256": "8d23eb64203ab35781878724c9e314f3c1b66d1e367af05dd2484ad58c005b2a",
+  "summary_sha256": "97eca4a9fd2f0303610d23f50e9ebf4234d92c7bbb5bc713862104e169f5639e",
+  "report_sha256": "7e7d21360818ff34236911c73e203beeb8d534fe459ca8579a5850af715d9fff",
+  "scope": "Research calculation and programmatic audit complete; human/agent visual figure inspection pending; Word response and manuscript not included"
+}

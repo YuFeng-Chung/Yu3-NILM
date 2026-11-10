@@ -1,0 +1,18 @@
+{
+  "protocol_version": 2,
+  "recorded_utc": "2026-11-06T22:09:31Z",
+  "reason": "Restore original supplied Stage1 missing-data selection definition; v1 mistakenly counted per-fold first place rather than beating No-Defense. Also restore original noise majority-tie mean-score rule.",
+  "observed_before_correction": "Yu3 and ResNet18 completed inner-fold scores were already available; MobileNetV3 fold0 S4 paused at saved epoch83. No current outer-test evaluations or selected-strategy final fits had occurred.",
+  "old_protocol_sha256": "f6f2bac5f5c4d9fcf55930316e3ece6b574ff3dbf1956304ce366e399445d868",
+  "reference_stage1_sha256": "dd821757760ab27a2722c2536a1a5fb1cba6d4a8f6252fbca0fc25cbba46cdd0",
+  "retained_e1_models": 180,
+  "retained_pilots": 18,
+  "retained_cv_training_runs": 62,
+  "retained_partial_run": "cv/MobileNetV3_fold0_S4",
+  "retained_partial_epoch": 83,
+  "outer_test_evaluations": 0,
+  "training_and_evaluation_functions_changed": false,
+  "split_or_normalization_or_hyperparameters_changed": false,
+  "old_selection_outputs_preserved_in": "selection_rule_correction_20261107",
+  "disclosure": "Bug correction after inner-validation outcomes were available; not described as a pristine preregistration or a test-driven strategy change."
+}

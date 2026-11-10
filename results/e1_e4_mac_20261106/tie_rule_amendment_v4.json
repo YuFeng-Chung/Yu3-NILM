@@ -1,0 +1,14 @@
+{
+  "version": 4,
+  "authorized_by": "Author clarified: follow manuscript criteria; noise majority wins only, cross-fold means descriptive; missing min-win then total-win; only unresolved ties retained.",
+  "timestamp_utc": "2026-11-07T01:45:32.979460+00:00",
+  "outer_test_evaluations": 0,
+  "prior_protocol_sha256": "11dfbb5d7f626fd65efdb68480bed9deab927086858ec9b8eb4dc079e5ea5ab6",
+  "rules": "Within-fold exact noise score ties all receive one win; final vote leaders all retained, no mean-F1 tie-break. Missing min-win then total-win; retain ties only after both criteria. Exact equality, no tolerance.",
+  "disclosure": "After partial inner-validation outcomes, before current outer test. V3 mean-score tie-break explicitly withdrawn. Original training unchanged.",
+  "paused": {
+    "run": "cv_ViT-Tiny_combined_missing_consecutive",
+    "saved_epoch": 35,
+    "status": "paused"
+  }
+}

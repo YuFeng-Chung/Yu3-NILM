@@ -1,0 +1,105 @@
+{
+  "all_checks_passed": true,
+  "models_source_checked": 330,
+  "reused_component_files_checked": 19800,
+  "real_training_image_parity": 792,
+  "synthetic_quantization_harmonic_offset_gain_checks": true,
+  "nine_architecture_forward_checks": [
+    {
+      "model": "M1",
+      "median_seconds_per_219": 0.04177595814689994,
+      "all_seconds": [
+        0.044534457847476006,
+        0.04177595814689994,
+        0.041471333242952824
+      ]
+    },
+    {
+      "model": "RecAux",
+      "median_seconds_per_219": 0.06722704181447625,
+      "all_seconds": [
+        0.06731229182332754,
+        0.06670858385041356,
+        0.06722704181447625
+      ]
+    },
+    {
+      "model": "M3",
+      "median_seconds_per_219": 0.04500904167070985,
+      "all_seconds": [
+        0.04560270765796304,
+        0.04500904167070985,
+        0.044710292015224695
+      ]
+    },
+    {
+      "model": "Yu3",
+      "median_seconds_per_219": 0.11088950000703335,
+      "all_seconds": [
+        0.11061395797878504,
+        0.11088950000703335,
+        0.11106333415955305
+      ]
+    },
+    {
+      "model": "ZeroFB",
+      "median_seconds_per_219": 0.11022112518548965,
+      "all_seconds": [
+        0.11208087531849742,
+        0.10825054114684463,
+        0.11022112518548965
+      ]
+    },
+    {
+      "model": "ShuffleFB",
+      "median_seconds_per_219": 0.10527320904657245,
+      "all_seconds": [
+        0.10737016703933477,
+        0.10527320904657245,
+        0.10467187501490116
+      ]
+    },
+    {
+      "model": "ResNet18",
+      "median_seconds_per_219": 0.49744208296760917,
+      "all_seconds": [
+        0.49744208296760917,
+        0.49293904192745686,
+        0.4992611249908805
+      ]
+    },
+    {
+      "model": "MobileNetV3",
+      "median_seconds_per_219": 0.19131454220041633,
+      "all_seconds": [
+        0.19064975017681718,
+        0.19131454220041633,
+        0.1962001253850758
+      ]
+    },
+    {
+      "model": "ViT-Tiny",
+      "median_seconds_per_219": 0.08241833420470357,
+      "all_seconds": [
+        0.0856564580462873,
+        0.08241833420470357,
+        0.08182204095646739
+      ]
+    }
+  ],
+  "weights_bn_unchanged": true,
+  "no_new_outer_test_inference": true,
+  "source_sha256": {
+    "experiments/e12_core.py": "aa98d71971d8b033f0c0456b871433c0145a9300e0b58d88c87926101e749a85",
+    "experiments/preflight_e12.py": "d73e9ed7bbe8a8ece8da0b605494deb3f8fd3e693b43f3b1656009e9d64afb14",
+    "experiments/run_e12.py": "fcbcd525c9c391fbb77deb65552d4cbeed068e1dae689c7636a673fa8abd2721",
+    "experiments/control_e12.py": "c51999a20f0e8749b891917f52d1bac7dbe9fbfd262cd3d6a62b63177c5f0c5d",
+    "experiments/revision_followup_core.py": "434cd7b1aa80eaeb8991927b4e67f3eaf88803e5d56863076e63b4ada174a399",
+    "experiments/revision_models_mps.py": "fe83df130de0400fa84750a0804020e9bbd69726093f280ffdedc128c2ddc072",
+    "experiments/run_e5_ablation.py": "ea9a71dfdbfd7dece3e35d3905319d2731390ad632624a41c83a4fdd47dc1c45",
+    "experiments/run_exp4_matched_controls.py": "da134c61f17c8512daeb4ce015c667feafeb5bba0344cba8cdb5a8e2cde14d37",
+    "實驗一/models_m1_to_m5.py": "76daa193dfd72338dd9390ed2f695f6518d3086e7ed646dc363a67b8a17b47aa",
+    "實驗四/exp4_raw_data_V2.py": "4332e4493aee9705ea2e2cefc1339f03cf18cc93f1935645922b48fbfa32360a",
+    "實驗四/exp4_defense_strategies_V2.py": "68681b277811854123ec6aaf1f89b316b226505009ce001d7c876fecd07eca27"
+  }
+}

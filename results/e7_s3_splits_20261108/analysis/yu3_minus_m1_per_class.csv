@@ -1,0 +1,122 @@
+condition,label,class_name,difference_pp,rank_from_lowest,among_bottom_three,among_top_three
+clean,2,Fan,-4.15615856616105,1,True,False
+clean,0,Air Conditioner,-2.598380131124245,2,True,False
+clean,9,Vacuum,-0.8791208791208871,3,True,False
+clean,4,Hairdryer,-0.10738654297783867,4,False,False
+clean,8,Microwave,-0.015443135660675456,5,False,False
+clean,1,Compact Fluorescent Lamp,0.15229410894895823,6,False,False
+clean,7,Laptop,0.9629149697642947,7,False,False
+clean,3,Fridge,1.9121783587256802,8,False,False
+clean,6,Incandescent Light Bulb,2.2798499829734142,9,False,True
+clean,10,Washing Machine,5.025807525807524,10,False,True
+clean,5,Heater,5.845938375350146,11,False,True
+awgn_30,2,Fan,-6.970285834062167,1,True,False
+awgn_30,0,Air Conditioner,-2.785079736136548,2,True,False
+awgn_30,8,Microwave,0.03462610455844395,3,True,False
+awgn_30,4,Hairdryer,0.0689380825498076,4,False,False
+awgn_30,9,Vacuum,0.25494505494506603,5,False,False
+awgn_30,1,Compact Fluorescent Lamp,0.8762001508346495,6,False,False
+awgn_30,7,Laptop,1.4495464715009732,7,False,False
+awgn_30,5,Heater,1.6603731493824436,8,False,False
+awgn_30,6,Incandescent Light Bulb,1.7282775804678074,9,False,True
+awgn_30,3,Fridge,7.127227220190601,10,False,True
+awgn_30,10,Washing Machine,24.106766762649105,11,False,True
+awgn_20,2,Fan,-6.129604394764376,1,True,False
+awgn_20,0,Air Conditioner,-2.894216994161525,2,True,False
+awgn_20,4,Hairdryer,-0.41462113504011633,3,True,False
+awgn_20,8,Microwave,0.460530388573388,4,False,False
+awgn_20,6,Incandescent Light Bulb,1.1734283253652333,5,False,False
+awgn_20,1,Compact Fluorescent Lamp,1.6036128318369203,6,False,False
+awgn_20,9,Vacuum,2.9445110445110445,7,False,False
+awgn_20,7,Laptop,3.2891579984965724,8,False,False
+awgn_20,3,Fridge,3.832196076683214,9,False,True
+awgn_20,5,Heater,6.314618559974599,10,False,True
+awgn_20,10,Washing Machine,24.023627189803666,11,False,True
+awgn_15,2,Fan,-3.937898568174819,1,True,False
+awgn_15,8,Microwave,-1.321596865109942,2,True,False
+awgn_15,4,Hairdryer,-1.0493672857122438,3,True,False
+awgn_15,7,Laptop,2.169657924150481,4,False,False
+awgn_15,1,Compact Fluorescent Lamp,2.186901818002873,5,False,False
+awgn_15,3,Fridge,2.3171981101662187,6,False,False
+awgn_15,0,Air Conditioner,2.789666531437285,7,False,False
+awgn_15,6,Incandescent Light Bulb,2.9522117553389515,8,False,False
+awgn_15,9,Vacuum,4.444259498671266,9,False,True
+awgn_15,5,Heater,5.741379913516139,10,False,True
+awgn_15,10,Washing Machine,12.166411366411358,11,False,True
+awgn_10,8,Microwave,-1.8322862788015981,1,True,False
+awgn_10,3,Fridge,-1.8032233144563925,2,True,False
+awgn_10,9,Vacuum,-1.7979062681384717,3,True,False
+awgn_10,4,Hairdryer,-0.26108430922829884,4,False,False
+awgn_10,2,Fan,0.4036069170583967,5,False,False
+awgn_10,7,Laptop,1.6952842375642652,6,False,False
+awgn_10,1,Compact Fluorescent Lamp,2.2221547718757395,7,False,False
+awgn_10,0,Air Conditioner,2.9801170477569583,8,False,False
+awgn_10,6,Incandescent Light Bulb,3.0407451629835713,9,False,True
+awgn_10,5,Heater,4.7170445567504355,10,False,True
+awgn_10,10,Washing Machine,9.236907536907536,11,False,True
+awgn_5,9,Vacuum,-10.620761562662226,1,True,False
+awgn_5,4,Hairdryer,-1.8575108578913202,2,True,False
+awgn_5,3,Fridge,-0.3838381751061798,3,True,False
+awgn_5,10,Washing Machine,0.2222222222222222,4,False,False
+awgn_5,8,Microwave,0.8770801610618162,5,False,False
+awgn_5,1,Compact Fluorescent Lamp,4.560082857185376,6,False,False
+awgn_5,6,Incandescent Light Bulb,5.436374137049393,7,False,False
+awgn_5,5,Heater,5.7219396272801815,8,False,False
+awgn_5,2,Fan,6.096195872042837,9,False,True
+awgn_5,0,Air Conditioner,6.197811427094909,10,False,True
+awgn_5,7,Laptop,8.835159318920006,11,False,True
+awgn_0,4,Hairdryer,-4.306085604240684,1,True,False
+awgn_0,9,Vacuum,-0.8425553978185549,2,True,False
+awgn_0,3,Fridge,-0.42291021671826623,3,True,False
+awgn_0,10,Washing Machine,0.0,4,False,False
+awgn_0,1,Compact Fluorescent Lamp,3.9964812682681594,5,False,False
+awgn_0,5,Heater,5.189645673859784,6,False,False
+awgn_0,8,Microwave,5.569414454198995,7,False,False
+awgn_0,0,Air Conditioner,6.166303463708524,8,False,False
+awgn_0,2,Fan,6.3548213320310385,9,False,True
+awgn_0,6,Incandescent Light Bulb,8.02635930193748,10,False,True
+awgn_0,7,Laptop,12.874190566474203,11,False,True
+salt_pepper_0.01,2,Fan,-4.776566465834997,1,True,False
+salt_pepper_0.01,0,Air Conditioner,-2.0141388093145975,2,True,False
+salt_pepper_0.01,4,Hairdryer,-0.36640991154220925,3,True,False
+salt_pepper_0.01,8,Microwave,-0.23061058449556082,4,False,False
+salt_pepper_0.01,9,Vacuum,-0.11721611721611236,5,False,False
+salt_pepper_0.01,1,Compact Fluorescent Lamp,0.053379674462272764,6,False,False
+salt_pepper_0.01,7,Laptop,0.9179089136464924,7,False,False
+salt_pepper_0.01,3,Fridge,1.2234376912180212,8,False,False
+salt_pepper_0.01,6,Incandescent Light Bulb,2.9745667663021336,9,False,True
+salt_pepper_0.01,5,Heater,3.693829373241131,10,False,True
+salt_pepper_0.01,10,Washing Machine,6.315673052437787,11,False,True
+salt_pepper_0.05,2,Fan,-5.336557449081781,1,True,False
+salt_pepper_0.05,0,Air Conditioner,-1.1013076921616571,2,True,False
+salt_pepper_0.05,8,Microwave,-0.39118610340971305,3,True,False
+salt_pepper_0.05,4,Hairdryer,-0.33641117826981315,4,False,False
+salt_pepper_0.05,1,Compact Fluorescent Lamp,0.2390119473642982,5,False,False
+salt_pepper_0.05,9,Vacuum,0.5450549450549458,6,False,False
+salt_pepper_0.05,7,Laptop,0.7974671865380145,7,False,False
+salt_pepper_0.05,3,Fridge,1.7402173461811499,8,False,False
+salt_pepper_0.05,6,Incandescent Light Bulb,3.0462593377967973,9,False,True
+salt_pepper_0.05,5,Heater,3.150325165031048,10,False,True
+salt_pepper_0.05,10,Washing Machine,14.630552780552787,11,False,True
+salt_pepper_0.1,2,Fan,-4.377815181746336,1,True,False
+salt_pepper_0.1,8,Microwave,-1.174841761676848,2,True,False
+salt_pepper_0.1,0,Air Conditioner,-0.7229749230978688,3,True,False
+salt_pepper_0.1,4,Hairdryer,-0.1571171427488971,4,False,False
+salt_pepper_0.1,1,Compact Fluorescent Lamp,0.20117978166970252,5,False,False
+salt_pepper_0.1,9,Vacuum,1.1326007326007415,6,False,False
+salt_pepper_0.1,7,Laptop,1.1537322090189428,7,False,False
+salt_pepper_0.1,6,Incandescent Light Bulb,2.3180226587590447,8,False,False
+salt_pepper_0.1,3,Fridge,3.3964101155122717,9,False,True
+salt_pepper_0.1,5,Heater,4.882261366084895,10,False,True
+salt_pepper_0.1,10,Washing Machine,20.259390609390604,11,False,True
+salt_pepper_0.2,2,Fan,-3.6065582761683093,1,True,False
+salt_pepper_0.2,8,Microwave,-1.4222612152588465,2,True,False
+salt_pepper_0.2,1,Compact Fluorescent Lamp,-0.1426025312980861,3,True,False
+salt_pepper_0.2,4,Hairdryer,0.349817281066489,4,False,False
+salt_pepper_0.2,9,Vacuum,0.40854145854145596,5,False,False
+salt_pepper_0.2,0,Air Conditioner,1.455571198645239,6,False,False
+salt_pepper_0.2,6,Incandescent Light Bulb,2.5074640524115233,7,False,False
+salt_pepper_0.2,7,Laptop,2.520836295257156,8,False,False
+salt_pepper_0.2,3,Fridge,3.680923013212689,9,False,True
+salt_pepper_0.2,5,Heater,9.030860152918985,10,False,True
+salt_pepper_0.2,10,Washing Machine,29.55476745476745,11,False,True

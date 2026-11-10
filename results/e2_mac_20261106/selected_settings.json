@@ -1,0 +1,54 @@
+{
+  "Yu3": {
+    "model": "Yu3",
+    "grid_index": 7,
+    "seed": 42,
+    "lr": 0.0005,
+    "weight_decay": 0.0,
+    "dropout": 0.5,
+    "best_epoch": 32,
+    "validation_macro_f1": 0.7161942044448683,
+    "stopped_epoch": 52,
+    "hit_max_epochs": false,
+    "prediction_audit_passed": true
+  },
+  "ResNet18": {
+    "model": "ResNet18",
+    "grid_index": 4,
+    "seed": 42,
+    "lr": 0.0001,
+    "weight_decay": 0.001,
+    "dropout": 0.2,
+    "best_epoch": 64,
+    "validation_macro_f1": 0.6594688886736214,
+    "stopped_epoch": 84,
+    "hit_max_epochs": false,
+    "prediction_audit_passed": true
+  },
+  "MobileNetV3": {
+    "model": "MobileNetV3",
+    "grid_index": 15,
+    "seed": 42,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.5,
+    "best_epoch": 40,
+    "validation_macro_f1": 0.5798754286828992,
+    "stopped_epoch": 60,
+    "hit_max_epochs": false,
+    "prediction_audit_passed": true
+  },
+  "ViT-Tiny": {
+    "model": "ViT-Tiny",
+    "grid_index": 8,
+    "seed": 42,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "dropout": 0.2,
+    "best_epoch": 51,
+    "validation_macro_f1": 0.5782122584536024,
+    "stopped_epoch": 71,
+    "hit_max_epochs": false,
+    "prediction_audit_passed": true
+  }
+}

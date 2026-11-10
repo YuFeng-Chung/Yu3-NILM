@@ -1,0 +1,15 @@
+{
+  "all_checks_passed": true,
+  "prediction_rows_independently_recomputed": 3696720,
+  "hpo_runs": 18,
+  "cv_training_runs": 30,
+  "final_unique_training_runs": 50,
+  "final_strategy_evaluations": 50,
+  "conditions_per_model": 211,
+  "paired_comparisons": 112,
+  "source_reuse_unchanged": true,
+  "independent_metric_method": "boolean TP/actual/predicted denominators; all saved scores matched",
+  "manuscript_modified": false,
+  "formal_word_created": false,
+  "confirmatory_inference": false
+}

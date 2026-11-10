@@ -1,0 +1,12 @@
+{
+  "fixed_epochs": {
+    "NoiseFB": 42,
+    "PermFB": 49
+  },
+  "pilot_seconds_per_epoch": {
+    "NoiseFB": 1.2064567702473141,
+    "PermFB": 1.271817429857682
+  },
+  "estimated_training_seconds": 1416.5198510772527,
+  "outer_test_accessed": false
+}

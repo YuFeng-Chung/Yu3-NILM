@@ -1,0 +1,352 @@
+[
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 42,
+    "path": "final/WRG-CNN_no_defense_s42"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 43,
+    "path": "final/WRG-CNN_no_defense_s43"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 44,
+    "path": "final/WRG-CNN_no_defense_s44"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 45,
+    "path": "final/WRG-CNN_no_defense_s45"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 46,
+    "path": "final/WRG-CNN_no_defense_s46"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 47,
+    "path": "final/WRG-CNN_no_defense_s47"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 48,
+    "path": "final/WRG-CNN_no_defense_s48"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 49,
+    "path": "final/WRG-CNN_no_defense_s49"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 50,
+    "path": "final/WRG-CNN_no_defense_s50"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "no_defense",
+    "recipe": "no_defense",
+    "seed": 51,
+    "path": "final/WRG-CNN_no_defense_s51"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 42,
+    "path": "final/WRG-CNN_S3_s42"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 43,
+    "path": "final/WRG-CNN_S3_s43"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 44,
+    "path": "final/WRG-CNN_S3_s44"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 45,
+    "path": "final/WRG-CNN_S3_s45"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 46,
+    "path": "final/WRG-CNN_S3_s46"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 47,
+    "path": "final/WRG-CNN_S3_s47"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 48,
+    "path": "final/WRG-CNN_S3_s48"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 49,
+    "path": "final/WRG-CNN_S3_s49"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 50,
+    "path": "final/WRG-CNN_S3_s50"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S3",
+    "recipe": "S3",
+    "seed": 51,
+    "path": "final/WRG-CNN_S3_s51"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 42,
+    "path": "final/WRG-CNN_combined_s42"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 43,
+    "path": "final/WRG-CNN_combined_s43"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 44,
+    "path": "final/WRG-CNN_combined_s44"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 45,
+    "path": "final/WRG-CNN_combined_s45"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 46,
+    "path": "final/WRG-CNN_combined_s46"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 47,
+    "path": "final/WRG-CNN_combined_s47"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 48,
+    "path": "final/WRG-CNN_combined_s48"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 49,
+    "path": "final/WRG-CNN_combined_s49"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 50,
+    "path": "final/WRG-CNN_combined_s50"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "combined",
+    "recipe": "combined",
+    "seed": 51,
+    "path": "final/WRG-CNN_combined_s51"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 42,
+    "path": "final/WRG-CNN_S4_s42"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 43,
+    "path": "final/WRG-CNN_S4_s43"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 44,
+    "path": "final/WRG-CNN_S4_s44"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 45,
+    "path": "final/WRG-CNN_S4_s45"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 46,
+    "path": "final/WRG-CNN_S4_s46"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 47,
+    "path": "final/WRG-CNN_S4_s47"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 48,
+    "path": "final/WRG-CNN_S4_s48"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 49,
+    "path": "final/WRG-CNN_S4_s49"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 50,
+    "path": "final/WRG-CNN_S4_s50"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "S4",
+    "recipe": "S4",
+    "seed": 51,
+    "path": "final/WRG-CNN_S4_s51"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 42,
+    "path": "final/WRG-CNN_augmentation_s42"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 43,
+    "path": "final/WRG-CNN_augmentation_s43"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 44,
+    "path": "final/WRG-CNN_augmentation_s44"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 45,
+    "path": "final/WRG-CNN_augmentation_s45"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 46,
+    "path": "final/WRG-CNN_augmentation_s46"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 47,
+    "path": "final/WRG-CNN_augmentation_s47"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 48,
+    "path": "final/WRG-CNN_augmentation_s48"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 49,
+    "path": "final/WRG-CNN_augmentation_s49"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 50,
+    "path": "final/WRG-CNN_augmentation_s50"
+  },
+  {
+    "model": "WRG-CNN",
+    "strategy": "augmentation",
+    "recipe": "augmentation",
+    "seed": 51,
+    "path": "final/WRG-CNN_augmentation_s51"
+  }
+]

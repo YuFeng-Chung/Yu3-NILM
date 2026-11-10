@@ -1,0 +1,777 @@
+{
+  "all_checks_passed": true,
+  "completed_runs": 110,
+  "checks": [
+    {
+      "variant": "err_detach",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 42,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 43,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 44,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 45,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 46,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 47,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 48,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 49,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 50,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "err_detach",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "err_no_detach",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_no_detach",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "img_detach",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_first_ce",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "no_recon_loss",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "recon_weight_one",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1026
+    },
+    {
+      "variant": "rec_aux",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "three_pass",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 1539
+    },
+    {
+      "variant": "pass_specific_bn",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    },
+    {
+      "variant": "no_feedback",
+      "seed": 51,
+      "epochs": 19,
+      "prediction_rows": 219,
+      "encoder_bn_updates": 513
+    }
+  ],
+  "scope": "Logs, labels, recomputed metrics, checkpoint metadata, BN update counts. Not a claim of scientific validity or cross-platform numerical reproduction."
+}

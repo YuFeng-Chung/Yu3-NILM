@@ -1,0 +1,56 @@
+{
+  "model": "Yu3",
+  "noise": [
+    "S3"
+  ],
+  "missing": [
+    "combined"
+  ],
+  "noise_votes": {
+    "S0": 0,
+    "S1": 0,
+    "S2": 0,
+    "S3": 3,
+    "S4": 2
+  },
+  "noise_fold_winners": [
+    [
+      "S4"
+    ],
+    [
+      "S3"
+    ],
+    [
+      "S4"
+    ],
+    [
+      "S3"
+    ],
+    [
+      "S3"
+    ]
+  ],
+  "noise_mean_scores": {
+    "S0": 0.22916785594279027,
+    "S1": 0.28906705719267833,
+    "S2": 0.22211002530907514,
+    "S3": 0.44287803135617326,
+    "S4": 0.4307305814486096
+  },
+  "random_wins": {
+    "no_defense": 0,
+    "regularization": 1,
+    "augmentation": 4,
+    "combined": 4
+  },
+  "consecutive_wins": {
+    "no_defense": 0,
+    "regularization": 1,
+    "augmentation": 3,
+    "combined": 4
+  },
+  "protocol_version": 4,
+  "tie_definition": "Exact equality of saved scores or integer ranking keys; no tolerance or outer-test tie-break.",
+  "noise_tie": "All equal fold leaders receive a win (totals may exceed five); maximum wins only; equal vote leaders retained; five-fold means are descriptive only.",
+  "missing_tie": "Strictly beat same-fold No-Defense; maximize min(random wins,consecutive wins), then total wins; retain all exact ties. No-Defense is anchor."
+}

@@ -1,0 +1,540 @@
+{
+  "experiment": "E14",
+  "tables": [
+    {
+      "caption": "Table E14 S1 正式訓練預算與來源",
+      "red": false,
+      "cells": [
+        [
+          "模型",
+          "fixed epochs",
+          "本輪處理"
+        ],
+        [
+          "Yu3",
+          "32",
+          "舊權重只讀重用"
+        ],
+        [
+          "ZeroFB",
+          "32",
+          "舊權重只讀重用"
+        ],
+        [
+          "ShuffleFB",
+          "36",
+          "舊權重只讀重用"
+        ],
+        [
+          "NoiseFB",
+          "42",
+          "本輪新訓練"
+        ],
+        [
+          "PermFB",
+          "49",
+          "本輪新訓練"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E14 R1 主要條件第一次推論 Macro F1",
+      "red": true,
+      "cells": [
+        [
+          "模型",
+          "乾淨",
+          "脈衝5%",
+          "脈衝10%",
+          "脈衝20%"
+        ],
+        [
+          "Yu3",
+          "71.86 ± 4.50",
+          "63.84 ± 8.75",
+          "56.37 ± 7.84",
+          "47.10 ± 6.92"
+        ],
+        [
+          "ZeroFB",
+          "70.23 ± 4.18",
+          "50.49 ± 3.82",
+          "41.15 ± 5.06",
+          "32.27 ± 4.49"
+        ],
+        [
+          "ShuffleFB",
+          "72.48 ± 3.32",
+          "62.52 ± 6.86",
+          "52.89 ± 4.80",
+          "42.90 ± 6.13"
+        ],
+        [
+          "NoiseFB",
+          "71.00 ± 4.40",
+          "64.21 ± 6.21",
+          "57.17 ± 7.33",
+          "48.61 ± 7.31"
+        ],
+        [
+          "PermFB",
+          "71.64 ± 3.58",
+          "65.96 ± 5.29",
+          "60.11 ± 6.49",
+          "50.85 ± 6.31"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E14 R2 主要 NoiseFB 比較",
+      "red": true,
+      "cells": [
+        [
+          "脈衝",
+          "對照",
+          "差值pp",
+          "原始p",
+          "Holm p",
+          "p<.05"
+        ],
+        [
+          "5%",
+          "Yu3",
+          "+0.38",
+          "0.695312",
+          "0.695312",
+          "否"
+        ],
+        [
+          "5%",
+          "ZeroFB",
+          "+13.72",
+          "0.001953",
+          "0.003906",
+          "是"
+        ],
+        [
+          "10%",
+          "Yu3",
+          "+0.80",
+          "0.556641",
+          "0.556641",
+          "否"
+        ],
+        [
+          "10%",
+          "ZeroFB",
+          "+16.01",
+          "0.001953",
+          "0.003906",
+          "是"
+        ],
+        [
+          "20%",
+          "Yu3",
+          "+1.51",
+          "0.232422",
+          "0.232422",
+          "否"
+        ],
+        [
+          "20%",
+          "ZeroFB",
+          "+16.34",
+          "0.001953",
+          "0.003906",
+          "是"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E14 R3 次要 PermFB 比較",
+      "red": true,
+      "cells": [
+        [
+          "脈衝",
+          "對照",
+          "差值pp",
+          "原始p",
+          "Holm p",
+          "p<.05"
+        ],
+        [
+          "5%",
+          "Yu3",
+          "+2.12",
+          "0.845703",
+          "0.845703",
+          "否"
+        ],
+        [
+          "5%",
+          "ZeroFB",
+          "+15.47",
+          "0.001953",
+          "0.003906",
+          "是"
+        ],
+        [
+          "10%",
+          "Yu3",
+          "+3.74",
+          "0.232422",
+          "0.232422",
+          "否"
+        ],
+        [
+          "10%",
+          "ZeroFB",
+          "+18.96",
+          "0.001953",
+          "0.003906",
+          "是"
+        ],
+        [
+          "20%",
+          "Yu3",
+          "+3.75",
+          "0.105469",
+          "0.105469",
+          "否"
+        ],
+        [
+          "20%",
+          "ZeroFB",
+          "+18.58",
+          "0.001953",
+          "0.003906",
+          "是"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E14 S2 全條件原生輸出 Macro F1 百分比",
+      "red": true,
+      "cells": [
+        [
+          "條件",
+          "Yu3",
+          "ZeroFB",
+          "ShuffleFB",
+          "NoiseFB",
+          "PermFB"
+        ],
+        [
+          "乾淨",
+          "71.63",
+          "70.23",
+          "71.60",
+          "72.27",
+          "72.24"
+        ],
+        [
+          "AWGN 30dB",
+          "67.54",
+          "67.86",
+          "66.43",
+          "67.68",
+          "65.10"
+        ],
+        [
+          "AWGN 20dB",
+          "50.42",
+          "52.90",
+          "49.59",
+          "48.45",
+          "47.02"
+        ],
+        [
+          "AWGN 15dB",
+          "37.77",
+          "37.44",
+          "37.19",
+          "35.20",
+          "35.59"
+        ],
+        [
+          "AWGN 10dB",
+          "24.79",
+          "22.85",
+          "27.66",
+          "26.66",
+          "26.91"
+        ],
+        [
+          "AWGN 5dB",
+          "15.07",
+          "11.64",
+          "17.99",
+          "16.01",
+          "17.30"
+        ],
+        [
+          "AWGN 0dB",
+          "8.46",
+          "7.26",
+          "9.31",
+          "8.81",
+          "9.80"
+        ],
+        [
+          "脈衝1%",
+          "70.60",
+          "68.96",
+          "70.75",
+          "71.56",
+          "71.87"
+        ],
+        [
+          "脈衝5%",
+          "60.84",
+          "50.49",
+          "61.67",
+          "63.98",
+          "66.05"
+        ],
+        [
+          "脈衝10%",
+          "54.00",
+          "41.15",
+          "53.30",
+          "57.56",
+          "59.79"
+        ],
+        [
+          "脈衝20%",
+          "43.26",
+          "32.27",
+          "44.45",
+          "48.33",
+          "51.06"
+        ],
+        [
+          "隨機缺失1%",
+          "71.68",
+          "70.32",
+          "71.54",
+          "72.20",
+          "72.38"
+        ],
+        [
+          "隨機缺失5%",
+          "71.66",
+          "69.80",
+          "71.43",
+          "72.23",
+          "72.47"
+        ],
+        [
+          "隨機缺失10%",
+          "71.50",
+          "69.99",
+          "71.60",
+          "72.21",
+          "72.31"
+        ],
+        [
+          "隨機缺失20%",
+          "71.86",
+          "69.79",
+          "71.43",
+          "72.03",
+          "71.99"
+        ],
+        [
+          "連續缺失1%",
+          "71.62",
+          "70.06",
+          "71.62",
+          "72.27",
+          "72.40"
+        ],
+        [
+          "連續缺失5%",
+          "71.14",
+          "69.53",
+          "71.17",
+          "71.80",
+          "71.82"
+        ],
+        [
+          "連續缺失10%",
+          "70.71",
+          "69.34",
+          "70.09",
+          "71.31",
+          "70.87"
+        ],
+        [
+          "連續缺失20%",
+          "66.61",
+          "66.01",
+          "65.63",
+          "66.01",
+          "65.27"
+        ],
+        [
+          "連續缺失30%",
+          "60.69",
+          "61.24",
+          "59.03",
+          "60.02",
+          "59.18"
+        ],
+        [
+          "連續缺失40%",
+          "50.76",
+          "52.87",
+          "49.30",
+          "51.15",
+          "50.14"
+        ],
+        [
+          "連續缺失50%",
+          "40.19",
+          "42.32",
+          "40.92",
+          "41.04",
+          "40.46"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E14 S3 新模型第一次與原生輸出之差",
+      "red": true,
+      "cells": [
+        [
+          "模型",
+          "條件",
+          "第一次F1%",
+          "原生F1%",
+          "原生減第一次pp"
+        ],
+        [
+          "NoiseFB",
+          "乾淨",
+          "71.00",
+          "72.27",
+          "+1.28"
+        ],
+        [
+          "NoiseFB",
+          "脈衝5%",
+          "64.21",
+          "63.98",
+          "-0.24"
+        ],
+        [
+          "NoiseFB",
+          "脈衝10%",
+          "57.17",
+          "57.56",
+          "+0.39"
+        ],
+        [
+          "NoiseFB",
+          "脈衝20%",
+          "48.61",
+          "48.33",
+          "-0.28"
+        ],
+        [
+          "PermFB",
+          "乾淨",
+          "71.64",
+          "72.24",
+          "+0.60"
+        ],
+        [
+          "PermFB",
+          "脈衝5%",
+          "65.96",
+          "66.05",
+          "+0.09"
+        ],
+        [
+          "PermFB",
+          "脈衝10%",
+          "60.11",
+          "59.79",
+          "-0.32"
+        ],
+        [
+          "PermFB",
+          "脈衝20%",
+          "50.85",
+          "51.06",
+          "+0.21"
+        ]
+      ]
+    },
+    {
+      "caption": "Table E14 S4 可追溯輸出",
+      "red": false,
+      "cells": [
+        [
+          "檔案或目錄",
+          "用途"
+        ],
+        [
+          "final/",
+          "20組新模型checkpoint、run_spec、result、train log、evaluation、IDs與兩pass逐筆預測"
+        ],
+        [
+          "reference_evaluation/",
+          "30組既有模型只推論副本；原生預測逐值對照原E4"
+        ],
+        [
+          "per_seed_condition_realization.csv",
+          "各模型、seed、條件、污染實現與兩端點四指標"
+        ],
+        [
+          "per_seed_averaged.csv 與 summary.csv",
+          "每seed先平均10實現及跨seed均值／SD"
+        ],
+        [
+          "paired_tests_prespecified.csv",
+          "12項主要／次要事先指定配對檢定"
+        ],
+        [
+          "paired_tests_all.csv",
+          "包含與ShuffleFB及其他條件未校正探索性檢定"
+        ],
+        [
+          "prespecified_interpretation.csv",
+          "依規格第5節逐強度自動判讀"
+        ],
+        [
+          "completed_audit.json 與 qa/",
+          "逐筆Boolean F1、精確p與來源／Word檢查"
+        ]
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "source": "figures/impulse_pass_comparison.png",
+      "sha256": "e28ac8e8b33a3c799eff11e60b2a7ec0616995dfcc5c3a10deddcedf50d0f36f",
+      "caption": "Figure E14 RF1 第一次推論與原生輸出。誤差棒為10訓練seed的SD；每seed先平均10污染實現。0%表示乾淨資料。"
+    },
+    {
+      "source": "figures/pilot_epochs.png",
+      "sha256": "84aeff9b77d5bcb67ed6b32b463443e91a2127ea7767d441814fb6fddf3ac131",
+      "caption": "Figure E14 SF1 seed42內層驗證完整曲線。灰區為不參與epoch選擇的1–29輪，虛線為選定epoch；未用test選epoch。"
+    }
+  ],
+  "responses": [
+    {
+      "code": "R3-1 follow-up",
+      "paragraphs": [
+        "Thank you for emphasizing the need to distinguish residual content from the training effect of a varying second channel. We added NoiseFB as the primary trained control and pixel-permuted residual feedback (PermFB) as a secondary control under No-Defense. Both retain the Yu3 encoder, decoder, detached feedback path, shared batch normalization, two forward passes and loss, while changing only the auxiliary input type. Each model independently selected its fixed training epoch on inner validation data before outer-test evaluation.",
+        "At 5% impulses, NoiseFB first-pass Macro-F1 was 64.21%, with differences of +0.38 pp from Yu3 (Holm p=0.695312) and +13.72 pp from ZeroFB (Holm p=0.003906). At 10% impulses, NoiseFB first-pass Macro-F1 was 57.17%, with differences of +0.80 pp from Yu3 (Holm p=0.556641) and +16.01 pp from ZeroFB (Holm p=0.003906). At 20% impulses, NoiseFB first-pass Macro-F1 was 48.61%, with differences of +1.51 pp from Yu3 (Holm p=0.232422) and +16.34 pp from ZeroFB (Holm p=0.003906).",
+        "All three primary severities met the prespecified varying-channel rule; retaining the spatial arrangement of the residual was not required for this robustness pattern. NoiseFB still depends on the sample-specific residual mean and standard deviation. This result therefore concerns this matched-moment Gaussian control and does not establish that every varying auxiliary channel would work. PermFB and both first-pass and reported outputs are disclosed in the supplementary results. The 3 pp criterion is a descriptive decision rule, not evidence of statistical equivalence.",
+        "感謝審稿人要求區分殘差內容與變動第二通道的訓練效果。我們在 No-Defense 新增 NoiseFB 主要受訓對照與像素隨機重排殘差 PermFB 次要對照；保留 Yu3 編碼器、解碼器、detach、共享 BN、兩次運算及相同 loss，只改變第二次運算的輔助輸入類型。兩者在外層測試前，各自以內層驗證選定固定訓練輪數。",
+        "脈衝5%下，NoiseFB 第一次推論 Macro-F1 為64.21%，相對 Yu3 +0.38 pp（Holm p=0.695312），相對 ZeroFB +13.72 pp（Holm p=0.003906）。 脈衝10%下，NoiseFB 第一次推論 Macro-F1 為57.17%，相對 Yu3 +0.80 pp（Holm p=0.556641），相對 ZeroFB +16.01 pp（Holm p=0.003906）。 脈衝20%下，NoiseFB 第一次推論 Macro-F1 為48.61%，相對 Yu3 +1.51 pp（Holm p=0.232422），相對 ZeroFB +16.34 pp（Holm p=0.003906）。",
+        "三個主要強度均符合規格的變動通道判讀：此處的穩健性不要求保留殘差的空間排列。 NoiseFB 仍保留樣本殘差的均值與標準差；本結果僅適用此匹配強度矩的 Gaussian 控制，不能直接推廣為任何變動通道皆有效。PermFB 與第一次推論、原生輸出皆完整揭露。3 pp 是描述性判讀條件，不是統計等效證據。"
+      ]
+    }
+  ],
+  "docx_sha256": "f11f2c9a60ab6609a247f56f9430c44e1b171d30ee1f6cf2db9393e8fbc33afe"
+}

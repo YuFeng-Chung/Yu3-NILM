@@ -1,0 +1,12 @@
+{
+  "all_checks_passed": true,
+  "at": "2026-11-08T22:53:28.037460+08:00",
+  "real_training_examples": 8,
+  "device": "cpu",
+  "model": "M5",
+  "pause_after_epoch": 1,
+  "resumed_through_epoch": 2,
+  "uninterrupted_and_resumed_all_weights_bn_exact": true,
+  "no_test_data": true,
+  "temporary_artifacts_removed": true
+}

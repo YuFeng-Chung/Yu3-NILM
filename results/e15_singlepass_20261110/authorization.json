@@ -1,0 +1,9 @@
+{
+  "formal_training_authorized": true,
+  "source": "User explicitly confirmed in this chat: use sealed mu0/sigma0 and fixed_epochs NoiseCh42/Mix37; complete formal training, inference, analysis and delivery",
+  "fixed_epochs": {
+    "1P-NoiseCh": 42,
+    "1P-Mix": 37
+  },
+  "scale_sha256": "5321bebe21c36dff9407115103ecf4052e1afc175208c5e3bb4270c4a2b8f6a6"
+}

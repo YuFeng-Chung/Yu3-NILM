@@ -1,0 +1,11 @@
+{
+  "seconds_per_219": {
+    "1P-NoiseCh_zero": 0.06909809997305275,
+    "1P-NoiseCh_noise": 0.08445351654663683,
+    "1P-Mix_zero": 0.07368499161675572,
+    "1P-Mix_noise": 0.08572463318705559
+  },
+  "estimated_evaluation_seconds": 660.3482191925868,
+  "outer_test_accessed": false,
+  "batch": 32
+}

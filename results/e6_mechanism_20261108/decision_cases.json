@@ -1,0 +1,34 @@
+[
+  {
+    "direction": "wrong_to_right",
+    "available": true,
+    "seed": 42,
+    "type": "clean",
+    "severity": 0,
+    "pollution_seed": -1,
+    "sample_id": "285",
+    "truth": 8,
+    "pass1": 2,
+    "normal": 8,
+    "zero": 2,
+    "shuffle": 8,
+    "donor_sample_id": "287",
+    "transition": "wrong_to_right"
+  },
+  {
+    "direction": "right_to_wrong",
+    "available": true,
+    "seed": 42,
+    "type": "clean",
+    "severity": 0,
+    "pollution_seed": -1,
+    "sample_id": "137",
+    "truth": 5,
+    "pass1": 5,
+    "normal": 4,
+    "zero": 5,
+    "shuffle": 5,
+    "donor_sample_id": "16",
+    "transition": "right_to_wrong"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "M1": {
+    "fixed_epoch": 14,
+    "pilot_val_f1": 0.6760066366887734
+  },
+  "M2": {
+    "fixed_epoch": 34,
+    "pilot_val_f1": 0.6883677860919497
+  },
+  "M3": {
+    "fixed_epoch": 13,
+    "pilot_val_f1": 0.6659684900359218
+  },
+  "M4": {
+    "fixed_epoch": 21,
+    "pilot_val_f1": 0.6780096979153584
+  },
+  "M5": {
+    "fixed_epoch": 19,
+    "pilot_val_f1": 0.6475865116271848
+  }
+}

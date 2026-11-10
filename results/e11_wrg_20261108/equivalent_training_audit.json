@@ -1,0 +1,145 @@
+{
+  "all_checks_passed": true,
+  "pairs": [
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 42,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 43,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 44,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 45,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 46,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 47,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 48,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 49,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 50,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "S3",
+      "second": "S4",
+      "seed": 51,
+      "epoch": 86,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 42,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 43,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 44,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 45,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 46,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 47,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 48,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 49,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 50,
+      "epoch": 39,
+      "state_dict_exact": true
+    },
+    {
+      "first": "augmentation",
+      "second": "combined",
+      "seed": 51,
+      "epoch": 39,
+      "state_dict_exact": true
+    }
+  ]
+}

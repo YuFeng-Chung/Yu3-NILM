@@ -1,0 +1,63 @@
+{
+  "model": "ResNet18",
+  "noise": [
+    "S3",
+    "S4"
+  ],
+  "missing": [
+    "augmentation",
+    "combined"
+  ],
+  "noise_votes": {
+    "S0": 0,
+    "S1": 0,
+    "S2": 0,
+    "S3": 5,
+    "S4": 5
+  },
+  "noise_fold_winners": [
+    [
+      "S3",
+      "S4"
+    ],
+    [
+      "S3",
+      "S4"
+    ],
+    [
+      "S3",
+      "S4"
+    ],
+    [
+      "S3",
+      "S4"
+    ],
+    [
+      "S3",
+      "S4"
+    ]
+  ],
+  "noise_mean_scores": {
+    "S0": 0.13682569443836806,
+    "S1": 0.2248356163114352,
+    "S2": 0.1409996503274086,
+    "S3": 0.4133400294836953,
+    "S4": 0.4133400294836953
+  },
+  "random_wins": {
+    "no_defense": 0,
+    "regularization": 1,
+    "augmentation": 3,
+    "combined": 3
+  },
+  "consecutive_wins": {
+    "no_defense": 0,
+    "regularization": 1,
+    "augmentation": 4,
+    "combined": 4
+  },
+  "protocol_version": 3,
+  "tie_definition": "Exact equality of saved scores or integer ranking keys; no tolerance or outer-test tie-break.",
+  "noise_tie": "All equal fold leaders receive a win (totals may exceed five); maximum wins, then maximum five-fold mean; exact final ties retained.",
+  "missing_tie": "Strictly beat same-fold No-Defense; maximize min(random wins,consecutive wins), then total wins; retain all exact ties. No-Defense is anchor."
+}

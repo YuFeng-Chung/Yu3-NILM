@@ -1,0 +1,12 @@
+{
+  "fixed_epochs": {
+    "NoiseFB": 42,
+    "PermFB": 49
+  },
+  "outer_test_evaluations_so_far": 0,
+  "config": {
+    "lr": 0.0005,
+    "weight_decay": 0.0,
+    "dropout": 0.5
+  }
+}

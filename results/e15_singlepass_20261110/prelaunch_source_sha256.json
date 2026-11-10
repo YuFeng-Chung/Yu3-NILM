@@ -1,0 +1,7 @@
+{
+  "source/prepare_pilot.py": "74205ea235ff00ec7fc92cd99c3ad43ec90a3186c0aaa16ed3e319837a0cf35a",
+  "source/original_e14_core.py": "b9eedcdd66a176a1224bdc255900e9848d946d1563af463cfec955567b1c1699",
+  "source/core_changes.diff": "e4eb0dcff8e3b6945fff873e5dbfa9b856c8b1958c14b2f8c5bc8056454e7953",
+  "source/e15_core.py": "b083297cc02f364f606796c64439e1a90b1e0217f0619f375a55c10586921a28",
+  "source/finalize_prelaunch.py": "efb1d209362d0cec7b8d48e13ad0e6290e199f1ce721bb052a280920f6333328"
+}

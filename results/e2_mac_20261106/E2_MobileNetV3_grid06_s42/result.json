@@ -1,0 +1,13 @@
+{
+  "model": "MobileNetV3",
+  "grid_index": 6,
+  "seed": 42,
+  "lr": 0.0005,
+  "weight_decay": 0.0,
+  "dropout": 0.2,
+  "best_epoch": 50,
+  "validation_macro_f1": 0.5340231722546196,
+  "stopped_epoch": 70,
+  "hit_max_epochs": false,
+  "prediction_audit_passed": true
+}

@@ -1,0 +1,16 @@
+{
+  "fs": 30000,
+  "output_points": 500,
+  "smooth_voltage_points": 15,
+  "min_crossing_gap": 400,
+  "min_cycle_points": 450,
+  "max_cycle_points": 550,
+  "tail_cycles": 20,
+  "stable_cycles": 3,
+  "rms_relative_spread_max": 0.05,
+  "adjacent_current_nrmse_max": 0.1,
+  "activity_fraction_of_record_cycle_rms_p95": 0.1,
+  "min_current_rms": 1e-06,
+  "min_start_index": 1000,
+  "selection": "latest qualifying three-cycle block in last20; choose middle cycle; no averaging; no fallback"
+}
