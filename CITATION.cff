@@ -17,7 +17,7 @@ authors:
 repository-code: "https://github.com/YuFeng-Chung/Yu3-NILM"
 license: MIT
 version: "1.0.0"
-date-released: "2026-11-30"
+date-released: "2026-11-12"
 preferred-citation:
   type: article
   title: "Yu3: Improving the Robustness of V–I Appliance Identification to Unseen Waveform Impulses through Two-Pass Training with a Varying Auxiliary Channel"
