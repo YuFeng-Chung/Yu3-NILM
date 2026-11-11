@@ -15006,7 +15006,7 @@
   },
   "study": "E7 S3 authorized supplement, separate from Combined and retaining all original results",
   "authorization_source": "e7_s3_handoff_20261108.md",
-  "addition_reason": "Cover original S3 noise main comparisons for R3-8(b) and minor-9; not replacing unfavorable Combined results",
+  "addition_reason": "Cover original S3 noise main comparisons for split sensitivity and per-class results; not replacing unfavorable Combined results",
   "noise_grid": {
     "awgn": [
       30,

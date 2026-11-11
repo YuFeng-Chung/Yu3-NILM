@@ -39,4 +39,4 @@ WRG使用作者CNN、current-only mean-PAA、50×50距離圖、eps10/delta20；�
 
 主要是完整描述性Macro-F1、Dabs與Drel，污染先在訓練seed內平均，再配對十個seed。bootstrap僅描述固定歷史split的訓練隨機性，不作母群信賴區間或確認性顯著主張；不以縮family、追加seed或test挑策略迴避前輪統計限制。歷史test已查看、group為類別×住宅代理、single-seed HPO／非nested及Mac非CUDA等限制保留。
 
-已產出完整CSV、七組600dpi PNG/SVG曲線、逐條件混淆整數NPZ、Markdown結果報告及獨立audit。112列配對比較含完整有利／不利條件；Yu3 S3對WRG S3/S4在AWGN20至0dB較低、椒鹽較高；Combined連續缺失50%為WRG平均略高，其餘完整結果見報告。整理包`../../E11完整結果整理包_20261108.zip`由`finalize_e11_delivery.py`產生並驗證CRC及逐檔SHA；checkpoint與逐筆預測留在原results，不重複打包。未修改原稿、後續已完成16頁16表2圖正式E11結果回應稿，入口`../../e11_full_review_20261108/README.md`、未公開上傳，不宣稱Drive同步完成。
+已產出完整CSV、七組600dpi PNG/SVG曲線、逐條件混淆整數NPZ、Markdown結果報告及獨立audit。112列配對比較含完整有利／不利條件；Yu3 S3對WRG S3/S4在AWGN20至0dB較低、椒鹽較高；Combined連續缺失50%為WRG平均略高，其餘完整結果見報告。整理包`../../E11完整結果整理包_20261108.zip`由`finalize_e11_delivery.py`產生並驗證CRC及逐檔SHA；checkpoint與逐筆預測留在原results，不重複打包。

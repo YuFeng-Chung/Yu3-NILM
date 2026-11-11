@@ -523,18 +523,5 @@
       "caption": "Figure E14 SF1 seed42內層驗證完整曲線。灰區為不參與epoch選擇的1–29輪，虛線為選定epoch；未用test選epoch。"
     }
   ],
-  "responses": [
-    {
-      "code": "R3-1 follow-up",
-      "paragraphs": [
-        "Thank you for emphasizing the need to distinguish residual content from the training effect of a varying second channel. We added NoiseFB as the primary trained control and pixel-permuted residual feedback (PermFB) as a secondary control under No-Defense. Both retain the Yu3 encoder, decoder, detached feedback path, shared batch normalization, two forward passes and loss, while changing only the auxiliary input type. Each model independently selected its fixed training epoch on inner validation data before outer-test evaluation.",
-        "At 5% impulses, NoiseFB first-pass Macro-F1 was 64.21%, with differences of +0.38 pp from Yu3 (Holm p=0.695312) and +13.72 pp from ZeroFB (Holm p=0.003906). At 10% impulses, NoiseFB first-pass Macro-F1 was 57.17%, with differences of +0.80 pp from Yu3 (Holm p=0.556641) and +16.01 pp from ZeroFB (Holm p=0.003906). At 20% impulses, NoiseFB first-pass Macro-F1 was 48.61%, with differences of +1.51 pp from Yu3 (Holm p=0.232422) and +16.34 pp from ZeroFB (Holm p=0.003906).",
-        "All three primary severities met the prespecified varying-channel rule; retaining the spatial arrangement of the residual was not required for this robustness pattern. NoiseFB still depends on the sample-specific residual mean and standard deviation. This result therefore concerns this matched-moment Gaussian control and does not establish that every varying auxiliary channel would work. PermFB and both first-pass and reported outputs are disclosed in the supplementary results. The 3 pp criterion is a descriptive decision rule, not evidence of statistical equivalence.",
-        "感謝審稿人要求區分殘差內容與變動第二通道的訓練效果。我們在 No-Defense 新增 NoiseFB 主要受訓對照與像素隨機重排殘差 PermFB 次要對照；保留 Yu3 編碼器、解碼器、detach、共享 BN、兩次運算及相同 loss，只改變第二次運算的輔助輸入類型。兩者在外層測試前，各自以內層驗證選定固定訓練輪數。",
-        "脈衝5%下，NoiseFB 第一次推論 Macro-F1 為64.21%，相對 Yu3 +0.38 pp（Holm p=0.695312），相對 ZeroFB +13.72 pp（Holm p=0.003906）。 脈衝10%下，NoiseFB 第一次推論 Macro-F1 為57.17%，相對 Yu3 +0.80 pp（Holm p=0.556641），相對 ZeroFB +16.01 pp（Holm p=0.003906）。 脈衝20%下，NoiseFB 第一次推論 Macro-F1 為48.61%，相對 Yu3 +1.51 pp（Holm p=0.232422），相對 ZeroFB +16.34 pp（Holm p=0.003906）。",
-        "三個主要強度均符合規格的變動通道判讀：此處的穩健性不要求保留殘差的空間排列。 NoiseFB 仍保留樣本殘差的均值與標準差；本結果僅適用此匹配強度矩的 Gaussian 控制，不能直接推廣為任何變動通道皆有效。PermFB 與第一次推論、原生輸出皆完整揭露。3 pp 是描述性判讀條件，不是統計等效證據。"
-      ]
-    }
-  ],
   "docx_sha256": "f11f2c9a60ab6609a247f56f9430c44e1b171d30ee1f6cf2db9393e8fbc33afe"
 }

@@ -22,7 +22,6 @@ E14 執行程式全部在 `source/`；`e14_core.py` 為隔離副本，新增 Fee
 - `paired_tests_prespecified.csv`：主NoiseFB及次PermFB各3強度×2對照，共12項。每模型、每強度內對Yu3／ZeroFB兩項Holm，n10雙尾精確Wilcoxon；不跨強度或跨主／次模型校正。
 - `paired_tests_all.csv`：包含ShuffleFB、其他強度及原生輸出；非事先指定者標記exploratory_unadjusted，p_holm空白，不混充主要顯著證據。
 - `prespecified_interpretation.csv`：規格第5節逐強度機械套用，3pp為描述性條件，非等效檢定。若強度間不一致，不任選有利強度作總結。
-- `E14結果回應稿.docx`／`.md`／`.html`：沿用E1–E13格式，黑字證據、紅字英中Response與擬置入稿件文字；`manuscript_insertions.md`另存III-C／Discussion／Response／Supplementary Methods。尚未改原主稿。
 
 NoiseFB仍保留逐樣本殘差mean/std，PermFB保留逐樣本殘差值分布；不能推論完全沒有樣本資訊或任何變動通道皆足夠。歷史test已查看且本輪假設由舊診斷引出；單一split、不同epoch及Mac/MPS平台限制保留，非學生CUDA獨立重現。
 

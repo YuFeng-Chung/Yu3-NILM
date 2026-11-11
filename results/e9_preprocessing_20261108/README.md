@@ -1,10 +1,9 @@
-# 後續回應稿已交付
+# E9 前處理敏感度
 
-20頁13表2主圖英中Word已完成，含主文Discussion及補充材料方法／結果；入口`../../e9_full_review_20261108/README.md`，集中副本`../../0_E1-E13實驗結果文稿/E9結果回應稿.docx`。舊研究audit的Word未完成旗標及下文為研究交付當時快照，不回寫；原稿未改。
 
 # 最新完成狀態
 
-本輪8pilot、40正式訓練與41條件評估完成；research／獨立raw／完整成像診斷audit通過。結果見`E9結果報告.md`、`summary.csv`及`paired_factor_changes.csv`。正式Word與原稿尚未處理。以下啟動段落保留歷史。
+本輪8pilot、40正式訓練與41條件評估完成；research／獨立raw／完整成像診斷audit通過。結果見`E9結果報告.md`、`summary.csv`及`paired_factor_changes.csv`。以下啟動段落保留歷史。
 
 # E9 獨立前處理敏感度補測
 
@@ -24,4 +23,4 @@ python Code/RevisedCode/experiments/control_e9.py resume
 
 pause須等PAUSED與writer退出；resume依作者指示，不重複start。程序為本機程序，不隨Drive遷移。
 
-完成後來源：`E9結果報告.md`、`summary.csv`、`paired_factor_changes.csv`、`diagnostics_summary.csv`、`figures/`、`independent_audit.json`及`completed_audit.json`。正式Word、原稿整合及E13舊分析處置另列。
+完成後來源：`E9結果報告.md`、`summary.csv`、`paired_factor_changes.csv`、`diagnostics_summary.csv`、`figures/`、`independent_audit.json`及`completed_audit.json`。

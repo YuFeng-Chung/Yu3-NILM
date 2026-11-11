@@ -40,4 +40,4 @@ RecAux 採一通道編碼器。Yu3−RecAux 同時涉及 pass 次數、分類 lo
 
 ![連續缺失退化](consecutive_degradation.png)
 
-結果不自動改稿或決定投稿；需連同 absolute F1、paired差、校正及限制解讀。
+結果需連同 absolute F1、paired差、校正及限制解讀。

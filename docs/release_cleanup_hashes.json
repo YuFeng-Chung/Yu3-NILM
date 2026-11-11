@@ -1,0 +1,87 @@
+[
+  {
+    "file": "results/e14_noisefb_20261110/content_manifest.json",
+    "original_sha256": "f2a00cb9abc553559fbed994771f23e9ad9dda896901b4c27d7e661819378233",
+    "current_sha256": "125d8f554341d944ea9a84cee8c7f0196716f436f0bfd7d017721def502bb526"
+  },
+  {
+    "file": "results/e15_singlepass_20261110/content_manifest.json",
+    "original_sha256": "8c3e06137b9f969ab3495dc49b524d18913a4035200324b4a3195c2ff6ba1622",
+    "current_sha256": "e6a31a555f05c563434c07730e5327fffc2cf0dfd233a06f70fa9d1ebe5d8389"
+  },
+  {
+    "file": "results/e10_whited_20261108/README.md",
+    "original_sha256": "c1afbccd6d716f0c8b3d551eef22700bd5ffe1302d9af96cca16c79ab8fa639b",
+    "current_sha256": "86ac7fde636921f1c1d5c316e7d01e898bceed7029b15084406bd5b424716e00"
+  },
+  {
+    "file": "results/e11_wrg_20261108/README.md",
+    "original_sha256": "3204233528d0c01a679ad96227a628f4ca6ed34126ad54e7f581b586eba39074",
+    "current_sha256": "0243d9919e993605a020cc1f07470cc006451d1cf4ae566e62afd74c109398c2"
+  },
+  {
+    "file": "results/e12_measurement_20261108/README.md",
+    "original_sha256": "2758abd97cc17643ee1db5e57568c0c1b69a8ab2fde8abdc916be020c9a2c2ec",
+    "current_sha256": "552688ac8034ec2b09c8c052bfc6b7d6c65696625a4209e6f42e83aee054f0a4"
+  },
+  {
+    "file": "results/e14_noisefb_20261110/README.md",
+    "original_sha256": "018e079b11d5516bf663cbcb7a5ba1af08eeb2bb5f208363378a92cf60e39b64",
+    "current_sha256": "2e0bd151dd2ebee9b0ef70030119806d2642d1409953a4c56a924b8a7bd92dcf"
+  },
+  {
+    "file": "results/e15_singlepass_20261110/README.md",
+    "original_sha256": "ed170217afb0f801638362a50de60ec9ae2c76fcc5d88b935b3b4412dd620ab0",
+    "current_sha256": "05470b9532881d4f556513bc45af3b142057a43b36f0166aef9ec9f3df90c0eb"
+  },
+  {
+    "file": "results/e1_e4_mac_20261106/followup_report.md",
+    "original_sha256": "6b3a883c10fa052f90a2f77e16a98e831f8d99ffd8c8c2af91895758c8f2b613",
+    "current_sha256": "b2e91f801a2d70afc47d8d471805fddc5edb3db45b2a1c3e389e0536387951fe"
+  },
+  {
+    "file": "results/e1_e4_mac_20261106/tie_rule_vote_only_20261107/README.md",
+    "original_sha256": "e4e108a756db7f8f3d8167a80038c155ad917f7c50eec07b3af9e46fbc50c3b2",
+    "current_sha256": "436c4ef5b16cc2359c8f44d84633715f546b866238c303b12bc2ef9ecbd2d881"
+  },
+  {
+    "file": "results/e6_mechanism_20261108/e6_report.md",
+    "original_sha256": "8725b0113bbea6302c047864c303f5dcc88abfac774da883be4ef30e1e83973a",
+    "current_sha256": "ca298b52d985ed3d07ab5bcbd58392f016686a2e7d4e7c60b1a82bd7b114ef93"
+  },
+  {
+    "file": "results/e8_cpu_20261108/README.md",
+    "original_sha256": "53994cb359ae126eeb76629119b71ed3108ba08f2e1853da0cc28c74e40d423c",
+    "current_sha256": "145ce69d8280ecc0308769201109f8ae5f4466e259c707a33363a676fb601fd6"
+  },
+  {
+    "file": "results/e9_preprocessing_20261108/README.md",
+    "original_sha256": "7b7006a494d162eea7aee705671874f5897423b6e4a197060482587c12799fc2",
+    "current_sha256": "804b6beaf9ab87b14b91da30347ea4c9d981f5478ce634e1435c2de0db0bc7b1"
+  },
+  {
+    "file": "results/e5_full_20261106/e5_supporting_evidence_20261106.md",
+    "original_sha256": "a581024b0d72f3779835c593cf05645367ce15575f0866be1bba964cecd61980",
+    "current_sha256": "b63b9401701e5f33eb47d154d583b2ad12e2d357f0f0822c3e7e3ed0a4eb2a63"
+  },
+  {
+    "file": "results/e5_full_20261106/completion_status.json",
+    "original_sha256": "87647c3d9e56ac3d85c7dd9045656dde8dacab9c2bc0025083be536d9a5cbdb5",
+    "current_sha256": "f0e5fabb158f9e832fbb3355203e58a882a5b80bd2f3750e410a5b826163d9c5"
+  },
+  {
+    "file": "results/e7_s3_splits_20261108/README.md",
+    "original_sha256": "8481ad8916153a9691f3455c9e9a68dec97476151f42dbd05d01ff6f3f336737",
+    "current_sha256": "3abe530f4e46789465b25c98ae0e8d2187d8bf46e397a812c8931d36452d1b0e"
+  },
+  {
+    "file": "results/e7_s3_splits_20261108/protocol.json",
+    "original_sha256": "93effa7f82f7783c66aecfbc6a813c1e149d4b659dc19b8f1d034c8007c55b27",
+    "current_sha256": "f1dce3c20e32326ae5f357e65d7591cc1899f9a758f510347d8153b23cc1a723"
+  },
+  {
+    "file": "results/e7_splits_20261108/README.md",
+    "original_sha256": "4528eb2fcd0b38e663f6b95d63d7a2808537076ef9fda6afd0384e60743867b1",
+    "current_sha256": "69653aa350828313baf6147c83ed1b2e23b240ee34b2144a402f7632bc000fad"
+  }
+]

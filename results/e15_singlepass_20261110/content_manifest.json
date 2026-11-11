@@ -497,18 +497,5 @@
       "caption": "Figure E15 S2 Seed 42內層驗證完整曲線 灰區1至29輪不具選輪資格 虛線為選定epoch"
     }
   ],
-  "responses": [
-    {
-      "code": "R3-1 E15 follow-up",
-      "paragraphs": [
-        "Thank you for raising the mechanism of the auxiliary channel. As a follow-up to E14, we added a primary single-pass noisy-channel control (1P-NoiseCh) and a secondary zero/noise mixture (1P-Mix), retaining the two-channel architecture and reconstruction supervision. Their epochs and noise scale were fixed before the new outer-test evaluations.",
-        "At 5% impulses, 1P-NoiseCh with [X,0] achieved 56.27% Macro-F1, differing from the NoiseFB first pass by -7.94 pp (Holm p=0.003906) and from ZeroFB by +5.78 pp (Holm p=0.105469). At 10% impulses, 1P-NoiseCh with [X,0] achieved 48.88% Macro-F1, differing from the NoiseFB first pass by -8.29 pp (Holm p=0.007812) and from ZeroFB by +7.73 pp (Holm p=0.009766). At 20% impulses, 1P-NoiseCh with [X,0] achieved 39.22% Macro-F1, differing from the NoiseFB first pass by -9.39 pp (Holm p=0.003906) and from ZeroFB by +6.95 pp (Holm p=0.003906).",
-        "1P-NoiseCh showed partial or intermediate effects at all three primary impulse severities. Neither the single-pass sufficiency rule nor the two-pass necessity rule was met; these results do not establish universal necessity of two passes. The secondary 1P-Mix decisions were: 5%: partial or intermediate effect; 10%: partial or intermediate effect; 20%: partial or intermediate effect. The complete [X,N] results and all corruption conditions are also disclosed. These findings are bounded by the tested fixed-scale recipes; the descriptive 3 pp rule does not establish equivalence or universal necessity.",
-        "感謝審稿人關注輔助通道的機制。我們在E14後新增主要單次雜訊通道1P-NoiseCh與次要零／雜訊混合1P-Mix，保留兩通道架構及重建監督；新外層評估前已固定尺度與各自epoch。",
-        "脈衝5%時，1P-NoiseCh以[X,0]測試的Macro-F1為56.27%，相對NoiseFB第一次推論-7.94 pp（Holm p=0.003906），相對ZeroFB +5.78 pp（Holm p=0.105469）。 脈衝10%時，1P-NoiseCh以[X,0]測試的Macro-F1為48.88%，相對NoiseFB第一次推論-8.29 pp（Holm p=0.007812），相對ZeroFB +7.73 pp（Holm p=0.009766）。 脈衝20%時，1P-NoiseCh以[X,0]測試的Macro-F1為39.22%，相對NoiseFB第一次推論-9.39 pp（Holm p=0.003906），相對ZeroFB +6.95 pp（Holm p=0.003906）。",
-        "1P-NoiseCh在三個主要脈衝強度均屬部分或中間效果；未達單次足夠規則，也未達兩次必要規則，不能據此宣稱兩次推論普遍必要。 次要1P-Mix逐強度判讀：5%: 部分或中間效果；10%: 部分或中間效果；20%: 部分或中間效果。另完整揭露[X,N]及全部污染條件；此結論限受測固定尺度方法，3 pp規則不代表統計等效或普遍必要性。"
-      ]
-    }
-  ],
   "docx_sha256": "2e21c6daa9a8a392cfafb0f1482de989880e1f97a61311e48f42e4f799b8d711"
 }

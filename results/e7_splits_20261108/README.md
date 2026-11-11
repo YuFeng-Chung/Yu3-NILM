@@ -1,6 +1,5 @@
 # E7：多組 group 切分與各類別分析
 
-最新交付狀態 2026-11-08 12:59：Combined與S3各60/60訓練／完整評估及兩completed_audit均全過，writer已退出；同一份21頁18表4圖E7回應稿、集中副本及ZIP已完成，入口為`../../e7_full_review_20261108/README.md`。獨立重算2,890,800筆、逐頁QA及CRC/SHA全過。下方啟動／等待／暫停描述是歷史快照，不要重啟writer或queue。原稿未改。
 
 2026-11-08（台灣）。作者本對話指示「開始對話，接續 E7 實驗」。
 
@@ -9,11 +8,11 @@
 - E7-B 已完成：`part_b/README.md`、132列逐類別摘要、12張600dpi混淆矩陣PNG及SVG、計數CSV、Yu3−M1類別差異表。四模型×三條件，10個訓練seed；重算183,960筆預測，`analysis_audit.json`及另用逐類TP/FP/FN的`independent_prf_audit.json`通過。此處比原規畫B多保留RecAux，沒有新增訓練。
 - E7-A 已啟動：5組新切分×3seed（42/123/2026）×Yu3/M1/RecAux/ResNet18，共60次正式訓練。即時狀態以`progress.json`、`current_run.json`、`run.log`、`stderr.log`與本機程序為準，不能以本說明當即時監控。
 - 四模型MPS真實訓練一輪及checkpoint重載通過；原切分seed42四模型各31條件預測與E4完全相同。`preflight_audit.json`粗估純訓練約133分鐘，前測同時有B繪圖CPU工作，估值含冷啟動且未含評估／分析，不是完成時間承諾。
-- 全部60模型及評估結束後，runner自動產出`analysis/`與`completed_audit.json`。Word回覆與原稿修改不是本audit的完成項，仍待結果後另做。
+- 全部60模型及評估結束後，runner自動產出`analysis/`與`completed_audit.json`。
 
 ## 凍結設計與證據
 
-以`protocol.json`為準。原始規畫為`../../Yu3重投_第一階段實驗修訂_1102.docx` E7段；審稿原文為`../../Yu3_審稿意見列表_中英對照.docx` R3-8(b)、R3 minor-9。新測試結果產生前凍結來源hash、split、settings與分析規則，`source_snapshot/`保留程式。
+以`protocol.json`為準。新測試結果產生前凍結來源hash、split、settings與分析規則，`source_snapshot/`保留程式。
 
 | 模型 | 策略 | 固定epoch | lr | weight decay | dropout |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -55,4 +54,4 @@ python experiments/control_e7_splits.py resume
 | `experiments/analyze_e7_splits.py` | 原切分B與完成後A的逐筆重算、逐類／混淆／paired bootstrap | CSV、600dpi圖、analysis audit |
 | `experiments/control_e7_splits.py` | start/status/pause/resume | 本機PID、鎖、暫停請求 |
 
-以上程式路徑以`Code/RevisedCode/`為基準。結果不取代學生CUDA獨立重跑；未改投稿原稿、既有研究來源或前輪結果。
+以上程式路徑以`Code/RevisedCode/`為基準。結果不取代學生CUDA獨立重跑；未改既有研究來源或前輪結果。

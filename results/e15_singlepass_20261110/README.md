@@ -1,6 +1,6 @@
 # E15 單次推論與變動第二通道
 
-2026-11-09：作者確認後已完成20個正式模型、790訓練epoch、每模型兩輸入×211條件、完整分析及14頁10表3圖英中回應稿。研究完成以`completed_audit.json`、`qa/training_audit.json`為準，文件另查`qa/delivery_audit.json`／`qa/visual_review.json`；最新總狀態見`progress.json`。
+2026-11-09：作者確認後已完成20個正式模型、790訓練epoch、每模型兩輸入×211條件、完整分析及實驗報告。研究完成以`completed_audit.json`、`qa/training_audit.json`為準，文件另查`qa/delivery_audit.json`／`qa/visual_review.json`；最新總狀態見`progress.json`。
 
 - `supplied_spec.md`：作者在本對話提供的規格保存，含事先判讀規則。
 - `noise_scale.json`／`noise_scale_seal.json`：十個E14 NoiseFB final模型、855筆訓練樣本的固定尺度與SHA；不得改動。
@@ -16,7 +16,7 @@
 
 校準使用規格指定E14全855訓練checkpoint，因此包含後續inner-validation樣本；pilot是既定轉移尺度下的選輪，非完整nested模型選擇。未以外層test校準、選輪或估時。
 
-正式研究已完成：兩模型各10seed，211條件，兩種測試輸入，主要／全部檢定與逐強度判讀、CSV、實驗報告、manuscript_insertions.md。原稿實際套用與另存建議文字須區分；既有程式／結果不覆寫。不因此README自動啟動任何程序。
+正式研究已完成：兩模型各10seed，211條件，兩種測試輸入，主要／全部檢定與逐強度判讀、CSV及實驗報告。既有程式／結果不覆寫。不因此README自動啟動任何程序。
 
 
 ## 主要結果
@@ -37,8 +37,6 @@
 - `source/run_e15.py`：固定尺度／epoch授權後的正式runner；`source/evaluate_e15.py`兩輸入batch32推論，全部影像與E14一致。正式權重、完整訓練log及8,440個新預測檔保留在`final/`。
 - `source/analyze_e15.py`：從新模型與50個保存對照來源重算18,990預測檔／4,158,810標籤的四指標；輸出逐實現、每seed與摘要CSV。全部440精確p另以符號排列核對，12項事先指定對比及逐強度判讀單列。
 - `source/verify_training.py`：790正式epoch、IDs／normalization、單次BN計數、checkpoint重載及兩輸入完整性；`source/verify_delivery.py`：封存來源、CSV／Holm／決策、Word表格／數值／原文／紅字／模板與嵌圖QA。
-- `E15結果回應稿.docx`：14頁10表3圖；同時保存MD／HTML閱讀版。
-- `manuscript_insertions.md`：主文III-C、補充方法及結果、Response、Discussion英中擬置入文字。原稿及集中回應稿未覆寫，正式定位／整稿另列。
 - `confusion_counts/`：新模型兩輸入逐條件11×11整數混淆計數。`reference_manifest.json`列明E14／E1E4保存來源，沒有新訓練或forward對照。
 - `analysis_plan.json`：在E15新外層評估前凍結的比較與分析來源。`formal_source_sha256.json`／`final_results_sha256.json`分別封存正式來源與新模型checkpoint／logs／預測。
 - `E15結果與程式整理包.zip`：報告、CSV、圖、來源、協定、校準統計、混淆計數、train log及QA；CRC與逐檔SHA見`package_audit.json`。大型checkpoint、逐筆npy預測與成像快取保留結果目錄，舊對照保留原E14／E1E4。整理包不是獨立全訓練環境。

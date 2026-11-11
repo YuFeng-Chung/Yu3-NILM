@@ -1,6 +1,6 @@
 # E10 WHITED：夜間自動接續入口
 
-2026-11-08作者要求休息期間接續E12，明早可讀取成果。此目錄為獨立E10研究工作，不改既有模型／實驗／原稿。
+2026-11-08作者要求休息期間接續E12，明早可讀取成果。此目錄為獨立E10研究工作，不改既有模型與實驗。
 
 ## 先看目前狀態
 
@@ -16,7 +16,7 @@
 
 各類至少3個設備名稱群組才可分開inner-train、validation、outer-test，保留15類／76群組／759筆。群組依類別＋設備名稱＋地區，移除kit及timestamp，未獨立查證實體序號；非house-disjoint。每類分三個互斥test折，所有納入設備各當一次test，內層每類保留一群組作validation。
 
-15組單seed epoch pilot，之後M1–M5×三折×seed42/43/44共45組正式訓練，只有clean。所有pilot完成並凍結epoch、全部模型訓練完成後，才開outer test。Adam lr.0005、batch32、dropout.5、無weight decay；最長100輪，最早20輪選epoch，patience15/min_delta.001。無新HPO，固定原稿架構與loss；M5原detached residual兩pass。完整`protocol.json`為執行依據。
+15組單seed epoch pilot，之後M1–M5×三折×seed42/43/44共45組正式訓練，只有clean。所有pilot完成並凍結epoch、全部模型訓練完成後，才開outer test。Adam lr.0005、batch32、dropout.5、無weight decay；最長100輪，最早20輪選epoch，patience15/min_delta.001。無新HPO，固定既有架構與loss；M5原detached residual兩pass。完整`protocol.json`為執行依據。
 
 取最大電流一階差分附近一個額定電網週期，前置20%，V/I共同polyphase反混疊重採樣到500點，再逐波形各自z-score、64×64 .1 occupancy飽和與uint8量化。759筆成像與原PLAID成像函式逐筆完全一致（在相同抽取波形下），不代表原始取窗已驗證為所有開啟事件或穩態。通道0=電壓、1=電流，依kit因子核對納入資料的60–300Vrms及45–65Hz；README並未明文標示通道次序，不能隱藏此推定來源。
 
@@ -37,7 +37,6 @@ E12或E10出現STOP／PAUSED／FAILED即停止接續，不繞過暫停、不自�
 
 三seed平均±SD只描述訓練變異；三折訓練資料重疊、類別納入限制及全部負面結果均保留，不作確認性顯著或等效主張。合成分析前測僅在臨時目錄，不作研究結果。
 
-正式雙語回應稿、論文修改及新主文資料前處理圖另列待辦；依作者要求，結果與方法定案後，再依主文原圖風格重製。無CUDA重跑或跨機／Drive同步完成聲明。
 
 ## 程式入口（相對本目錄）
 

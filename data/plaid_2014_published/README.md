@@ -12,4 +12,4 @@ exactly at the pixel/group level; the original855/219 split is preserved.
 See waveform_image_audit.json for per-source hashes and image correspondence.
 raw_windows.npz stores exact float64 500-sample windows to avoid repeated parsing.
 Original full data remain in the verified nested ZIP; no source data edited.
-This folder is excluded from Git; no publication or upload performed.
+The derived 500-sample windows (raw_windows.npz) are redistributed here under CC BY 4.0 with attribution to the PLAID authors; the original archive is not redistributed.

@@ -1,12 +1,11 @@
 # E7 S3 多切分雜訊補充
 
-最新交付狀態 2026-11-08 12:59：Combined與S3各60/60訓練／完整評估及兩completed_audit均全過，writer已退出；同一份21頁18表4圖E7回應稿、集中副本及ZIP已完成，入口為`../../e7_full_review_20261108/README.md`。獨立重算2,890,800筆、逐頁QA及CRC/SHA全過。下方啟動／等待／暫停描述是歷史快照，不要重啟writer或queue。原稿未改。
 
 2026-11-08 09:54更新：作者明確說「繼續」，已在AC99%恢復同目錄，驗證首組Yu3由epoch49接至50再52、log連續且PAUSED/STOP清除。S3恢復執行，後續以本機程序、progress與log為準；下一段09:07暫停為歷史。
 
 最新狀態快照：2026-11-08 09:07作者要求搬動前暫停。Combined已60/60完成且audit全過；S3前測通過、自動接續後安全暫停於split1 Yu3 seed42 epoch49/52，0/60完整run。resume.pt含model/optimizer可載入、49輪log連續、writer與queue均退出，見`travel_pause_audit_20261108.json`。等待作者抵達後明確授權才resume；不得自行恢復或重建queue。本次新前測純訓練外推約168分鐘，未含評估與報告。以下為原安排與設計說明。
 
-2026-11-08。作者授權來源為`../../e7_s3_handoff_20261108.md`；本補充保留Combined E7所有結果，補齊原S3雜訊主結果對R3-8(b)與R3 minor-9的證據，不替換Combined或重選策略。
+2026-11-08。作者授權來源為`../../e7_s3_handoff_20261108.md`；本補充保留Combined E7所有結果，補齊原S3雜訊主結果的切分敏感度與各類別結果，不替換Combined或重選策略。
 
 ## 本次準備與自動接續
 
@@ -39,7 +38,6 @@ runner自動分析全部原切分與五新split；污染先在每個訓練seed�
 
 group為類別×住宅location代理，非已驗證的唯一實體機台；不同類別仍可能同屋跨train/test。沿用原設定的split敏感度不是nested／新外部驗證，新test可能曾在舊split參與訓練／調參。split互有重疊，bootstrap區間只作條件重抽描述，不作母群95%涵蓋率、確認性顯著、等效或多重比較控制主張。不追加seed、改強度或校正來追求顯著。
 
-正式回應稿待Combined與S3完整audit後依現行E2/E5模式整理：逐題英中原文、紅字英中Response、Methods/Results/Supplementary實際表圖與完整來源；清楚區分原Combined與新增S3理由。Word逐頁渲染QA後才交付；原稿不修改，不公開GitHub。
 
 ## 入口
 
