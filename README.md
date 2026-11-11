@@ -25,7 +25,7 @@ Yu3 runs a shared CNN encoder twice. In pass 1 the input is `[X, 0]` (the V–I 
 See **[`docs/EXPERIMENT_MAP.md`](docs/EXPERIMENT_MAP.md)** for the table/figure → script → result-folder mapping (Experiments 1–5 and Supplementary Tables S1–S41).
 
 ## Environment
-Python 3.12; PyTorch 2.15.0 (MPS backend on Apple M2 for Experiments 2–4; CUDA 11.8 on an NVIDIA RTX 5060 Laptop GPU for Experiment 1); ONNX Runtime 1.31.1 for Experiment 5. Exact package versions: `requirements.txt` and `results/*/environment_lock.txt`.
+Experiments 2–5: Python 3.12 and PyTorch 2.15.0 (MPS backend on Apple M2 for Experiments 2–4), with ONNX Runtime 1.31.1 for Experiment 5. Experiment 1 (including the random-split control): Python 3.9.25, PyTorch 2.6.0+cu124 and torchvision 0.21.0+cu124 on an NVIDIA RTX 5060 Laptop GPU. Exact package versions: `requirements.txt` and `results/*/environment_lock.txt`.
 
 ```bash
 python -m venv .venv && source .venv/bin/activate

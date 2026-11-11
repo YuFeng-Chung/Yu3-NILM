@@ -20,7 +20,7 @@ The scripts in `實驗一/` and `實驗三/` were run on Windows; edit the `DATA
 7. **Extensions**: E7 (extra splits), E9 (preprocessing), E11 (WRG-CNN), E12 (combined perturbations).
 8. **Experiment 5** (E8): `experiments/run_e8_efficiency.py` on an idle machine on AC power.
 
-Experiments 2–5 were run on Apple M2 (PyTorch MPS); Experiment 1 on an NVIDIA RTX 5060 Laptop GPU (CUDA 11.8). Results on other hardware may differ slightly.
+Experiments 2–5 were run on Apple M2 (PyTorch MPS); Experiment 1 on an NVIDIA RTX 5060 Laptop GPU (Python 3.9.25, PyTorch 2.6.0+cu124). Results on other hardware may differ slightly.
 
 ## 3. WRG-CNN upstream
 Clone the authors' repository (https://github.com/sambaiga/WRG-NILM) and check out commit `3e5879d9d1a9c4c1ef93c557a650454b1581ac87` into `e11_prototype_20261108/upstream/` before running `experiments/prepare_e11_wrg.py`.
