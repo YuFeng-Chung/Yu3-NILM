@@ -20,7 +20,7 @@ version: "1.0.0"
 date-released: "2026-11-12"
 preferred-citation:
   type: article
-  title: "Yu3: Improving the Robustness of V–I Appliance Identification to Unseen Waveform Impulses through Two-Pass Training with a Varying Auxiliary Channel"
+  title: "Yu3: Two-Pass Training with a Varying Auxiliary Channel for Robust V–I Appliance Identification under Unseen Waveform Impulses in NILM"
   authors:
     - family-names: Chung
       given-names: Yu-Feng
