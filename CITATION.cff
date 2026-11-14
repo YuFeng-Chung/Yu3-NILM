@@ -16,8 +16,8 @@ authors:
     affiliation: "National Ilan University"
 repository-code: "https://github.com/YuFeng-Chung/Yu3-NILM"
 license: MIT
-version: "1.0.0"
-date-released: "2026-11-12"
+version: "1.0.1"
+date-released: "2026-11-14"
 preferred-citation:
   type: article
   title: "Yu3: Two-Pass Training with a Varying Auxiliary Channel for Robust V–I Appliance Identification under Unseen Waveform Impulses in NILM"
