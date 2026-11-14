@@ -2,11 +2,11 @@
 
 Code, data splits, protocols, and result summaries for the manuscript
 
-> **Yu3: Improving the Robustness of V–I Appliance Identification to Unseen Waveform Perturbations through Two-Pass Training with a Varying Auxiliary Channel**  
+> **Yu3: Two-Pass Training with a Varying Auxiliary Channel for Robust V–I Appliance Identification under Unseen Waveform Impulses in NILM**  
 > Yu-Feng Chung, Tsang-Yu Chen, Yu-Hsiang Tseng, Cheng-Ying Chung. *IEEE Access* (under review).
 
 Yu3 runs a shared CNN encoder twice. In pass 1 the input is `[X, 0]` (the V–I image `X` plus a zero channel); a decoder reconstructs `X̂`. In pass 2 the input is `[X, R]` with `R = stopgrad(|X − X̂|)`. The loss is `0.5·CE₁ + CE₂ + 0.5·MSE(X̂, X)`.  
-**Main finding:** the robustness to unseen waveform impulses is created during training. It needs a non-zero, varying second channel, but not the content of the residual. At deployment, running only pass 1 keeps this robustness at 0.40–0.45 times the latency of the full model.
+**Main finding:** when the model is trained only on clean data, its robustness to unseen waveform impulses is created during training rather than by feedback at inference. It requires a non-zero second channel during training, but not the spatial structure or sample correspondence of the residual (whether the channel must vary, rather than only be non-zero, was not tested separately). At deployment, running only pass 1 keeps this robustness at 0.40–0.45 times the latency of the full model. On clean data and on WHITED, no benefit of the Yu3 design was detected.
 
 ## Repository layout
 
@@ -41,8 +41,10 @@ See `data/README.md` for details.
 ## Reproduction
 `docs/REPRODUCE.md` lists the run order and dependencies. All model selection (hyperparameters, defense strategy, epochs) uses training data only and was fixed before test evaluation; the selection records and the tie-rule amendments are kept in `results/e1_e4_mac_20261106/`.
 
-## Archived artifacts (Zenodo)
-Trained checkpoints (about 16 GB of `.pt` files), ONNX exports, per-sample predictions and full source snapshots are archived at **Zenodo: DOI to be added**. Image caches are not archived because they are regenerated deterministically from the raw windows.
+## Archive (Zenodo)
+This repository (v1.0.0) is archived on Zenodo: https://doi.org/10.5281/zenodo.24141193.
+
+Trained checkpoints (about 16 GB of `.pt` files), ONNX exports and per-sample predictions are not included because of their size; they are available from the corresponding author on request. Image caches are not archived because they are regenerated deterministically from the raw windows. Integrity records (`*_sha256.json`) for the result files are kept in each `results/` folder.
 
 ## Third-party code
 The WRG-CNN comparison uses the authors' public implementation (Faustine & Pereira, https://github.com/sambaiga/WRG-NILM, commit `3e5879d`); clone it as described in `docs/REPRODUCE.md`; it is not redistributed here.
